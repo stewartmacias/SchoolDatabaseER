@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F2971500-ED37-A27F-04D3-DE1BCCA94A46" containerWithKeyObject="71087E27-8C05-5B3E-0BD6-CFF0D0640F36" localFKIndex="67179615-FE32-225F-67E3-36DFE89423EF" name="CARRERAS_MODALIDAD_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:37:14 UTC</createdTime>
+<generatorID>66E3210B-E7C8-D2F0-5F5F-CCA95C6EF95F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>MODALIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>94E7BCA8-73CC-22E2-DC56-7812A9A81782</referredTableID>
+<keyObject>BAF12682-D9C5-B4FC-3BCB-9B220065A760</keyObject>
+<referredKeyID>BAF12682-D9C5-B4FC-3BCB-9B220065A760</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MOD_CARR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

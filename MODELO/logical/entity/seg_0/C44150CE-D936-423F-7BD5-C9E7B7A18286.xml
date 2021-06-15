@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C44150CE-D936-423F-7BD5-C9E7B7A18286" name="MATERIAS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:19:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN TODAS LAS MATERIAS A PARTIR DE UNA FACULTAD]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MAT</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_MATERIA" id="85D1163B-A7B0-337F-717E-B346D0FCFB03">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:19:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE MATERIA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="F57228C8-BAF3-CC3B-0BC0-91A8F33EFEF7">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:31:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE LA MATERIA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="19BD6A63-DE3F-BB03-16B7-BEF8D9D501F0">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:31:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_FACULTAD" id="12A994B8-7A84-B2C6-E9C8-93944D053F4F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:32:41 UTC</createdTime>
+<generatorID>B5B75164-F950-F540-7B0B-DC190AF04102</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>42837600-6AA2-09B0-1466-8814F1709685</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SERVICIO" id="AF0A0816-8B3F-C1FB-B62B-B683C99D6059">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:32:41 UTC</createdTime>
+<generatorID>B5B75164-F950-F540-7B0B-DC190AF04102</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>315A781F-D5D2-5F04-0C2E-8898E64FF3AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIPO_MATERIA" id="83471C98-B664-56D2-DA20-A54596C43119">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:22:09 UTC</createdTime>
+<generatorID>6947A62D-BA06-4AA5-2D58-FFA18F618868</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>1CE752E2-7C00-BE68-C695-F3207D3E76D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24C3BA58-5479-A3A0-FD49-0F5CDA23EE9D" name="MATERIAS PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:20:21 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85D1163B-A7B0-337F-717E-B346D0FCFB03</attributeRef>
+<attributeRef>12A994B8-7A84-B2C6-E9C8-93944D053F4F</attributeRef>
+<attributeRef>AF0A0816-8B3F-C1FB-B62B-B683C99D6059</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

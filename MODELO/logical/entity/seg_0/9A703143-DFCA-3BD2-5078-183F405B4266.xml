@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A703143-DFCA-3BD2-5078-183F405B4266" name="DATOS_PERSONALES">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 06:21:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRA LOS DATOS PERSONALES DE UN  POSTULANTE, ALUMNO O PROFESOR]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>DAT_PER</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TIPO_ID" id="FFDB79C4-6425-CAB2-E479-0B7F936095CB">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 06:23:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE TIPO DE ID POSIBLE DE LA PERSONA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5E4D24AC-04DD-BAFE-9D50-B28D49DFD4FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_IDENTIFICACION" id="E362EED2-1354-FAC2-6CD6-14841E848B3F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 06:23:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DE IDENTIFICACION DE LA PERSONA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRIMER_NOMBRE" id="8985D0DF-9570-075B-775A-D6A42BD3EFEC">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 06:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[PRIMER NOMBRE DE LA PERSONA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEGUNDO_NOMBRE" id="204D51AF-0029-3554-FC5D-EB68AD5ABE77">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 06:24:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[SEGUNDO NOMBRE DE LA PERSONA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRIMER_APELLIDO" id="E3EA101F-9359-182A-710A-975F5DC645AE">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 06:25:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[PRIMER APELLIDOS DE LA PERSONA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEGUNDO_APELLIDO" id="069818A2-9158-20FC-DFE2-CCDE6B28DD8E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 06:25:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[SEGUNDO APELLIDO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO_PERSONAL" id="F3E498DA-1DFE-9B16-1EB1-95612099436D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 06:26:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[CORREO PERSONAL DE LA PERSONA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="86451614-9262-5E81-CDA1-D33E9CC77E12" name="DATOS_PERSONALES PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 06:23:31 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFDB79C4-6425-CAB2-E479-0B7F936095CB</attributeRef>
+<attributeRef>E362EED2-1354-FAC2-6CD6-14841E848B3F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

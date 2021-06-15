@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89227758-B52D-A6D7-9B64-1657C73F8616" name="MATERIAS_REQUISITOS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-12 04:24:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS REQUISITOS  Y CO REQUISITOS DE LAS MATERIAS DENTRO DE LOS PENSUM O MALLAS CURRICULARES]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MAT_REQ</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_REQUISITO" id="762364A6-EE2D-37E5-C80E-C367BEBA28BC">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-12 04:36:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE REGISTRO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_REQUISITO" id="1614721F-98F1-133B-61A8-08E7FDDD8EEB">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-12 04:32:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[C correquisito P prerequisito]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>1A6D48B5-2B6A-34D5-E5CC-682942B2EF76</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_MATERIA" id="1F56A5DA-0A6C-322D-2C41-D54760CF21E3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-12 04:32:13 UTC</createdTime>
+<generatorID>8CCE857F-AA5C-0CE1-D474-C2D00436EB0E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>85D1163B-A7B0-337F-717E-B346D0FCFB03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_FACULTAD" id="EF1C0B79-D9AE-B039-2E67-94A2DFFECBE4">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-12 04:32:13 UTC</createdTime>
+<generatorID>8CCE857F-AA5C-0CE1-D474-C2D00436EB0E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>12A994B8-7A84-B2C6-E9C8-93944D053F4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SERVICIO" id="D9F29F67-AB3E-C55A-5208-E118F325CC30">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-12 04:32:13 UTC</createdTime>
+<generatorID>8CCE857F-AA5C-0CE1-D474-C2D00436EB0E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>AF0A0816-8B3F-C1FB-B62B-B683C99D6059</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PENSUM" id="43BBF474-5C81-0604-DB10-AEAA5AFC8EBD">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 04:44:28 UTC</createdTime>
+<generatorID>3A373175-26EE-DD57-B2D9-C4A28A16E4BC</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>21772D1B-9C45-BBD8-63D0-7A2091FED49B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_MATERIA1" id="4774C02D-A6A3-7FA7-A7CE-24810E8CF43F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 06:03:22 UTC</createdTime>
+<generatorID>3A373175-26EE-DD57-B2D9-C4A28A16E4BC</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>7254E5C4-82F1-54A9-AB1E-28C64D2EE4D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_FACULTAD1" id="35B7F337-3437-4BDD-1E46-534CC1AD5A4D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 06:03:22 UTC</createdTime>
+<generatorID>3A373175-26EE-DD57-B2D9-C4A28A16E4BC</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>0C190582-68A4-BDAD-BB63-ED32C500AD05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SERVICIO1" id="C43A5B8B-D35E-6E07-D9B9-5018F05785F9">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 06:03:22 UTC</createdTime>
+<generatorID>3A373175-26EE-DD57-B2D9-C4A28A16E4BC</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>B9F9BDE8-6F07-B191-5B46-A6ED3323EA34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="516952D2-6C20-57F3-1319-E1DA7DAB79FE" name="MATERIAS_REQUISITOS PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-12 04:31:25 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43BBF474-5C81-0604-DB10-AEAA5AFC8EBD</attributeRef>
+<attributeRef>4774C02D-A6A3-7FA7-A7CE-24810E8CF43F</attributeRef>
+<attributeRef>35B7F337-3437-4BDD-1E46-534CC1AD5A4D</attributeRef>
+<attributeRef>C43A5B8B-D35E-6E07-D9B9-5018F05785F9</attributeRef>
+<attributeRef>762364A6-EE2D-37E5-C80E-C367BEBA28BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

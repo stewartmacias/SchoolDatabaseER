@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ABF4AC6D-BE22-6598-E99A-C67697986154" containerWithKeyObject="119D6AA2-8172-883F-BCE3-59CE8840D856" localFKIndex="1DE81A4F-94C6-AE1C-77D2-B88902FC6547" name="FACULTADES_CAMPUS_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:37:14 UTC</createdTime>
+<generatorID>C4212784-9B14-93E1-9FE3-6471BD2314F8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>CAMPUS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCBB3994-C575-9732-D672-7C97645000B7</referredTableID>
+<keyObject>14B4C793-5377-124C-068D-287ABEC9BEF5</keyObject>
+<referredKeyID>14B4C793-5377-124C-068D-287ABEC9BEF5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_CAMPUS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCBB3994-C575-9732-D672-7C97645000B7" name="CAMPUS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:37:14 UTC</createdTime>
+<comment><![CDATA[ENTIDAD PARA IDENTIFICAR LOS DIFERENTES CAMPUS DE LA INSTITUCION EDUCATIVA]]></comment>
+<commentInRDBMS><![CDATA[ENTIDAD PARA IDENTIFICAR LOS DIFERENTES CAMPUS DE LA INSTITUCION EDUCATIVA]]></commentInRDBMS>
+<generatorID>F03D9F75-2D7D-BD0F-4802-48FD8E819A9C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>CAMP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CAMPUS" id="55CF5C83-9FCE-07E7-9DF0-CC39B72F7BD1">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:37:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE CAMPUS]]></commentInRDBMS>
+<generatorID>94A3F085-B080-F150-80CD-0F7D5E82091A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="41208FB0-0B80-0B2B-6272-13CC5E8D2A5E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:37:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL CAMPUS]]></commentInRDBMS>
+<generatorID>3B74E13F-9811-96F9-721C-67109837E19A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="807E08AB-C765-4B52-7282-4438C83397EB">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:37:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[DIRECCION FISICA DEL CAMPUS]]></commentInRDBMS>
+<generatorID>7FE31571-D7C0-AD90-46C6-4715C24AD516</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_POSTAL" id="2A84DEF0-C330-6BAB-00E4-E35CAA725D62">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:37:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO POSTAL DEL CAMPUS]]></commentInRDBMS>
+<generatorID>EBDA0178-20DC-28DF-FA03-6A4D815C5287</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO1" id="5AA425CA-07BF-0A3B-30F8-754BC6F03327">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:37:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[TELEFONO DEL CAMPUS]]></commentInRDBMS>
+<generatorID>9AB45924-3B78-0F78-3AE4-EDD13F85755A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO2" id="3847D3FC-33FB-FBA0-2E27-7ECD64D086D0">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:37:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[TELEFONO DEL CAMPUS]]></commentInRDBMS>
+<generatorID>9366CB3D-5207-7A76-5D7E-BC0D08A635FE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="45B2D95E-FF90-B687-8B9A-87913B048D55">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:37:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[COORDENADA DE LONGITUD]]></commentInRDBMS>
+<generatorID>566A1C5D-1C35-0386-24BA-8041D2B0161C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="2D19594F-6E0D-6027-8FB3-392B936CD2C7">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:37:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[COORDENADA DE LATITUD]]></commentInRDBMS>
+<generatorID>9D1AB732-C51C-4D2C-B10D-3DA42805EED8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14B4C793-5377-124C-068D-287ABEC9BEF5" name="CAMPUS_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:37:14 UTC</createdTime>
+<generatorID>43D14F89-C97B-BC4D-102B-50D367ABBFBC</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55CF5C83-9FCE-07E7-9DF0-CC39B72F7BD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

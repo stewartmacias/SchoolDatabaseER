@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50E4753E-F0D0-C117-CA34-F16F21D7CF9C" name="MODALIDAD">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:26:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD PARA REGISTRAR LAS DIFERENTES MODALIDADES QUE UNA CARRERA O PROGRAMA PUEDE OFRECER, POR EJEMPLO : MODALIDAD PRESENCIAL, DISTANCIA, HIBRIDA  ETC]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MOD_CARR</shortName>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_MODALIDAD" id="2DD98B8A-16DC-BD96-846D-87C2BEEF2C22">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:27:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE LA MODALIDAD]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="318C4640-39B6-44DA-4EA8-18579D7D335F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:28:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE LA MODALIDAD]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="D3F7470F-60BF-15CC-669A-F9F248F94CEF">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:29:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo, I inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

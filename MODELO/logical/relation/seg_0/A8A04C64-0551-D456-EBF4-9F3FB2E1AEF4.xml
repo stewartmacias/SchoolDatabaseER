@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SERV_ACAD_FACUL" directorySegmentName="seg_0" id="A8A04C64-0551-D456-EBF4-9F3FB2E1AEF4">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-09 23:30:29 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<sourcePk>88E3852F-F7C2-F97B-AB8F-DCE0A0F0D901</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>servicio</nameOnSource>
+<nameOnTarget>facultad</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68742389-FBFB-33C4-C80F-CF2DE124D391</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C87C07C0-D1B8-BC33-6FCF-78070E51F43B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE95771F-771E-770B-CB4A-0368FBB8A0B1" name="NIVELES_MATERIAS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-14 23:49:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS DIFERENTES NIVELES EN DONDE SE DEBEN DE TOMAR LAS MATERIAS OFRECIDAS EN LA MALLA CURRICULAR DEL PROGRAMA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>NIV_MAT</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_NIVEL" id="DD9A07AB-BA52-A321-42AB-01A19350052F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-14 23:50:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE NVEL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="031CDF84-3079-ADD9-21A1-89E8F4CFBC6A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-14 23:51:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL NIVEL DE LAS MATERIAS DENTRO DE LA MALLA CURRICULAR DEL PROGRAMA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDEN" id="7552E754-6EEE-A685-C8EE-A91007C88B46">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-14 23:52:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[ORDEN DE IMPRESION DEL NIVEL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PENSUM" id="419565D3-6B21-67DF-2E8B-9DDCAAA2835A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-14 23:54:10 UTC</createdTime>
+<generatorID>2CDC80E1-30F7-10C8-2AED-13EA7249823A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>BC5E4D59-BA91-D170-A883-767E86B6B544</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD_CREDITOS_MINIMO" id="E1E7A159-938A-99D1-C38D-628DADD11A90">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-15 00:07:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[ES LA CANTIDAD DE CREDITOS MINIMOS QUE SE NECESITA PARA PODER PERTENECER EL NIVEL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C1ABDD03-BC2F-B852-0836-1EF6F7937046" name="NIVELES_MATERIAS PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-14 23:51:08 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD9A07AB-BA52-A321-42AB-01A19350052F</attributeRef>
+<attributeRef>419565D3-6B21-67DF-2E8B-9DDCAAA2835A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="377576DF-49BB-0D9A-F457-67A48DA12394" name="TIPO_MATERIA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:19:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD PARA DECLARAR LOS DIFERENTES TIPOS DE MATERIA POR EJEMPLO: LABORATORIO, TUTORIAS, TEORICA, ETC]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TIPMAT</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_TIPO_MATERIA" id="1CE752E2-7C00-BE68-C695-F3207D3E76D2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:19:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE TIPO DE MATERIA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="92BC3249-0A3B-01A8-B002-4BE6E235AA8E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:20:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE TIPO DE MATERIA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="A07CB744-7832-564E-1803-06E6B60C538D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:21:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F8F829C-2B65-00E7-4EAF-03A83A0C1C5C" name="TIPO_MATERIA PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:20:29 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1CE752E2-7C00-BE68-C695-F3207D3E76D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

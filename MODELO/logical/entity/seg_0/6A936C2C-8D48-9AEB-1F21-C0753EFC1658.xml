@@ -1,0 +1,214 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A936C2C-8D48-9AEB-1F21-C0753EFC1658" name="PENSUM">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:11:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LAS DIFERENTES MALLAS CURRICULARES DE LOS DIFERENTES PROGRAMAS OFRECIDOS EN LA INSTITUCION.  EN LAS MALLA CURRICULARES SE PARAMETRIZAN LOS NIVELES, CANTIDAD DE CREDITOS ACADEMICOS, LA MATERIAS QUE SE DEBEN APROBAR CON SUS PRE REQUISITOS  Y CO REQUISITOS]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PENS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_PENSUM" id="BC5E4D59-BA91-D170-A883-767E86B6B544">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:12:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DEL PENSUM]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="8D615984-6A4C-2BB1-7B25-33BA336D7CA2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:12:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL PENSUM O MALLA CURICULAR]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO_PENSUM" id="D69250CE-3195-6BC2-389F-3840EF86BB9E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:13:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[E emitido A activo I inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5259BC76-B6C6-DDA2-E179-B57C914963E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL_CREDITOS_ACADEMICOS" id="06E23B73-20AF-3DAE-A3E7-9926FA5818F1">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:15:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[TOTAL DE CREDITOS ACADEMICOS]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL_CREDITOS_FINANCIEROS" id="3F2396B0-C8C9-5F94-5024-56C79F89B15E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:16:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[TOTAL DE CREDITOS FINANCIEROS]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_CREACION" id="65BF868D-97AE-1035-524F-6DB4302EF796">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:17:59 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CARRERA" id="FA28F57F-EAA4-E327-EC7E-C5A64F447BA7">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-12 03:50:41 UTC</createdTime>
+<generatorID>77A1F4F6-213D-196E-6BD1-82D6BB2711C6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>644895C8-09FD-BCA5-A671-FD43B3F35692</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_FACULTAD" id="996E0682-4E45-CF96-1353-6597885A3166">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-12 03:50:41 UTC</createdTime>
+<generatorID>77A1F4F6-213D-196E-6BD1-82D6BB2711C6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>5636B95B-A277-319C-EB5F-43B6AD721E18</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SERVICIO" id="610FE41B-12AB-4592-A498-735F03C46D81">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-12 03:50:41 UTC</createdTime>
+<generatorID>77A1F4F6-213D-196E-6BD1-82D6BB2711C6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>8A1C4854-9A0D-3B13-FB24-8CEF134DEE26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOCUMENTO_AUTORIZACION" id="201317AA-F5D9-0950-91E8-2B2F6EFCA3AD">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-14 23:19:07 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_AUTORIZACION" id="2C651139-D72D-73BD-BF2E-EC198DA87033">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-14 23:19:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DE AUITORIZACION DEL PROGRAMA OTORGADO POR LA AUTORIDAD]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIEMPO_DURACION" id="518E43E8-D055-4262-7915-BB5BC172DC64">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-14 23:20:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[DURACION DE EL PROGRAMA  BASADA EN LA MALLA CURRICULAR]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UNIDAD_TIEMPO_DURACION" id="1674115B-EC1D-20FE-DA9A-DDE8A2D94C1F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-14 23:23:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[UNIDAD DE TIEMPO PARA CULMINAR EL PROGRAMA  BASADA EN LA MALLA CURRICULAR]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5812F691-F37D-F4B2-BB2F-83A196794D8A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB0EF14F-9F3E-DA00-7BF7-120D23E56754" name="PENSUM PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:12:23 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC5E4D59-BA91-D170-A883-767E86B6B544</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

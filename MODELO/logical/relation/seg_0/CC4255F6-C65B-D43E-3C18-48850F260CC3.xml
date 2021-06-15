@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESC_CARR" directorySegmentName="seg_0" id="CC4255F6-C65B-D43E-3C18-48850F260CC3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-09 23:35:51 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<sourcePk>7ED8549E-E1C7-26E7-FA5A-A1371A631A6A</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>escuela</nameOnSource>
+<nameOnTarget>carrera</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>189A9EA3-585E-5468-A2F3-6B5EC6DF876A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0D9737AC-4418-F189-2446-6CCAB938CF57</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

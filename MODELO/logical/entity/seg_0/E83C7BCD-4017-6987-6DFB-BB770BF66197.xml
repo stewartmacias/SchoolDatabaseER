@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E83C7BCD-4017-6987-6DFB-BB770BF66197" name="AUTORIDADES">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 22:57:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LAS DIFERENTES AUTORIDADES DE LA INSTITUCION EDUCATIVA.  POR EJEMPLO TIPO_ENTIDAD = F facultad, DESCRIPCION_ENTIDAD = DERECHO, ENTIDAD_CARGO = DECANO, ESTO ES PARA EL CASO DE LA CARRERA DE DERECHO DONDE NO EXISTEN ESCUELAS ]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>AUTORIDAD</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_AUTORIDAD" id="27576C75-0F23-246B-3ADA-223C5C7920D8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:00:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE AUTORIDAD]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDOS" id="5057E445-1A76-0D99-B8FB-C037CF1E230B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:02:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[APELLIDOS DE LA PERSONA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRES" id="F5346195-483B-3A43-53A2-0AF66DD89839">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:05:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRES DE LA PERSONA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_ID" id="77E2C23D-E840-5137-2B84-A020E7FA03D7">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:06:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[TIPO DE IDENTIFICACION DE LA PERSONA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5E4D24AC-04DD-BAFE-9D50-B28D49DFD4FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_ID" id="D4ED3CCE-9E51-6FBF-C373-F82A9C26C6BF">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:06:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DE IDENTIFICACION DE LA PERSONA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_INICIO" id="7C9778E8-FFB8-6776-85A4-E3E6117346D0">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:06:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE INICIO DE FUNCIONES]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_FIN" id="1FF8C546-FC3A-EC70-7F3E-7E4DB16FB167">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:07:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA FIN DE FUNCUONES]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="EDC67BE8-1821-8C17-8AAF-FA655EFEB6D2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:07:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo  I inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_ENTIDAD" id="90DEBE53-000C-05BC-42F4-D48BF79ACFE7">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 04:44:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[C carrera F facultad E escuela G general]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>D5B2562E-871D-B8BE-6970-A0D08549BB42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION_ENTIDAD" id="98A2F1A5-8E12-2405-3A51-E045DBDEE023">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:03:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE LA ENTIDAD A LA QUE ESTA RELACIONADO EL CARGO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENTIDAD_CARGO" id="9B9C4120-9ED7-F17F-8856-FCA85C60F70D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-11 00:02:32 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3FD11B51-C956-FA8F-B4C0-D7AE189DB2E0" name="AUTORIDADES PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-10 23:01:13 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27576C75-0F23-246B-3ADA-223C5C7920D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

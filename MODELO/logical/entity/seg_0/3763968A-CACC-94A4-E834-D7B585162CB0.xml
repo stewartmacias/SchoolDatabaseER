@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3763968A-CACC-94A4-E834-D7B585162CB0" name="MODULOS_PENSUM">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 05:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA UNA AGRUPACION DE MATERIAS POR MODULOS]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MOD_PEN</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_MODULO" id="F5959A23-0E7D-3E01-0900-BDBB29C7A8B5">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 05:50:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE MODULO DENTRO DE UN PENSUM]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="EB996E57-9113-3D14-8D95-8A1201DED7A3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 05:50:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL MODULO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="1A5607FF-DB1A-A430-5BEE-5D6F91673F51">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 05:51:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PENSUM" id="554AF311-9297-5BE9-E7AE-1EA8AD284D35">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-14 03:46:01 UTC</createdTime>
+<generatorID>0FA46B51-F22B-418A-95C0-A1D5A2729DE3</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>BC5E4D59-BA91-D170-A883-767E86B6B544</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A11D322F-A6C5-13C7-8C51-B18C922D68DF" name="MODULOS_PENSUM PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-13 05:50:28 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5959A23-0E7D-3E01-0900-BDBB29C7A8B5</attributeRef>
+<attributeRef>554AF311-9297-5BE9-E7AE-1EA8AD284D35</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
