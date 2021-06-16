@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1027C7E8-80EA-BC5C-0875-0C555574401F" name="PERIODOS_CLASES">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:08:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES PERIODOS DE CLASES QUE LA ORGANIZACION PUEDE APERTURAR]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PERIODO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_PERODO" id="20461898-D45D-F125-9ABF-C1FCF0A11268">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:09:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE PERIODO DE CLASES]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="6F6D4E54-431E-31DD-2BF1-5DBF2385C636">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:10:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL PERIODO DE CLASES]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="56FD7428-D29A-296E-6E5D-2B6619E071C4">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:11:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8BE8B481-6924-3815-9AF6-D0E755A0A6EB" name="PERIODOS_CLASES PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:09:59 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>20461898-D45D-F125-9ABF-C1FCF0A11268</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -196,6 +196,34 @@
 <domain>5812F691-F37D-F4B2-BB2F-83A196794D8A</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="NOTA_MINIMA_APROBATORIA" id="23D824D8-4D64-EAEC-A6B7-B6A63CEEB234">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 06:11:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOTA MINIMA CON LA QUE UN ESTUDIANTE PUEDE APROBAR UNA MATERIA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIP_CALIF" id="6EA04740-AEDD-25AF-DD0B-FBB525F6298D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 06:16:44 UTC</createdTime>
+<generatorID>5DC313E3-A3D4-0AF0-1127-3960D42ADFAF</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>3F322003-2386-2B90-9D62-C21A95EC9A7C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="AB0EF14F-9F3E-DA00-7BF7-120D23E56754" name="PENSUM PK">

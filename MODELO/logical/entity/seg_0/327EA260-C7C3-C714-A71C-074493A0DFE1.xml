@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="327EA260-C7C3-C714-A71C-074493A0DFE1" name="RANGO_CALIFICACION">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 05:58:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES NIVELES DE O RANGO QUE UN ESTUDIANTE PUEDE OBTENER SEGN SU CALIFICACON OBTENIDA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>RANG_CALIF</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_RANGO" id="CAA95ED0-810B-516A-AEE0-41497298E51C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 05:58:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE RANGO DE CALIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="8A3147A2-BBCA-C78F-14C1-B146E60DF018">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 05:59:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE CALIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIP_CALIF" id="A045BC6C-DD34-EA41-19C5-DD32807A268B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 06:00:08 UTC</createdTime>
+<generatorID>835B793E-9007-16D3-C690-32F0766F1B0F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>3F322003-2386-2B90-9D62-C21A95EC9A7C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESDE" id="8B0462D9-A1D3-4CF0-2150-828028234BB9">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 06:00:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR MINIMO QUE SE PUEDE OBTENER COMO CALIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HASTA" id="A0ACBB00-5D9F-5F3A-B498-915C83DC99F9">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 06:05:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR MXIMO QUE SE PUEDE OBTENER COMO CALIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8682E2B1-85A1-1611-D81E-5369117926EE" name="RANGO_CALIFICACION PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 05:59:04 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CAA95ED0-810B-516A-AEE0-41497298E51C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

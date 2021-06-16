@@ -30,7 +30,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_FACULTAD" id="0C190582-68A4-BDAD-BB63-ED32C500AD05">
 <createdBy>HP</createdBy>

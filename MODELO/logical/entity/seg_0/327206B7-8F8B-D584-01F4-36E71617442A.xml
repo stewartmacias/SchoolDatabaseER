@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="327206B7-8F8B-D584-01F4-36E71617442A" name="CICLOS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:17:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES CICLOS DE ESTUDIOS EN LA ENTIDAD DE EDUCACION.]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CICLO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_CICLO" id="A0F85A5F-8782-02AE-868B-E04199D95FC6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:18:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE CICLO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ANIO_REFERENCIA" id="F3F250C1-B9C4-6EC1-0C58-3BEC59106A5D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:52:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[ES EL ANIO EN EL QUE CORRE EL CICLO DE CLASES]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_INICIAL" id="E9A0A84F-BE9C-247F-07D8-422AFDA9B786">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:20:36 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_FINAL" id="C3C24F0E-2D39-EF38-73BF-137A471E724A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:20:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA FINAL DEL CICLO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD_PAGOS" id="FD1430A1-F945-61D0-7DAB-26D96926CEE6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:21:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[CANTIDAD DE PAGOS QUE TIENE EL CICLO DE CLASES]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_INICIO_CLASES" id="319F4EE5-87CB-E84B-2E9D-FC064253A112">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:22:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE INICIO DE CLASES EN EL CICLO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_FIN_CLASES" id="3BB35792-F2B1-9424-9030-BF9D333151A3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:23:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE ULTIMO DIA DE CLASES EN EL CICLO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_PERMITIDA_RETIRO" id="ABFFBA78-EA45-2BFD-F059-8D9AE2890CE6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:24:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA MAXIMA PERMITIDA PARA RETIRARSE LUEGO DE ESTAR REGISTRADO O MATRICULADO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PERODO" id="1CC7D6C4-16A0-CD26-B1AD-CE808C76CB28">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:27:28 UTC</createdTime>
+<generatorID>5B37FC6E-BA31-2B2F-54FE-737EAC30EADB</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>20461898-D45D-F125-9ABF-C1FCF0A11268</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_FACULTAD" id="7C6DF555-DC15-7CF6-1091-BF2B2B97ECC8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:28:33 UTC</createdTime>
+<generatorID>462B546C-AACC-2C51-1C3C-DA735BA3CBA4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>42837600-6AA2-09B0-1466-8814F1709685</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SERVICIO" id="39118DB4-CF5C-54B1-3F3F-2FA2B8CE418C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:28:33 UTC</createdTime>
+<generatorID>462B546C-AACC-2C51-1C3C-DA735BA3CBA4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>315A781F-D5D2-5F04-0C2E-8898E64FF3AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="477D0A48-FCD9-37D3-EB38-F52E92ED4EF4" name="CICLOS PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 04:20:23 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0F85A5F-8782-02AE-868B-E04199D95FC6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D4733FFC-02D5-DE53-931E-B5EC586295B8" name="UI_CICLO_PER_FAC">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 06:24:47 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<newElementsIDs>7C6DF555-DC15-7CF6-1091-BF2B2B97ECC8,1CC7D6C4-16A0-CD26-B1AD-CE808C76CB28,F3F250C1-B9C4-6EC1-0C58-3BEC59106A5D</newElementsIDs>
+<usedAttributes>
+<attributeRef>7C6DF555-DC15-7CF6-1091-BF2B2B97ECC8</attributeRef>
+<attributeRef>1CC7D6C4-16A0-CD26-B1AD-CE808C76CB28</attributeRef>
+<attributeRef>F3F250C1-B9C4-6EC1-0C58-3BEC59106A5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

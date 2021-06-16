@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FC43FCA-C93F-3136-75B7-8E3A56B6327A" name="TIPOS_CALIFICACION_FINAL">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 05:27:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD PARA REGISTRAR LOS DIFERENTES TIPOS DE PROMEDIO FINAL QUE LOS ALUMNOS OBTNEDRAN POR CADA ASIGNATURA EN EL CICLO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TIP_CALIF</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_TIP_CALIF" id="3F322003-2386-2B90-9D62-C21A95EC9A7C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 05:27:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE TIPO DE CALIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="37284679-02A3-227C-E96E-417B5F5E91A1">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 05:27:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCIN DEL TIPO DE CALIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="63E7F986-D453-A1A1-9A68-3EB4CDD36BAF">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 05:28:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODO" id="9B7EFF73-0CFC-D9C1-58F3-1D0E7DAB3190">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 05:46:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[MODO DE CALIFICACION, PUEDE SER DE TIPO CARACTER O DE TIPO NUMERICO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<domain>9F571C28-39FE-0BF4-03D0-196AE3B2536D</domain>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58BFBB29-C4FA-3070-92F6-621DE3F4B5B8" name="TIPOS_CALIFICACION_FINAL PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-16 05:27:51 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F322003-2386-2B90-9D62-C21A95EC9A7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
