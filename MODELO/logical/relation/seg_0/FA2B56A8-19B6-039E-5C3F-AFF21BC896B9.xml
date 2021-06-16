@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FECHAS_PEN" directorySegmentName="seg_0" id="FA2B56A8-19B6-039E-5C3F-AFF21BC896B9">
+<createdBy>User</createdBy>
+<createdTime>2021-06-16 22:49:49 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<sourcePk>477D0A48-FCD9-37D3-EB38-F52E92ED4EF4</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>CICLO</nameOnSource>
+<nameOnTarget>FECHAS_PEN</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>327206B7-8F8B-D584-01F4-36E71617442A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9796BE6A-4D13-8762-C112-7EA74FC3D2F4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

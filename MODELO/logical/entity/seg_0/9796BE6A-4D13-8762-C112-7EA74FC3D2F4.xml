@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9796BE6A-4D13-8762-C112-7EA74FC3D2F4" name="FECHAS_PENALIDAD">
+<createdBy>User</createdBy>
+<createdTime>2021-06-16 22:44:22 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>FECHAS_PEN</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_PENALIDAD" id="593D046D-DD01-31D9-B1B3-843749BC1917">
+<createdBy>User</createdBy>
+<createdTime>2021-06-16 22:44:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE PENALIDAD]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CICLO" id="3CE332CE-F2CC-72FC-1E5F-6318EC7A249B">
+<createdBy>User</createdBy>
+<createdTime>2021-06-16 22:49:49 UTC</createdTime>
+<generatorID>FA2B56A8-19B6-039E-5C3F-AFF21BC896B9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>A0F85A5F-8782-02AE-868B-E04199D95FC6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_DESDE" id="BAE87020-AEBF-B98C-F0C6-78097093DCE3">
+<createdBy>User</createdBy>
+<createdTime>2021-06-16 22:52:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE INICIO DE PENALIDAD]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_HASTA" id="4ABD5745-0696-1C03-87C4-203D3BDB5AC2">
+<createdBy>User</createdBy>
+<createdTime>2021-06-16 22:52:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE FINALIZACION DE PENALIDAD]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PORCENTAJE" id="5426BC3D-4D6E-41AA-29DC-5AE9A03D9C62">
+<createdBy>User</createdBy>
+<createdTime>2021-06-16 22:53:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[PORCENTAJE DE PENALIDAD APLICADO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>15</dataTypeScale>
+<ownDataTypeParameters>,2,15</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="72BF64EF-9380-7896-DEF0-FB21DCA3B5D1">
+<createdBy>User</createdBy>
+<createdTime>2021-06-16 22:54:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE6048C0-FE69-F1BD-01A6-C649514AB578" name="FECHAS_PENALIDAD PK">
+<createdBy>User</createdBy>
+<createdTime>2021-06-16 22:50:20 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>FA2B56A8-19B6-039E-5C3F-AFF21BC896B9</newElementsIDs>
+<usedAttributes>
+<attributeRef>3CE332CE-F2CC-72FC-1E5F-6318EC7A249B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
