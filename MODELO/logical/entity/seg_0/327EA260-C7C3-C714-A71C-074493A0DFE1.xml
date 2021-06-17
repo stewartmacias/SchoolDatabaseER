@@ -58,10 +58,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESDE" id="8B0462D9-A1D3-4CF0-2150-828028234BB9">
+<Attribute name="DESDE_CHAR" id="8B0462D9-A1D3-4CF0-2150-828028234BB9">
 <createdBy>HP</createdBy>
 <createdTime>2021-06-16 06:00:39 UTC</createdTime>
-<commentInRDBMS><![CDATA[VALOR MINIMO QUE SE PUEDE OBTENER COMO CALIFICACION]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[VALOR MINIMO QUE SE PUEDE OBTENER COMO CALIFICACION EN LETRAS]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -73,10 +73,10 @@
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="HASTA" id="A0ACBB00-5D9F-5F3A-B498-915C83DC99F9">
+<Attribute name="HASTA_CHAR" id="A0ACBB00-5D9F-5F3A-B498-915C83DC99F9">
 <createdBy>HP</createdBy>
 <createdTime>2021-06-16 06:05:39 UTC</createdTime>
-<commentInRDBMS><![CDATA[VALOR MXIMO QUE SE PUEDE OBTENER COMO CALIFICACION]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[VALOR MXIMO QUE SE PUEDE OBTENER COMO CALIFICACION EN LETRAS]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -87,6 +87,38 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESDE_NUM" id="B38613D3-5F81-FCE0-DF0E-816B2C0C8568">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:42:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR MINIMO QUE SE PUEDE OBTENER COMO CALIFICACION NUMERICA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HASTA_NUM" id="457F98DF-8E2B-EE69-9B9C-8550C9AE4389">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:43:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR MXIMO QUE SE PUEDE OBTENER COMO CALIFICACION NUMERICA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

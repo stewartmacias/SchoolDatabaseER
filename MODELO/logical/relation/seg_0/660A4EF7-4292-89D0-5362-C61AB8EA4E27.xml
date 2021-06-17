@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CICLO_MATERIA_PARALELO" directorySegmentName="seg_0" id="660A4EF7-4292-89D0-5362-C61AB8EA4E27">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 23:04:25 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<sourcePk>B586EA6D-3E5B-D635-E215-C5D20C2B114F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ciclo_materia</nameOnSource>
+<nameOnTarget>paralelo</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7F40E741-76EA-43BB-10A6-34A704D6A3D9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1A3F3035-F039-43F8-72AC-A723903652E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

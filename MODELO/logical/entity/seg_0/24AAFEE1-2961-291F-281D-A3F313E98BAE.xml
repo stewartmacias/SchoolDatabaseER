@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24AAFEE1-2961-291F-281D-A3F313E98BAE" name="HORAS_MATERIAS">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:18:58 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_MATERIA_HORA" id="E2D3A223-E322-0251-9F2D-1110F0B18658">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:19:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE IDENTIFICACION DE LA MATERIA EN EL PENSUM]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PENSUM" id="48C45998-250A-23F7-6DA6-34D9ACA2B0E3">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:22:33 UTC</createdTime>
+<generatorID>4EA39F43-BB82-9D09-72E7-236E747D3427</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>21772D1B-9C45-BBD8-63D0-7A2091FED49B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_MATERIA" id="9A62288F-A9F2-0A02-4230-DA1963AB163E">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:22:33 UTC</createdTime>
+<generatorID>4EA39F43-BB82-9D09-72E7-236E747D3427</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>7254E5C4-82F1-54A9-AB1E-28C64D2EE4D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_FACULTAD" id="872A7695-360B-295E-AD7A-CF9E20511405">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:22:33 UTC</createdTime>
+<generatorID>4EA39F43-BB82-9D09-72E7-236E747D3427</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>0C190582-68A4-BDAD-BB63-ED32C500AD05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SERVICIO" id="C8A19E3C-5D2B-C514-97EB-037425BD5D2D">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:22:33 UTC</createdTime>
+<generatorID>4EA39F43-BB82-9D09-72E7-236E747D3427</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>B9F9BDE8-6F07-B191-5B46-A6ED3323EA34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="85C9A252-E91A-DF07-20C8-2662F97022BE">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:25:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE COMPONENTE DE HORA. EJEMPLO: PRACTICA, TEORICA.]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORAS" id="7DD8AFDA-4528-CCBD-4C46-70CACFA19564">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:26:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[CANTIDAD DE HORAS POR TIPO COMPONENTE]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29717F3B-70E4-E350-C082-3FB77F07BB2A" name="HORAS_MATERIAS PK">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:20:08 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2D3A223-E322-0251-9F2D-1110F0B18658</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

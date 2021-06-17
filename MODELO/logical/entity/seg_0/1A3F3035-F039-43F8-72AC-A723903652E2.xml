@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A3F3035-F039-43F8-72AC-A723903652E2" name="PARALELO">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 23:03:36 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_MATERIA" id="16B3D5AC-CABB-A1C1-BFFF-49EAF7A472DF">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 23:04:25 UTC</createdTime>
+<generatorID>660A4EF7-4292-89D0-5362-C61AB8EA4E27</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>B9A89270-69A6-4E6E-0442-064D2D0EC0E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_FACULTAD" id="FA53C06C-5AC8-EE45-815C-45991951C01E">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 23:04:25 UTC</createdTime>
+<generatorID>660A4EF7-4292-89D0-5362-C61AB8EA4E27</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>6BBB9399-C28D-5C07-A8E5-3E755597D73B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SERVICIO" id="5B039F1E-0C5C-A5FF-AC60-8F48C3CF2A01">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 23:04:25 UTC</createdTime>
+<generatorID>660A4EF7-4292-89D0-5362-C61AB8EA4E27</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>70D6B1BD-2675-0714-2FB1-667ECE91F7CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CICLO" id="6773B421-7CE5-A29B-2377-54EE48BC43DE">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 23:07:39 UTC</createdTime>
+<generatorID>660A4EF7-4292-89D0-5362-C61AB8EA4E27</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>7B6C6ABD-4C23-7AA8-E6C4-12B307F3C225</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -53,9 +53,9 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_FACULTAD" id="12A994B8-7A84-B2C6-E9C8-93944D053F4F">

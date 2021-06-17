@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F40E741-76EA-43BB-10A6-34A704D6A3D9" name="CICLO_MATERIA">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:55:10 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_MATERIA" id="B9A89270-69A6-4E6E-0442-064D2D0EC0E1">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:55:57 UTC</createdTime>
+<generatorID>336BAA0D-9A98-3C02-6244-3970A8D60F9B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>85D1163B-A7B0-337F-717E-B346D0FCFB03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_FACULTAD" id="6BBB9399-C28D-5C07-A8E5-3E755597D73B">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:55:57 UTC</createdTime>
+<generatorID>336BAA0D-9A98-3C02-6244-3970A8D60F9B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>12A994B8-7A84-B2C6-E9C8-93944D053F4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SERVICIO" id="70D6B1BD-2675-0714-2FB1-667ECE91F7CC">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:55:57 UTC</createdTime>
+<generatorID>336BAA0D-9A98-3C02-6244-3970A8D60F9B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>AF0A0816-8B3F-C1FB-B62B-B683C99D6059</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CICLO" id="7B6C6ABD-4C23-7AA8-E6C4-12B307F3C225">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:56:43 UTC</createdTime>
+<generatorID>906A5C81-2D08-CD0A-2F89-D0AA7FD6E11E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>A0F85A5F-8782-02AE-868B-E04199D95FC6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B586EA6D-3E5B-D635-E215-C5D20C2B114F" name="CICLO_MATERIA PK">
+<createdBy>User</createdBy>
+<createdTime>2021-06-17 22:56:16 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B9A89270-69A6-4E6E-0442-064D2D0EC0E1</attributeRef>
+<attributeRef>6BBB9399-C28D-5C07-A8E5-3E755597D73B</attributeRef>
+<attributeRef>70D6B1BD-2675-0714-2FB1-667ECE91F7CC</attributeRef>
+<attributeRef>7B6C6ABD-4C23-7AA8-E6C4-12B307F3C225</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
