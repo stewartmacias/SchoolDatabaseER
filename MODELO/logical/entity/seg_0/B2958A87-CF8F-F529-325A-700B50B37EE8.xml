@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2958A87-CF8F-F529-325A-700B50B37EE8" name="EDIFICIO">
+<createdBy>User</createdBy>
+<createdTime>2021-06-18 22:58:16 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_EDIFICIO" id="ECB4E284-393D-282E-3456-6BF0E5E166FD">
+<createdBy>User</createdBy>
+<createdTime>2021-06-18 22:58:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE EDIFICIO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="C0118DCE-3B7A-414A-56BA-E36081655636">
+<createdBy>User</createdBy>
+<createdTime>2021-06-18 22:58:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE D EEDIFICIO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ABREVIATURA" id="D8E6D30E-F753-2DB1-EEE7-6DA659CEA997">
+<createdBy>User</createdBy>
+<createdTime>2021-06-18 22:59:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[ABREVIATURA DE EDIFICIO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="21CD310F-9DA6-DBB8-E323-BF2F6E201990">
+<createdBy>User</createdBy>
+<createdTime>2021-06-18 22:59:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[A ACTIVO  - I INACTIVO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO_CAMPUS" id="D76EE72C-C67C-4F1E-1F1E-C1DC665D6956">
+<createdBy>User</createdBy>
+<createdTime>2021-06-18 22:59:59 UTC</createdTime>
+<generatorID>B843B661-2396-AD88-FACA-3E92AE11B58F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>94A3F085-B080-F150-80CD-0F7D5E82091A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA8F2754-3590-BE3C-37CB-6DFC6D98D634" name="EDIFICIO PK">
+<createdBy>User</createdBy>
+<createdTime>2021-06-18 22:58:44 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECB4E284-393D-282E-3456-6BF0E5E166FD</attributeRef>
+<attributeRef>D76EE72C-C67C-4F1E-1F1E-C1DC665D6956</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

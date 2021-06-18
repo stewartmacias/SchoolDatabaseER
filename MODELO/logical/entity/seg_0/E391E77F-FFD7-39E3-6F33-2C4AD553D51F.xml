@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A3F3035-F039-43F8-72AC-A723903652E2" name="PARALELO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E391E77F-FFD7-39E3-6F33-2C4AD553D51F" name="AULA">
 <createdBy>User</createdBy>
-<createdTime>2021-06-17 23:03:36 UTC</createdTime>
+<createdTime>2021-06-18 22:57:14 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -15,99 +15,82 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_MATERIA" id="16B3D5AC-CABB-A1C1-BFFF-49EAF7A472DF">
+<Attribute name="COD_AULA" id="2DAB9801-4BF2-C1C8-49D6-F520DC6B9AC1">
 <createdBy>User</createdBy>
-<createdTime>2021-06-17 23:04:25 UTC</createdTime>
-<generatorID>660A4EF7-4292-89D0-5362-C61AB8EA4E27</generatorID>
+<createdTime>2021-06-18 22:57:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE AULA]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<referedAttribute>B9A89270-69A6-4E6E-0442-064D2D0EC0E1</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="FD6D489C-11A2-BE0F-0EA4-A11A7E5F75F4">
+<createdBy>User</createdBy>
+<createdTime>2021-06-18 22:57:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DE AULA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_FACULTAD" id="FA53C06C-5AC8-EE45-815C-45991951C01E">
+<Attribute name="ABREVIATURA" id="9A485770-7743-56CA-D372-45D0DA174786">
 <createdBy>User</createdBy>
-<createdTime>2021-06-17 23:04:25 UTC</createdTime>
-<generatorID>660A4EF7-4292-89D0-5362-C61AB8EA4E27</generatorID>
+<createdTime>2021-06-18 22:57:52 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<referedAttribute>6BBB9399-C28D-5C07-A8E5-3E755597D73B</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_EDIFICIO" id="2AE698FF-8576-1C97-D561-CDA4FDC1478A">
+<createdBy>User</createdBy>
+<createdTime>2021-06-18 23:00:44 UTC</createdTime>
+<generatorID>F0546A3A-7258-0C43-9169-C41DA4E12646</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>ECB4E284-393D-282E-3456-6BF0E5E166FD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_SERVICIO" id="5B039F1E-0C5C-A5FF-AC60-8F48C3CF2A01">
+<Attribute name="CODIGO_CAMPUS" id="092CED63-85DA-BDD4-2700-A27423674D72">
 <createdBy>User</createdBy>
-<createdTime>2021-06-17 23:04:25 UTC</createdTime>
-<generatorID>660A4EF7-4292-89D0-5362-C61AB8EA4E27</generatorID>
+<createdTime>2021-06-18 23:00:44 UTC</createdTime>
+<generatorID>F0546A3A-7258-0C43-9169-C41DA4E12646</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<referedAttribute>70D6B1BD-2675-0714-2FB1-667ECE91F7CC</referedAttribute>
+<referedAttribute>D76EE72C-C67C-4F1E-1F1E-C1DC665D6956</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_CICLO" id="6773B421-7CE5-A29B-2377-54EE48BC43DE">
+<Attribute name="PISO" id="E9F16D3D-8441-0A05-6DA2-57961C18A69E">
 <createdBy>User</createdBy>
-<createdTime>2021-06-17 23:07:39 UTC</createdTime>
-<generatorID>660A4EF7-4292-89D0-5362-C61AB8EA4E27</generatorID>
+<createdTime>2021-06-18 23:01:33 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<referedAttribute>7B6C6ABD-4C23-7AA8-E6C4-12B307F3C225</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_PARALELO" id="464A3CAF-D0F0-9202-DE85-6794FBB399FD">
-<createdBy>User</createdBy>
-<createdTime>2021-06-18 22:49:22 UTC</createdTime>
-<commentInRDBMS><![CDATA[CODIGO UNICO DE PARALELO]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_EDIFICIO" id="8122F87D-AC13-29DE-FF6E-A21CFC0D8E21">
-<createdBy>User</createdBy>
-<createdTime>2021-06-18 23:01:10 UTC</createdTime>
-<generatorID>55811781-42C5-D9D4-306A-217F033DF08A</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>2AE698FF-8576-1C97-D561-CDA4FDC1478A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CODIGO_CAMPUS" id="3FDFD770-9DFF-BEA0-87A0-CD3590E14DF2">
-<createdBy>User</createdBy>
-<createdTime>2021-06-18 23:01:10 UTC</createdTime>
-<generatorID>55811781-42C5-D9D4-306A-217F033DF08A</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>092CED63-85DA-BDD4-2700-A27423674D72</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -115,18 +98,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9CE06C4F-87C1-EAE8-60C7-CE8C549A532C" name="PARALELO PK">
+<identifier id="05956623-8B08-8C48-AF35-5478E24AFE73" name="AULA PK">
 <createdBy>User</createdBy>
-<createdTime>2021-06-18 22:49:42 UTC</createdTime>
+<createdTime>2021-06-18 23:00:59 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>464A3CAF-D0F0-9202-DE85-6794FBB399FD</attributeRef>
-<attributeRef>8122F87D-AC13-29DE-FF6E-A21CFC0D8E21</attributeRef>
-<attributeRef>3FDFD770-9DFF-BEA0-87A0-CD3590E14DF2</attributeRef>
+<attributeRef>2AE698FF-8576-1C97-D561-CDA4FDC1478A</attributeRef>
+<attributeRef>092CED63-85DA-BDD4-2700-A27423674D72</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
