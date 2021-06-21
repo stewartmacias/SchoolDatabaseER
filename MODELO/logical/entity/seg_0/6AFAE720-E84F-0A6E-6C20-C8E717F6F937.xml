@@ -1,0 +1,239 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6AFAE720-E84F-0A6E-6C20-C8E717F6F937" name="PERSONA">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:52:13 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TIPO_ID" id="9425F2C1-D5E8-AE01-B487-5D9249D8EC95">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:52:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cedula C, RUC R o  Pasaporte P]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_IDENTIFICACION" id="FD2BDCF6-103D-E572-0977-744C55DD546C">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:52:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DE IDENTIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO_PATERNO" id="DD63761D-D762-92A2-D217-31D89A4E6112">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:54:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[APELLIDO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO_MATERNO" id="AA057C54-3765-742C-2B13-A2ABE87A6D58">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:54:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[APELLIDO MATERNO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRES" id="5F6C302B-6F94-3BC0-0CED-11D010BA991C">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:55:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRES ]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO_PERSONAL" id="E5EA2398-5A80-B5C9-7760-3824A42436B1">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:55:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[CORREO PERSONAL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO_INSTITUCIONAL" id="0326FDBF-9F28-4850-03CE-FBA8F22C3770">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:56:09 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO_LABORAL" id="E2A5C1FF-D3A8-C739-1A37-F393530D5791">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:56:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[CORREO LABORAL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_NACIMIENTO" id="CD0DACD0-4E03-FF20-87E7-B628D232065D">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:56:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE NACIMIENTO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENERO" id="46AF15FE-0110-945D-268E-ED5C932D05F3">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:57:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[M Masculino, F Femenino, P: Prefiero no decir]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_ID_FACTURA" id="AB7BACA7-C42E-EE9C-66E4-088A06812FDB">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:58:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cedula C, RUC R o  Pasaporte P]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_FACTURA" id="C1546BB8-8B03-96F6-84D0-A8F4159676F6">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 23:00:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DE IDENTIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_FACTURA" id="9A41495A-B487-84C9-26F8-F61CC85A97DF">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 23:02:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE EN FACTURA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREDENCIAL_ACCESO" id="90966551-EC8D-1003-BF34-57F601AAB10C">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 23:07:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[CLAVE O TOKEN DE ACCESO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="764B8A15-1D3D-11F9-9B4F-59E524D797C9" name="PERSONA PK">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 22:52:38 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9425F2C1-D5E8-AE01-B487-5D9249D8EC95</attributeRef>
+<attributeRef>FD2BDCF6-103D-E572-0977-744C55DD546C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
