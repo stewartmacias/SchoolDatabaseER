@@ -28,7 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_FACULTAD" id="FA53C06C-5AC8-EE45-815C-45991951C01E">
 <createdBy>User</createdBy>
@@ -94,20 +94,6 @@
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <referedAttribute>2AE698FF-8576-1C97-D561-CDA4FDC1478A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CODIGO_CAMPUS" id="3FDFD770-9DFF-BEA0-87A0-CD3590E14DF2">
-<createdBy>User</createdBy>
-<createdTime>2021-06-18 23:01:10 UTC</createdTime>
-<generatorID>55811781-42C5-D9D4-306A-217F033DF08A</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>092CED63-85DA-BDD4-2700-A27423674D72</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -183,6 +169,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CODIGO_CAMPUS" id="754979D1-24E3-DF25-F13F-00EC3876E098">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-22 23:20:11 UTC</createdTime>
+<generatorID>55811781-42C5-D9D4-306A-217F033DF08A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>11D3E965-96DD-C0B0-91E4-A2B829760A84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9CE06C4F-87C1-EAE8-60C7-CE8C549A532C" name="PARALELO PK">
@@ -196,8 +196,8 @@
 <usedAttributes>
 <attributeRef>464A3CAF-D0F0-9202-DE85-6794FBB399FD</attributeRef>
 <attributeRef>8122F87D-AC13-29DE-FF6E-A21CFC0D8E21</attributeRef>
-<attributeRef>3FDFD770-9DFF-BEA0-87A0-CD3590E14DF2</attributeRef>
 <attributeRef>D6C4B090-0DF1-2A24-0E18-1ECC3696E7E3</attributeRef>
+<attributeRef>754979D1-24E3-DF25-F13F-00EC3876E098</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

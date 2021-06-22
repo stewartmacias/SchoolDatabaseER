@@ -73,10 +73,10 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CODIGO_CAMPUS" id="D76EE72C-C67C-4F1E-1F1E-C1DC665D6956">
-<createdBy>User</createdBy>
-<createdTime>2021-06-18 22:59:59 UTC</createdTime>
-<generatorID>B843B661-2396-AD88-FACA-3E92AE11B58F</generatorID>
+<Attribute name="CODIGO_CAMPUS" id="FC6B0F1C-EF55-476B-B650-0881044AA5DD">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-22 23:20:11 UTC</createdTime>
+<generatorID>A1AC927D-0CB3-3E9E-C2EA-12EEA289A66B</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -99,7 +99,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>ECB4E284-393D-282E-3456-6BF0E5E166FD</attributeRef>
-<attributeRef>D76EE72C-C67C-4F1E-1F1E-C1DC665D6956</attributeRef>
+<attributeRef>FC6B0F1C-EF55-476B-B650-0881044AA5DD</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

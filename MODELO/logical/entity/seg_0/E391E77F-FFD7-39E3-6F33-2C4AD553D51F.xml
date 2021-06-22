@@ -69,20 +69,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CODIGO_CAMPUS" id="092CED63-85DA-BDD4-2700-A27423674D72">
-<createdBy>User</createdBy>
-<createdTime>2021-06-18 23:00:44 UTC</createdTime>
-<generatorID>F0546A3A-7258-0C43-9169-C41DA4E12646</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>D76EE72C-C67C-4F1E-1F1E-C1DC665D6956</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="PISO" id="E9F16D3D-8441-0A05-6DA2-57961C18A69E">
 <createdBy>User</createdBy>
 <createdTime>2021-06-18 23:01:33 UTC</createdTime>
@@ -109,6 +95,20 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CODIGO_CAMPUS" id="11D3E965-96DD-C0B0-91E4-A2B829760A84">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-22 23:20:11 UTC</createdTime>
+<generatorID>F0546A3A-7258-0C43-9169-C41DA4E12646</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>FC6B0F1C-EF55-476B-B650-0881044AA5DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="05956623-8B08-8C48-AF35-5478E24AFE73" name="AULA PK">
@@ -121,7 +121,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>2AE698FF-8576-1C97-D561-CDA4FDC1478A</attributeRef>
-<attributeRef>092CED63-85DA-BDD4-2700-A27423674D72</attributeRef>
+<attributeRef>11D3E965-96DD-C0B0-91E4-A2B829760A84</attributeRef>
 <attributeRef>2DAB9801-4BF2-C1C8-49D6-F520DC6B9AC1</attributeRef>
 </usedAttributes>
 </identifier>
