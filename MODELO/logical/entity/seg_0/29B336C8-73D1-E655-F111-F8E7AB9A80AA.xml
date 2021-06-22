@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9EBC8BB9-4BA2-C0D6-C52B-7E203EAA2203" name="PAIS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29B336C8-73D1-E655-F111-F8E7AB9A80AA" name="PERSONA_TELEFONO">
 <createdBy>User</createdBy>
-<createdTime>2021-06-21 23:18:02 UTC</createdTime>
+<createdTime>2021-06-22 22:45:10 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_PAIS" id="1BAAE7F5-0B79-0140-BACD-8557DDE06267">
+<Attribute name="COD_TELEFONO" id="C852B98A-0911-D0CA-5F8E-A6B4F78BDACA">
 <createdBy>User</createdBy>
-<createdTime>2021-06-21 23:18:08 UTC</createdTime>
-<commentInRDBMS><![CDATA[CODIGO DE PAIS]]></commentInRDBMS>
+<createdTime>2021-06-22 22:48:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO SECUENCIAL]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -28,36 +28,67 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRE" id="821DE634-5668-0E55-96A0-5856D4B56AF3">
+<Attribute name="COD_TIPO_TEL" id="485A3C54-E412-D3AA-21A1-24B75936943F">
 <createdBy>User</createdBy>
-<createdTime>2021-06-21 23:18:26 UTC</createdTime>
+<createdTime>2021-06-22 22:53:58 UTC</createdTime>
+<generatorID>BF1EEC62-E2C5-AE1B-365F-BA5D1182EAB3</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0F7F06C3-E938-BE47-375C-AA5601A82BAC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ABREVIATURA" id="57F9E06B-C9C9-4A0D-819E-A7307A03C9E4">
+<Attribute name="COD_PAIS" id="7D5BE02C-C9F8-FEB7-82B0-81AF37E25D1F">
 <createdBy>User</createdBy>
-<createdTime>2021-06-21 23:18:37 UTC</createdTime>
+<createdTime>2021-06-22 22:52:52 UTC</createdTime>
+<generatorID>D2B03E37-13B9-EDB6-0012-CC3221377C2B</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
+<referedAttribute>1BAAE7F5-0B79-0140-BACD-8557DDE06267</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SUBDIVISION_GEOGRAFICA1" id="E4042856-A18C-69B0-1287-986E36C67217">
+<Attribute name="COD_TIPO_ID" id="363E5038-CEFF-8810-7AB3-6CF2E2BBE396">
 <createdBy>User</createdBy>
-<createdTime>2021-06-22 22:26:55 UTC</createdTime>
-<commentInRDBMS><![CDATA[SUBDIVISION GEOGRAFICA 1. EJEMPLO: PROVINCIA O DEPARTAMENTO]]></commentInRDBMS>
+<createdTime>2021-06-22 22:54:42 UTC</createdTime>
+<generatorID>933BBC82-1520-46C6-EC46-C106C61E008A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>4D5876C7-43CE-E5EC-992E-8ACB2C293F2A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_IDENTIFICACION" id="83F7814C-F320-913E-0E4D-CE7A1C204F81">
+<createdBy>User</createdBy>
+<createdTime>2021-06-22 22:54:42 UTC</createdTime>
+<generatorID>933BBC82-1520-46C6-EC46-C106C61E008A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>FD2BDCF6-103D-E572-0977-744C55DD546C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_TELEFONICO" id="1333D60B-5006-8F94-BCBB-49683EF35385">
+<createdBy>User</createdBy>
+<createdTime>2021-06-22 22:48:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO TELEFONICO]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -68,60 +99,32 @@
 <dataTypeSize>60</dataTypeSize>
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SUBDIVISION_GEOGRAFICA2" id="4D8FA6BE-24CF-C2BB-9590-7742E75EE2BB">
+<Attribute name="ESTADO" id="11209E26-99E6-7A78-1093-D67DB3236711">
 <createdBy>User</createdBy>
-<createdTime>2021-06-22 22:27:44 UTC</createdTime>
-<commentInRDBMS><![CDATA[SUBDIVISION GEOGRAFICA 2. EJEMPLO: CIUDAD O CANTON]]></commentInRDBMS>
+<createdTime>2021-06-22 22:53:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Activo A o Inactivo I]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ESTADO" id="E19DBE0D-CD63-1163-3B71-2D6C0DE68D62">
-<createdBy>User</createdBy>
-<createdTime>2021-06-21 23:18:59 UTC</createdTime>
-<commentInRDBMS><![CDATA[ACTIVO A o INACTIVO I]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CODIGO_INTERNACIONAL" id="54FED1E6-C68A-EB9B-DBE9-E46B89001337">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:28:29 UTC</createdTime>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0E69E595-612F-D59D-014C-ED65862852E2" name="PAIS PK">
+<identifier id="10252B4C-AD27-E91F-D605-55A06424F580" name="PERSONA_TELEFONO PK">
 <createdBy>User</createdBy>
-<createdTime>2021-06-21 23:18:20 UTC</createdTime>
+<createdTime>2021-06-22 22:48:42 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1BAAE7F5-0B79-0140-BACD-8557DDE06267</attributeRef>
+<attributeRef>C852B98A-0911-D0CA-5F8E-A6B4F78BDACA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

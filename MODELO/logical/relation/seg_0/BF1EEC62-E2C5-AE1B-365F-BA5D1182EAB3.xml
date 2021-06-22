@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tipo_telf" directorySegmentName="seg_0" id="BF1EEC62-E2C5-AE1B-365F-BA5D1182EAB3">
+<createdBy>User</createdBy>
+<createdTime>2021-06-22 22:53:58 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<sourcePk>FBE046FB-D8F3-4F92-92B9-C5D9515D4465</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tipo</nameOnSource>
+<nameOnTarget>telef</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7B60EAD-C0B9-8401-4F6F-32A42D4272E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>29B336C8-73D1-E655-F111-F8E7AB9A80AA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

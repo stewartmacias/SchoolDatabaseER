@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1B6B624-2D31-63CE-685A-FB2CDBFCDDB2" name="TIPO_IDENTIFICACION">
+<createdBy>User</createdBy>
+<createdTime>2021-06-22 22:38:41 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_TIPO_ID" id="5FA5A464-5034-8E6C-5692-537E1DB02BC7">
+<createdBy>User</createdBy>
+<createdTime>2021-06-22 22:38:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE IDENTIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="C0781E8A-68F3-2788-A447-03DF850E22C4">
+<createdBy>User</createdBy>
+<createdTime>2021-06-22 22:39:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DE TIPO DE IDENTIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="3AA81F5C-A775-A021-1693-CA8D4AD88339">
+<createdBy>User</createdBy>
+<createdTime>2021-06-22 22:39:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Activo A o Inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4171A350-A774-0173-3347-725AEFCA567A" name="TIPO_IDENTIFICACION PK">
+<createdBy>User</createdBy>
+<createdTime>2021-06-22 22:39:08 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FA5A464-5034-8E6C-5692-537E1DB02BC7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

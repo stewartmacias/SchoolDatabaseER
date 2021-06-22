@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EFC955FB-5D90-DE36-1BAA-BD3DD5E6655F" name="PARAMETROS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7B60EAD-C0B9-8401-4F6F-32A42D4272E9" name="TIPO_TELEFONO">
 <createdBy>User</createdBy>
-<createdTime>2021-06-21 23:30:48 UTC</createdTime>
+<createdTime>2021-06-22 22:43:00 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -15,9 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_PARAMETRO" id="C50C0797-61F5-6864-EB6E-54D777205C5C">
+<Attribute name="COD_TIPO_TEL" id="0F7F06C3-E938-BE47-375C-AA5601A82BAC">
 <createdBy>User</createdBy>
-<createdTime>2021-06-21 23:37:37 UTC</createdTime>
+<createdTime>2021-06-22 22:43:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO SECUENCIAL]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -27,46 +28,28 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="REFERENCIA" id="54113CD5-5BDF-3577-D3C5-EFE1B397A5C3">
+<Attribute name="NOMBRE" id="82A0E09B-7D65-5445-9F20-27BC315C6059">
 <createdBy>User</createdBy>
-<createdTime>2021-06-21 23:31:34 UTC</createdTime>
-<commentInRDBMS><![CDATA[ENTIDAD ORIGEN
-NOMBRE EJEMPLO: PROVINCIA]]></commentInRDBMS>
+<createdTime>2021-06-22 22:43:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL TIPO DE TELEFONO. EJEMPLO: movil, casa, laboral]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>60</dataTypeSize>
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRIPCION" id="823BDDBE-5E15-7C63-39F5-1C9625A79E12">
+<Attribute name="ESTADO" id="064EEAB7-EC08-96DD-406F-45CDA380EFEA">
 <createdBy>User</createdBy>
-<createdTime>2021-06-21 23:36:58 UTC</createdTime>
-<commentInRDBMS><![CDATA[NOMBRE EN CADA PAIS]]></commentInRDBMS>
+<createdTime>2021-06-22 22:44:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Activo A o Inactivo I]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>120</dataTypeSize>
-<ownDataTypeParameters>120,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ESTADO" id="47527636-8388-15D8-06D8-931AF59A5CB7">
-<createdBy>User</createdBy>
-<createdTime>2021-06-21 23:38:51 UTC</createdTime>
-<commentInRDBMS><![CDATA[A activo o Inactivo]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -75,17 +58,16 @@ NOMBRE EJEMPLO: PROVINCIA]]></commentInRDBMS>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4733200E-E65C-5335-3755-C5CC70616297" name="PARAMETROS PK">
+<identifier id="FBE046FB-D8F3-4F92-92B9-C5D9515D4465" name="TIPO_TELEFONO PK">
 <createdBy>User</createdBy>
-<createdTime>2021-06-21 23:31:08 UTC</createdTime>
+<createdTime>2021-06-22 22:43:22 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E3A879DB-BB04-2AFF-55EC-3D113CAB9C78</attributeRef>
-<attributeRef>C50C0797-61F5-6864-EB6E-54D777205C5C</attributeRef>
+<attributeRef>0F7F06C3-E938-BE47-375C-AA5601A82BAC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
