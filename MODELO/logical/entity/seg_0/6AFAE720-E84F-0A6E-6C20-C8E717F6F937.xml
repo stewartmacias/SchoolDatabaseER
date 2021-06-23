@@ -220,21 +220,6 @@
 <dataTypeSize>120</dataTypeSize>
 <ownDataTypeParameters>120,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_PAIS" id="E181D163-BC4F-6111-057F-1297690725B4">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:57:52 UTC</createdTime>
-<commentInRDBMS><![CDATA[PAIS DE NACIMIENTO]]></commentInRDBMS>
-<generatorID>28AE33CE-F02A-1836-45AE-47BE8210856F</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>1BAAE7F5-0B79-0140-BACD-8557DDE06267</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="COD_SUBDIVISION2" id="2DF9DF6D-BEF5-2D37-6A4C-9FB91D14AAC1">
 <createdBy>User</createdBy>
 <createdTime>2021-06-22 23:03:08 UTC</createdTime>
