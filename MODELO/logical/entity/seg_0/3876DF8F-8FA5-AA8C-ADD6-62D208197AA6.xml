@@ -56,6 +56,18 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="POR_DEFECTO" id="470D2391-7BD8-7BE0-0313-E79EFD7C6A6F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 13:50:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si N no, SIGNIFICA QUE ESTE CODIGO DE PAIS APARECERA EN CADA PANTALLA QUE SE SOLICITE ESTE ATRIBUTO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>52D378A9-6EB0-D8B0-8835-D7DBED06EC5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="COD_SUBDIVISION1" id="19BA4BB4-CDC9-2185-BE69-54DD293EF427">
 <createdBy>HP</createdBy>
 <createdTime>2021-06-23 03:58:45 UTC</createdTime>

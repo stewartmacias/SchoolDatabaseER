@@ -100,6 +100,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="POR_DEFECTO" id="59E33AFE-B4E1-AC57-A066-B1F9D3973CA2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 13:48:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si N no, SIGNIFICA QUE ESTE CODIGO DE PAIS APARECERA EN CADA PANTALLA QUE SE SOLICITE UN PAIS]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>52D378A9-6EB0-D8B0-8835-D7DBED06EC5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="SUBDIVISION_GEOGRAFICA1" id="E4042856-A18C-69B0-1287-986E36C67217">
 <createdBy>User</createdBy>
 <createdTime>2021-06-22 22:26:55 UTC</createdTime>
