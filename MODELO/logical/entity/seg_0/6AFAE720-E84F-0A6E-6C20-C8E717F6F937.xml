@@ -15,20 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_TIPO_ID" id="4D5876C7-43CE-E5EC-992E-8ACB2C293F2A">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:40:24 UTC</createdTime>
-<generatorID>2F1771AD-C837-F59A-60E9-7ED396AC5D6C</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>5FA5A464-5034-8E6C-5692-537E1DB02BC7</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="NUMERO_IDENTIFICACION" id="FD2BDCF6-103D-E572-0977-744C55DD546C">
 <createdBy>User</createdBy>
 <createdTime>2021-06-21 22:52:51 UTC</createdTime>
@@ -51,12 +37,11 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="APELLIDO_MATERNO" id="AA057C54-3765-742C-2B13-A2ABE87A6D58">
 <createdBy>User</createdBy>
@@ -69,8 +54,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NOMBRES" id="5F6C302B-6F94-3BC0-0CED-11D010BA991C">
 <createdBy>User</createdBy>
@@ -80,12 +65,11 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CORREO_PERSONAL" id="E5EA2398-5A80-B5C9-7760-3824A42436B1">
 <createdBy>User</createdBy>
@@ -95,16 +79,16 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CORREO_INSTITUCIONAL" id="0326FDBF-9F28-4850-03CE-FBA8F22C3770">
 <createdBy>User</createdBy>
 <createdTime>2021-06-21 22:56:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CORREO ASIGNADO POR EL ENTIDAD EDUCATIVA]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -128,8 +112,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FECHA_NACIMIENTO" id="CD0DACD0-4E03-FF20-87E7-B628D232065D">
 <createdBy>User</createdBy>
@@ -139,7 +123,6 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -153,26 +136,11 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TIPO_ID_FACTURA" id="AB7BACA7-C42E-EE9C-66E4-088A06812FDB">
-<createdBy>User</createdBy>
-<createdTime>2021-06-21 22:58:53 UTC</createdTime>
-<commentInRDBMS><![CDATA[Cedula C, RUC R o  Pasaporte P]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
+<domain>65163C4D-C640-5136-7982-FFA49EA82279</domain>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_FACTURA" id="C1546BB8-8B03-96F6-84D0-A8F4159676F6">
@@ -183,7 +151,6 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -198,7 +165,6 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -219,6 +185,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>120</dataTypeSize>
 <ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_ID_SEUCUNDARIO" id="42B76813-7925-9F44-B8A9-FE60575606A8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:41:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DE IDENTIFCACOON SECUANDRIO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_SUBDIVISION2" id="2DF9DF6D-BEF5-2D37-6A4C-9FB91D14AAC1">
 <createdBy>User</createdBy>
@@ -262,6 +242,48 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_TIPO_ID" id="9F797459-70A0-F0E0-7F79-BB284ABFB753">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:23:57 UTC</createdTime>
+<generatorID>8D9A9C64-48CE-9FCC-8B4D-94309DB3E59E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>5FA5A464-5034-8E6C-5692-537E1DB02BC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIPO_ID1" id="737410D2-AACE-459F-C7E7-672F2414569E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:38:29 UTC</createdTime>
+<generatorID>BCE19131-0D2F-86C6-39EE-D96676652FC1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>5FA5A464-5034-8E6C-5692-537E1DB02BC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIPO_ID2" id="634156C7-40E5-50B8-F0C7-B38A3AB314E0">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:40:54 UTC</createdTime>
+<generatorID>FAA131CF-69F5-D142-FD5B-698C7EFEB5C9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>5FA5A464-5034-8E6C-5692-537E1DB02BC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="764B8A15-1D3D-11F9-9B4F-59E524D797C9" name="PERSONA PK">
@@ -274,7 +296,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FD2BDCF6-103D-E572-0977-744C55DD546C</attributeRef>
-<attributeRef>4D5876C7-43CE-E5EC-992E-8ACB2C293F2A</attributeRef>
+<attributeRef>9F797459-70A0-F0E0-7F79-BB284ABFB753</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -56,20 +56,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_TIPO_ID" id="363E5038-CEFF-8810-7AB3-6CF2E2BBE396">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:54:42 UTC</createdTime>
-<generatorID>933BBC82-1520-46C6-EC46-C106C61E008A</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>4D5876C7-43CE-E5EC-992E-8ACB2C293F2A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="NUMERO_IDENTIFICACION" id="83F7814C-F320-913E-0E4D-CE7A1C204F81">
 <createdBy>User</createdBy>
 <createdTime>2021-06-22 22:54:42 UTC</createdTime>
@@ -113,6 +99,20 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_TIPO_ID" id="7D7825A2-7B6D-CC86-A7DB-8D6E6A0BDF60">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:23:57 UTC</createdTime>
+<generatorID>933BBC82-1520-46C6-EC46-C106C61E008A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>9F797459-70A0-F0E0-7F79-BB284ABFB753</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="10252B4C-AD27-E91F-D605-55A06424F580" name="PERSONA_TELEFONO PK">
@@ -126,7 +126,7 @@
 <usedAttributes>
 <attributeRef>C852B98A-0911-D0CA-5F8E-A6B4F78BDACA</attributeRef>
 <attributeRef>83F7814C-F320-913E-0E4D-CE7A1C204F81</attributeRef>
-<attributeRef>363E5038-CEFF-8810-7AB3-6CF2E2BBE396</attributeRef>
+<attributeRef>7D7825A2-7B6D-CC86-A7DB-8D6E6A0BDF60</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

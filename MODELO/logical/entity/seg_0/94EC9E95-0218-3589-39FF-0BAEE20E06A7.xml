@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94EC9E95-0218-3589-39FF-0BAEE20E06A7" name="NACIONALIDADES">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:44:02 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>NAC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_NACIONALIDAD" id="170DB2A7-C37B-447E-1149-0BA05EDAEAC1">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:44:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE NACIONALIDAD, SECUENCIA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_IDENTIFICACION" id="01511641-E1B8-AF9E-DEFC-40524678F19E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:46:24 UTC</createdTime>
+<generatorID>8633F8DF-D9FB-9E35-B0DD-1E1FBB644335</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>FD2BDCF6-103D-E572-0977-744C55DD546C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIPO_ID" id="08B0B130-24E8-C513-0F4D-D15C1D4C392A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:46:24 UTC</createdTime>
+<generatorID>8633F8DF-D9FB-9E35-B0DD-1E1FBB644335</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>9F797459-70A0-F0E0-7F79-BB284ABFB753</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="42BF6991-D743-AA66-582E-9CCD85446DEE">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:47:15 UTC</createdTime>
+<generatorID>FF305CF0-BCAE-DC7D-3CAA-BA3073DA57CD</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>1BAAE7F5-0B79-0140-BACD-8557DDE06267</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="989960B9-E63A-71A7-9F46-4ABECF42E619" name="NACIONALIDADES PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:44:48 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>170DB2A7-C37B-447E-1149-0BA05EDAEAC1</attributeRef>
+<attributeRef>01511641-E1B8-AF9E-DEFC-40524678F19E</attributeRef>
+<attributeRef>08B0B130-24E8-C513-0F4D-D15C1D4C392A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

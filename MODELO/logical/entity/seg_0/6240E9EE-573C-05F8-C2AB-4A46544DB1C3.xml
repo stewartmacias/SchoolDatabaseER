@@ -145,15 +145,15 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_TIPO_ID" id="F3452E3D-29F2-7DD0-C7AC-C084C074407D">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:40:58 UTC</createdTime>
+<Attribute name="COD_TIPO_ID" id="4752B8DF-0CF2-F80B-9598-01B6E96CA5B8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:23:57 UTC</createdTime>
 <generatorID>A25254C3-F476-2C45-FEC4-23F26AC65E65</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<referedAttribute>4D5876C7-43CE-E5EC-992E-8ACB2C293F2A</referedAttribute>
+<referedAttribute>9F797459-70A0-F0E0-7F79-BB284ABFB753</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -171,7 +171,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>76DB1A7D-DFE8-BA20-97DA-6405B33BA3D4</attributeRef>
-<attributeRef>F3452E3D-29F2-7DD0-C7AC-C084C074407D</attributeRef>
+<attributeRef>4752B8DF-0CF2-F80B-9598-01B6E96CA5B8</attributeRef>
 <attributeRef>82258BEA-757D-770E-4FFD-4DD1FB182E1D</attributeRef>
 </usedAttributes>
 </identifier>
