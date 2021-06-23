@@ -133,6 +133,48 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_SUBDIVISION2" id="8487F168-D1A6-773B-F859-6E5150F1199E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 04:27:20 UTC</createdTime>
+<generatorID>0BC68F34-BEF2-D5D2-918D-CAB71548BD84</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>D56654C4-BEFB-F0E7-08FE-8C43611A3A33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SUBDIVISION1" id="F821FC71-40ED-E57F-4856-98DF0AFE2555">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 04:27:20 UTC</createdTime>
+<generatorID>0BC68F34-BEF2-D5D2-918D-CAB71548BD84</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>19BA4BB4-CDC9-2185-BE69-54DD293EF427</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="BE37ED82-CD1E-1912-B540-2ED14A3642F2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 04:27:20 UTC</createdTime>
+<generatorID>0BC68F34-BEF2-D5D2-918D-CAB71548BD84</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>49D7AB47-8796-D016-A8DF-2B209C5592AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="43D14F89-C97B-BC4D-102B-50D367ABBFBC" name="CAMPUS PK">

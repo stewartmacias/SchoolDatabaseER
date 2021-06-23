@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D76F2155-2F8D-2E51-562B-DF2BEFB20D9B" name="TIPO_DIRECCION">
 <createdBy>User</createdBy>
 <createdTime>2021-06-21 23:10:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS TIPOS DE DIRECCIONES, POR EJEMPLO DIRECCION DE CASA, TRABAJO, ETC]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -14,8 +15,9 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>TIPDIREC</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_TIPO" id="78F85522-573C-20C1-C431-1FADD859A633">
+<Attribute name="COD_TIPO_DIRECCION" id="78F85522-573C-20C1-C431-1FADD859A633">
 <createdBy>User</createdBy>
 <createdTime>2021-06-21 23:10:47 UTC</createdTime>
 <commentInRDBMS><![CDATA[CODIGO DE DIRECCION]]></commentInRDBMS>
@@ -36,12 +38,11 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ESTADO" id="A4CE4C13-020A-6CC4-1BE0-BC18D35D75D4">
 <createdBy>User</createdBy>
@@ -51,11 +52,11 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="OBLIGATORIO" id="7C557E2E-CD49-E724-F70B-E2D55633CFAE">
@@ -66,11 +67,10 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
+<use>0</use>
 <dataTypeSize>1</dataTypeSize>
+<domain>52D378A9-6EB0-D8B0-8835-D7DBED06EC5C</domain>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E391E77F-FFD7-39E3-6F33-2C4AD553D51F" name="AULA">
 <createdBy>User</createdBy>
 <createdTime>2021-06-18 22:57:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LAS DIFERENTES AULAS DEL CAMPUS]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -14,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>AUL</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="COD_AULA" id="2DAB9801-4BF2-C1C8-49D6-F520DC6B9AC1">
 <createdBy>User</createdBy>
@@ -36,42 +38,30 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ABREVIATURA" id="9A485770-7743-56CA-D372-45D0DA174786">
 <createdBy>User</createdBy>
 <createdTime>2021-06-18 22:57:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[ABREVIATURA DEL AULA]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_EDIFICIO" id="2AE698FF-8576-1C97-D561-CDA4FDC1478A">
-<createdBy>User</createdBy>
-<createdTime>2021-06-18 23:00:44 UTC</createdTime>
-<generatorID>F0546A3A-7258-0C43-9169-C41DA4E12646</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>ECB4E284-393D-282E-3456-6BF0E5E166FD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PISO" id="E9F16D3D-8441-0A05-6DA2-57961C18A69E">
 <createdBy>User</createdBy>
 <createdTime>2021-06-18 23:01:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DEL P ISO DONDE ESTÁ UBICADA EL AULA EN EL EDIFICIO ]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -90,10 +80,25 @@
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_EDIFICIO" id="2AE698FF-8576-1C97-D561-CDA4FDC1478A">
+<createdBy>User</createdBy>
+<createdTime>2021-06-18 23:00:44 UTC</createdTime>
+<generatorID>F0546A3A-7258-0C43-9169-C41DA4E12646</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>ECB4E284-393D-282E-3456-6BF0E5E166FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CODIGO_CAMPUS" id="11D3E965-96DD-C0B0-91E4-A2B829760A84">
 <createdBy>HP</createdBy>
@@ -104,6 +109,33 @@
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <referedAttribute>FC6B0F1C-EF55-476B-B650-0881044AA5DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MAXIMO_CAPACIDAD" id="3603AB23-8B41-4154-51A8-43754834BCAF">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:22:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[MAXIMA CAPACIDAD FISICA DEL AULA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIPO_AULA" id="C46F115D-DE43-DB01-67F9-3373073203DB">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:26:15 UTC</createdTime>
+<generatorID>D0EFA40B-4A67-D020-9D4F-8BED7D8ED6A4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>AD85729F-7802-F0AD-A878-675CDE64DBB9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

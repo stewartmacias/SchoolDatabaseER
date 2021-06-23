@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CB0B43B-5CDE-96D5-B0A6-98BD2D55DB22" name="SUBDIVISION_GEOGRAFICA1">
 <createdBy>User</createdBy>
 <createdTime>2021-06-22 22:30:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA EL PRIMER NIVEL DE REGION DE CADA PAIS]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -14,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>SUBDIV</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="COD_SUBDIVISION1" id="24D25DF4-C463-C195-5C5D-9FBB949A40FC">
 <createdBy>User</createdBy>
@@ -23,20 +25,6 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_PAIS" id="CE2BDB08-B1E3-D6B0-C46D-E76E89A43467">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:31:25 UTC</createdTime>
-<generatorID>1EB04FFB-BE01-0AD4-0EA6-484A8CBC6DF0</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>1BAAE7F5-0B79-0140-BACD-8557DDE06267</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -53,8 +41,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ESTADO" id="3E886A36-E226-DADD-6251-E82C4F18DE18">
 <createdBy>User</createdBy>
@@ -65,10 +53,25 @@
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="0CE5A0DA-0923-05F1-62AA-8F6F60B139B1">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:58:10 UTC</createdTime>
+<generatorID>57B00287-21B2-774A-8F46-7E724B779BC4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>1BAAE7F5-0B79-0140-BACD-8557DDE06267</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -82,7 +85,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>24D25DF4-C463-C195-5C5D-9FBB949A40FC</attributeRef>
-<attributeRef>CE2BDB08-B1E3-D6B0-C46D-E76E89A43467</attributeRef>
+<attributeRef>0CE5A0DA-0923-05F1-62AA-8F6F60B139B1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

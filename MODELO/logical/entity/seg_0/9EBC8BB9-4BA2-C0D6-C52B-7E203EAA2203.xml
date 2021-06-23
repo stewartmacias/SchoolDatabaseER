@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9EBC8BB9-4BA2-C0D6-C52B-7E203EAA2203" name="PAIS">
 <createdBy>User</createdBy>
 <createdTime>2021-06-21 23:18:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS DIFERENTES PAISES DEL MUNDO, SE PUEDEN USAR VARIAS CODIFICACIONES PARA CADA PAIS]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -31,19 +32,21 @@
 <Attribute name="NOMBRE" id="821DE634-5668-0E55-96A0-5856D4B56AF3">
 <createdBy>User</createdBy>
 <createdTime>2021-06-21 23:18:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE O DESCRIPCION DEL PAIS]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ABREVIATURA" id="57F9E06B-C9C9-4A0D-819E-A7307A03C9E4">
 <createdBy>User</createdBy>
 <createdTime>2021-06-21 23:18:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[ABREVIATURA DEL PAIS]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -53,6 +56,49 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="E19DBE0D-CD63-1163-3B71-2D6C0DE68D62">
+<createdBy>User</createdBy>
+<createdTime>2021-06-21 23:18:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[ACTIVO A o INACTIVO I]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIONALIDAD" id="4D6FFD85-CA4F-CB8B-64F2-3EFFDE1B8E24">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:59:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL GENTILICIO PARA LA NACIONALIDAD]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO_INTERNACIONAL" id="54FED1E6-C68A-EB9B-DBE9-E46B89001337">
+<createdBy>User</createdBy>
+<createdTime>2021-06-22 22:28:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO INTERNACIONAL OTORGADO PARA CADA PAIS]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="SUBDIVISION_GEOGRAFICA1" id="E4042856-A18C-69B0-1287-986E36C67217">
 <createdBy>User</createdBy>
@@ -81,34 +127,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>60</dataTypeSize>
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ESTADO" id="E19DBE0D-CD63-1163-3B71-2D6C0DE68D62">
-<createdBy>User</createdBy>
-<createdTime>2021-06-21 23:18:59 UTC</createdTime>
-<commentInRDBMS><![CDATA[ACTIVO A o INACTIVO I]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CODIGO_INTERNACIONAL" id="54FED1E6-C68A-EB9B-DBE9-E46B89001337">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:28:29 UTC</createdTime>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

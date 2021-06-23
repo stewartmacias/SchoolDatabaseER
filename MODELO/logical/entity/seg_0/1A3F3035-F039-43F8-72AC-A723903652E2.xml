@@ -183,6 +183,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_CICLO_MATERIA" id="0A3EE0BC-1F5D-E18B-5D26-34BC0B040C93">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:13:26 UTC</createdTime>
+<generatorID>660A4EF7-4292-89D0-5362-C61AB8EA4E27</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>392B7A81-E504-F7B6-D233-5B439D69BCB9</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9CE06C4F-87C1-EAE8-60C7-CE8C549A532C" name="PARALELO PK">

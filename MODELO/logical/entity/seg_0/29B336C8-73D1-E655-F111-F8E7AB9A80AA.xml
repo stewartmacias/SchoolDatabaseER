@@ -83,7 +83,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NUMERO_TELEFONICO" id="1333D60B-5006-8F94-BCBB-49683EF35385">
 <createdBy>User</createdBy>
@@ -125,6 +125,8 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C852B98A-0911-D0CA-5F8E-A6B4F78BDACA</attributeRef>
+<attributeRef>83F7814C-F320-913E-0E4D-CE7A1C204F81</attributeRef>
+<attributeRef>363E5038-CEFF-8810-7AB3-6CF2E2BBE396</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

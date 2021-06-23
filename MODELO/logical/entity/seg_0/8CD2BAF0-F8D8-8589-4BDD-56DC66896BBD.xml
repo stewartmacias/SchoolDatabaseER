@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CD2BAF0-F8D8-8589-4BDD-56DC66896BBD" name="RECURSOS_AULICOS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:28:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS DIFERENTES TIPOS DE RECURSOS AULICOS COMO POR EJEMPLO PROYECTORES, PIZARRAS ELECTRONICAS, EQUIPOS DE SONIDO, PIZARRAS TRADICIONALES, ETC]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>REC_AUL</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_RECURSO" id="9898DE0E-6A6D-23E5-A766-774F113B5EAC">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:29:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE RECURSO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="C0D943A0-F176-5470-A970-9471AB90B102">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:29:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL RECURSO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="DA79573F-156E-6ED4-59F5-6AB8A93BB850">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:30:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[A acivo I inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30C75BFE-0508-D9C3-54D2-62157575AAAB" name="RECURSOS_AULICOS PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:29:40 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9898DE0E-6A6D-23E5-A766-774F113B5EAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3876DF8F-8FA5-AA8C-ADD6-62D208197AA6" name="SUBDIVISION_GEOGRAFICA2">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:33:16 UTC</createdTime>
-<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA EL SEGUND  NIVEL DE REGION DE CADA PAIS]]></commentInRDBMS>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="154CA3A8-8532-B1BC-EE34-4C5B2E6424DA" name="RECURSOS_AULAS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:36:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LS RECURSOS AULICOS ASIGNADOS A CADA AULA]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -15,70 +15,72 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>REC_AUL</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_SUBDIVISION2" id="D56654C4-BEFB-F0E7-08FE-8C43611A3A33">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:33:33 UTC</createdTime>
-<commentInRDBMS><![CDATA[CODIGO DE SUBDIVISION 2]]></commentInRDBMS>
+<Attribute name="COD_RECURSO" id="87705819-4B33-BE22-D125-974F0910B44E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:37:56 UTC</createdTime>
+<generatorID>19192859-CD07-44D4-852A-34648DEE642F</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
+<referedAttribute>9898DE0E-6A6D-23E5-A766-774F113B5EAC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRE" id="CE6306AE-9106-37C7-269E-405E57818289">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:35:07 UTC</createdTime>
-<commentInRDBMS><![CDATA[NOMBRE DE SUBDIVISION GEOGRAFICA 2]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ESTADO" id="9D638676-0196-FBEA-BE00-09602B55A9FE">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:35:29 UTC</createdTime>
-<commentInRDBMS><![CDATA[Activo A o Inactivo I]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_SUBDIVISION1" id="19BA4BB4-CDC9-2185-BE69-54DD293EF427">
+<Attribute name="COD_EDIFICIO" id="35BBEF52-E117-B01F-9DFC-C1D5E806C866">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-23 03:58:45 UTC</createdTime>
-<generatorID>2739042A-2649-1A76-4CFF-DCB0C6D0971B</generatorID>
+<createdTime>2021-06-23 03:38:34 UTC</createdTime>
+<generatorID>7B5F2D1F-9B49-84A5-4145-19765D915146</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<referedAttribute>24D25DF4-C463-C195-5C5D-9FBB949A40FC</referedAttribute>
+<referedAttribute>2AE698FF-8576-1C97-D561-CDA4FDC1478A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_PAIS" id="49D7AB47-8796-D016-A8DF-2B209C5592AB">
+<Attribute name="CODIGO_CAMPUS" id="93E0FA4A-68A2-024D-837C-28046ADE7DB4">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-23 03:58:45 UTC</createdTime>
-<generatorID>2739042A-2649-1A76-4CFF-DCB0C6D0971B</generatorID>
+<createdTime>2021-06-23 03:38:34 UTC</createdTime>
+<generatorID>7B5F2D1F-9B49-84A5-4145-19765D915146</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<referedAttribute>0CE5A0DA-0923-05F1-62AA-8F6F60B139B1</referedAttribute>
+<referedAttribute>11D3E965-96DD-C0B0-91E4-A2B829760A84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_AULA" id="244C2333-C803-90B6-CDBA-A917FEB26FC4">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:38:34 UTC</createdTime>
+<generatorID>7B5F2D1F-9B49-84A5-4145-19765D915146</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>2DAB9801-4BF2-C1C8-49D6-F520DC6B9AC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD" id="5C431792-5B41-14FE-83B9-2AABBAB8C8EE">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:39:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[CANTIDAD DE RECURSO AULICO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -86,18 +88,19 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9FE49B0C-DAF9-737C-5412-104EF137B5A1" name="SUBDIVISION_GEOGRAFICA2 PK">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:33:48 UTC</createdTime>
+<identifier id="DE31DD7D-FA7F-44B3-3777-0E80B073D49A" name="RECURSOS_AULAS PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:37:56 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D56654C4-BEFB-F0E7-08FE-8C43611A3A33</attributeRef>
-<attributeRef>19BA4BB4-CDC9-2185-BE69-54DD293EF427</attributeRef>
-<attributeRef>49D7AB47-8796-D016-A8DF-2B209C5592AB</attributeRef>
+<attributeRef>87705819-4B33-BE22-D125-974F0910B44E</attributeRef>
+<attributeRef>35BBEF52-E117-B01F-9DFC-C1D5E806C866</attributeRef>
+<attributeRef>93E0FA4A-68A2-024D-837C-28046ADE7DB4</attributeRef>
+<attributeRef>244C2333-C803-90B6-CDBA-A917FEB26FC4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

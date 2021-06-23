@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F40E741-76EA-43BB-10A6-34A704D6A3D9" name="CICLO_MATERIA">
 <createdBy>User</createdBy>
 <createdTime>2021-06-17 22:55:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LA RELACION ENTRE LOS CICLOS DE ESTUDIOS Y LAS MATERIAS QUE SE ABREN EN DICHO CICLO]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -14,7 +15,21 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>CICAUL</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_CICLO_MATERIA" id="392B7A81-E504-F7B6-D233-5B439D69BCB9">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:13:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[ES EL CODIGO DE CADA MATERIA ABIERTA EN EL CICLO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="COD_MATERIA" id="B9A89270-69A6-4E6E-0442-064D2D0EC0E1">
 <createdBy>User</createdBy>
 <createdTime>2021-06-17 22:55:57 UTC</createdTime>
@@ -28,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_FACULTAD" id="6BBB9399-C28D-5C07-A8E5-3E755597D73B">
 <createdBy>User</createdBy>
@@ -87,6 +102,20 @@
 <attributeRef>6BBB9399-C28D-5C07-A8E5-3E755597D73B</attributeRef>
 <attributeRef>70D6B1BD-2675-0714-2FB1-667ECE91F7CC</attributeRef>
 <attributeRef>7B6C6ABD-4C23-7AA8-E6C4-12B307F3C225</attributeRef>
+<attributeRef>392B7A81-E504-F7B6-D233-5B439D69BCB9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2A5FFA7F-69BD-A9CE-4845-FF1B83FE32E1" name="Key_2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 03:15:50 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<newElementsIDs>7B6C6ABD-4C23-7AA8-E6C4-12B307F3C225,B9A89270-69A6-4E6E-0442-064D2D0EC0E1</newElementsIDs>
+<usedAttributes>
+<attributeRef>7B6C6ABD-4C23-7AA8-E6C4-12B307F3C225</attributeRef>
+<attributeRef>B9A89270-69A6-4E6E-0442-064D2D0EC0E1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
