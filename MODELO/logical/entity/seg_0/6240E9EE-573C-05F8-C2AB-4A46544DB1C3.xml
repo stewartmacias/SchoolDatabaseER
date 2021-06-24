@@ -143,7 +143,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_TIPO_ID" id="4752B8DF-0CF2-F80B-9598-01B6E96CA5B8">
 <createdBy>HP</createdBy>

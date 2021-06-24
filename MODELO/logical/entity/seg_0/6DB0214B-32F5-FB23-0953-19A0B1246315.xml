@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6DB0214B-32F5-FB23-0953-19A0B1246315" name="LABORAL_PERSONA">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:25:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATOS LABORALES DE ENTIDAD PERSONA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>LABPER</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_TRABAJO" id="A734F3F2-489D-8584-3A05-09DACCD512F7">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:37:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO UNICO LABORAL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIPO_ID" id="F55D08CD-C994-1467-5BA3-811FB47E1920">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:36:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[TIPO DE ID PERSONA RELACION DIRECTA  DE LA ENTIDAD PERSONA]]></commentInRDBMS>
+<generatorID>5A6DE49C-83AB-E0D0-049A-A0997170718C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>9F797459-70A0-F0E0-7F79-BB284ABFB753</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_IDENTIFICACION" id="B24590D3-7C78-D458-5EEF-F259E78E8D73">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:36:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICACION PERSONA RELACION DIRECTA DE LA ENTIDAD PERSONA]]></commentInRDBMS>
+<generatorID>5A6DE49C-83AB-E0D0-049A-A0997170718C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>FD2BDCF6-103D-E572-0977-744C55DD546C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPRESA" id="6C16C020-1ECC-3853-2389-2FDA28009DA5">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:27:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DE LA EMPRESA EN LA QUE LABORA O LABORO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARGO" id="0D736E40-B578-2347-8F96-56E0EF804A58">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:29:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[CARGO QUE REALIZABA EN LA INSTITUCION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_INICIO" id="147E6CC0-783A-8EED-28D1-74CDC3F4B882">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:29:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA EN LA QUE EMPIEZA A TRABAJAR]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_FIN" id="25F3CE1B-CD57-836E-876D-F6786C2BD04E">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:29:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[POSIBLE FECHA EN QUE FINALIZA LABORES, NO ES OBLIGATORIO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRABAJO_ACTUAL" id="0D8A88F7-600F-46D4-0EC4-B40B4E36FE84">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:30:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[S=SI / N= NO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLEADOR" id="CD2CB573-55C1-C5EB-FC26-408F8E23DABF">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:30:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL EMPLEADOR]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JEFE_INMEDIATO" id="D5260AF4-5D91-86B5-539C-5A1FBCCE13C2">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:30:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOBRE DEL JEFE INMEDIATO DE TENERLO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION_TRABAJO" id="36FECDB9-CD0C-861C-E544-F3293EAD642B">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:39:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[DIRECCION  BASE DEL LUGAR DE TRABAJO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO_TRABAJO" id="8E6A10CA-01F0-1D1C-F5BD-299FA5F59B45">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:39:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[TELEFONO BASE DEL LUGAR DEL TRABAJO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADCAB14F-CD60-FBEB-8545-9A65D1879FE6" name="LABORAL_PERSONA PK">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 21:27:27 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B24590D3-7C78-D458-5EEF-F259E78E8D73</attributeRef>
+<attributeRef>F55D08CD-C994-1467-5BA3-811FB47E1920</attributeRef>
+<attributeRef>A734F3F2-489D-8584-3A05-09DACCD512F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -138,10 +138,9 @@
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<domain>65163C4D-C640-5136-7982-FFA49EA82279</domain>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_FACTURA" id="C1546BB8-8B03-96F6-84D0-A8F4159676F6">
@@ -284,6 +283,161 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIPO_ETNIA" id="05EF7BFD-767F-4041-C6E1-EA6D8B077D77">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 22:33:27 UTC</createdTime>
+<generatorID>889ADA6C-444D-883A-0201-D58B6D2105C8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>76F5978E-A16D-383A-0FC3-BF5209EC8FE3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIPO_DISCAPACIDAD" id="5C03677F-A071-9ED8-BD83-7B4339A29BBB">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 22:38:12 UTC</createdTime>
+<generatorID>3650F0F9-F258-DCC5-2086-CA7D20DA55FF</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>10C827F3-0507-DA10-F09A-A784138DF2BD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PORCENTAJE_DISCAPACIDAD" id="98D05093-6B3E-C6E5-A22B-C28E0B3533F6">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 22:38:22 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DISCAPACIDAD" id="FD420731-1945-52EA-302A-5C16447FBBD4">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 22:38:49 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_CONTACTO1" id="9CD24730-6B61-057D-3F9B-2BB736B8C230">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 22:50:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DE CONTACTO DE EMERGENCIA 1]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_CONTACTO2" id="2CE8E316-3E7C-DEB6-1244-B88362039E12">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 22:50:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DE CONTACTO DE EMERGENCIA 2]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO_CONTACTO1" id="647C610C-D0BF-56E6-752C-784A104704D2">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 22:51:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[TELEFONO CONTACTO DE EMERGENCIA 1]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO_CONTACTO2" id="08EC7615-3849-35E8-67A5-5FCFBB8944F7">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 22:52:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[TELEFONO CONTACTO DE EMERGENCIA 1]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_SANGRE" id="54A7BFA1-44D2-4C6C-8880-8B45D956A333">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 22:52:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[TIPO DE SANGRE]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALERGIA1" id="3D5933FD-0D75-5963-2F6A-36B985EF9430">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 22:53:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[ALERGIAS CONOCIDAS]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALERGIA2" id="779F144B-0787-A8ED-CD88-C30CF0AAFD31">
+<createdBy>User</createdBy>
+<createdTime>2021-06-24 22:53:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[ALERGIAS CONOCIDAS]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
