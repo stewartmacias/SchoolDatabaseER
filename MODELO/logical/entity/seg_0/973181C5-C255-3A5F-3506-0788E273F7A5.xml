@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="973181C5-C255-3A5F-3506-0788E273F7A5" name="ENTIDADES_EDUCACION">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-24 00:00:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LAS DIFERENTES ENTIDADES DE EDUCACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ENTEDUC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_ENTIDAD" id="D9D9049B-EB6A-96C6-6274-0ED5387C9381">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-24 00:00:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE ENTIDAD DE EDUCACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="7FC9A506-3CBC-4718-E360-339CB7E052BD">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-24 00:01:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE LA ENTIDAD EDUCATIVA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="2194E72B-02D9-14B6-15E6-8A4040295A41">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-24 00:01:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activa I inacivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_NIVEL" id="69997CB0-EDF4-BC96-821C-5461FD5371E5">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-24 00:02:28 UTC</createdTime>
+<generatorID>12FECF87-0149-7B0F-1FEE-08BCAEE618E9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>7A8BD614-AF6F-2575-C313-DCCE8C3F11B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="3C596E8C-93E8-EC45-4C7B-C867125CD34C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-24 00:07:37 UTC</createdTime>
+<generatorID>776D8445-FEE4-DCF3-9FBD-E2F730344757</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>1BAAE7F5-0B79-0140-BACD-8557DDE06267</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A864619C-2BDC-26E2-85C2-113A9D993531" name="ENTIDADES_EDUCACION PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-24 00:01:02 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9D9049B-EB6A-96C6-6274-0ED5387C9381</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

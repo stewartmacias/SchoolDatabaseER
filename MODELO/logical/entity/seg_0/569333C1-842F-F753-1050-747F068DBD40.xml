@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1B6B624-2D31-63CE-685A-FB2CDBFCDDB2" name="TIPO_IDENTIFICACION">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:38:41 UTC</createdTime>
-<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES TIPOS DE IDENTIFICACION DE LAS PERSONAS]]></commentInRDBMS>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="569333C1-842F-F753-1050-747F068DBD40" name="NIVEL_ESTUDIO">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:56:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES TITULOS QUE PUEDE OBTENER UNA PERSONA]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -15,11 +15,12 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>NIVEST</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_TIPO_ID" id="5FA5A464-5034-8E6C-5692-537E1DB02BC7">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:38:52 UTC</createdTime>
-<commentInRDBMS><![CDATA[CODIGO DE IDENTIFICACION]]></commentInRDBMS>
+<Attribute name="COD_NIVEL" id="7A8BD614-AF6F-2575-C313-DCCE8C3F11B6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:56:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE NIVEL DE ESTUDIO]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -29,10 +30,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRE" id="C0781E8A-68F3-2788-A447-03DF850E22C4">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:39:16 UTC</createdTime>
-<commentInRDBMS><![CDATA[NOMBRE DE TIPO DE IDENTIFICACION]]></commentInRDBMS>
+<Attribute name="DESCRIPCION" id="5DE49C97-6AD9-542D-BAD3-41396BE7226B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:56:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL NIVEL DE ESTUDIO]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -40,34 +41,34 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ESTADO" id="3AA81F5C-A775-A021-1693-CA8D4AD88339">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:39:34 UTC</createdTime>
-<commentInRDBMS><![CDATA[Activo A o Inactivo]]></commentInRDBMS>
+<Attribute name="ESTADO" id="C35A1C91-082E-4BCE-81D0-D521BEC5D449">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:57:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4171A350-A774-0173-3347-725AEFCA567A" name="TIPO_IDENTIFICACION PK">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:39:08 UTC</createdTime>
+<identifier id="54A63C00-E1AD-7ACE-DFE2-E737FD90CF9E" name="NIVEL_ESTUDIO PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-23 23:56:29 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5FA5A464-5034-8E6C-5692-537E1DB02BC7</attributeRef>
+<attributeRef>7A8BD614-AF6F-2575-C313-DCCE8C3F11B6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
