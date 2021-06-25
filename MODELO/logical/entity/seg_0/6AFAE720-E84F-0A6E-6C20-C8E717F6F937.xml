@@ -139,9 +139,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_FACTURA" id="C1546BB8-8B03-96F6-84D0-A8F4159676F6">
 <createdBy>User</createdBy>
@@ -186,7 +184,7 @@
 <dataTypeSize>120</dataTypeSize>
 <ownDataTypeParameters>120,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NUMERO_ID_SEUCUNDARIO" id="42B76813-7925-9F44-B8A9-FE60575606A8">
+<Attribute name="NUMERO_ID_SECUNDARIO" id="42B76813-7925-9F44-B8A9-FE60575606A8">
 <createdBy>HP</createdBy>
 <createdTime>2021-06-23 23:41:14 UTC</createdTime>
 <commentInRDBMS><![CDATA[NUMERO DE IDENTIFCACOON SECUANDRIO]]></commentInRDBMS>
@@ -428,6 +426,33 @@
 <createdBy>User</createdBy>
 <createdTime>2021-06-24 22:53:40 UTC</createdTime>
 <commentInRDBMS><![CDATA[ALERGIAS CONOCIDAS]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REQUIERE_ASISTENCIA" id="DCAF7D4A-A867-2A7F-F6ED-015DDB7CB1C6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 04:23:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si N no]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>52D378A9-6EB0-D8B0-8835-D7DBED06EC5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION_ASISTENCIA" id="F1A314BC-32A5-0B40-5AF8-F48C6A431D7F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 04:23:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIBIR EL TIPO DE ASISTENCIA QUE REQUIERE]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>

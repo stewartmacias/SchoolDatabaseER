@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1B6B624-2D31-63CE-685A-FB2CDBFCDDB2" name="TIPO_IDENTIFICACION">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:38:41 UTC</createdTime>
-<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES TIPOS DE IDENTIFICACION DE LAS PERSONAS]]></commentInRDBMS>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B76C4FC0-F5C6-2D7B-15C6-8E01D6D4CB8E" name="FOTO_PERSONA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:23:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LAS FOTOS DE LAS PERSONAS]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -15,60 +15,63 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>FOTPER</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_TIPO_ID" id="5FA5A464-5034-8E6C-5692-537E1DB02BC7">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:38:52 UTC</createdTime>
-<commentInRDBMS><![CDATA[CODIGO DE IDENTIFICACION]]></commentInRDBMS>
+<Attribute name="FOTO" id="BB65CA88-8E78-A5DE-5958-709E83AFE42A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:24:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[FOTO DE LA PERSONA]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_IDENTIFICACION" id="5ED3FAEF-3802-F5B8-76C1-A39BD75C1DBD">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:25:09 UTC</createdTime>
+<generatorID>3ECE0172-A05C-A3B6-9B77-2C188819F378</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>FD2BDCF6-103D-E572-0977-744C55DD546C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIPO_ID" id="D7DCBF21-2460-307F-B5A4-65876E9794CA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:25:09 UTC</createdTime>
+<generatorID>3ECE0172-A05C-A3B6-9B77-2C188819F378</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>9F797459-70A0-F0E0-7F79-BB284ABFB753</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRE" id="C0781E8A-68F3-2788-A447-03DF850E22C4">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:39:16 UTC</createdTime>
-<commentInRDBMS><![CDATA[NOMBRE DE TIPO DE IDENTIFICACION]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ESTADO" id="3AA81F5C-A775-A021-1693-CA8D4AD88339">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:39:34 UTC</createdTime>
-<commentInRDBMS><![CDATA[Activo A o Inactivo]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4171A350-A774-0173-3347-725AEFCA567A" name="TIPO_IDENTIFICACION PK">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 22:39:08 UTC</createdTime>
+<identifier id="1861F2E5-2C5E-0012-0F42-602E1D9CDAC6" name="FOTO_PERSONA PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:25:20 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5FA5A464-5034-8E6C-5692-537E1DB02BC7</attributeRef>
+<attributeRef>5ED3FAEF-3802-F5B8-76C1-A39BD75C1DBD</attributeRef>
+<attributeRef>D7DCBF21-2460-307F-B5A4-65876E9794CA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

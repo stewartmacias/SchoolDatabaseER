@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A2AB4B2-EC21-9FE1-131F-2D6F179326E8" name="TIPO_DISCAPACIDAD">
 <createdBy>User</createdBy>
 <createdTime>2021-06-24 22:34:01 UTC</createdTime>
-<commentInRDBMS><![CDATA[TIPOS DE DISCAPACIDAD]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS TIPOS DE DISCAPACIDAD]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -62,16 +62,17 @@
 <Attribute name="ESTADO" id="FF5A9E18-861B-0FF8-829E-0AF6BBE96520">
 <createdBy>User</createdBy>
 <createdTime>2021-06-24 22:36:37 UTC</createdTime>
-<commentInRDBMS><![CDATA[ACTIVO/INACTIO]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9017192-DAD3-C6AF-6B2E-94DD5CD71533" name="ESTUDIOS_PERSONAv1">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F6D1CC9-F599-E1EF-D1B1-3B9A2BFB66A6" name="PROFESOR">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-23 23:59:32 UTC</createdTime>
-<commentInRDBMS><![CDATA[ENTIDAD QUE REGSITRA LOS TITULOS OBTENIDOS POR UNA PERSONA ]]></commentInRDBMS>
+<createdTime>2021-06-25 04:27:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS PROFESORES DE LA INSTITUCION]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -15,12 +15,12 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>ESTPERS</shortName>
+<shortName>PROFE</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_ESTUDIO" id="350AC109-1539-6DAF-1154-567B7B101A58">
+<Attribute name="COD_PROFESOR" id="A90F0ED8-5F1D-D1C5-848D-648EB853D675">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-23 23:59:56 UTC</createdTime>
-<commentInRDBMS><![CDATA[CODIGO DE ESTUDIOS REALIZADO POR LA PERSONA]]></commentInRDBMS>
+<createdTime>2021-06-25 04:27:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO ASIGNADO AL PROFESOR]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -30,51 +30,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_ENTIDAD" id="DB82C1DA-B412-7779-30AC-0447D5FBDBD5">
+<Attribute name="NUMERO_IDENTIFICACION" id="941EF1F3-132D-8B85-2922-D50B0E87DA33">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-24 00:03:00 UTC</createdTime>
-<generatorID>FE9B355F-B2DE-DDA2-9F37-73031BF26283</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>D9D9049B-EB6A-96C6-6274-0ED5387C9381</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="REGISTRO_TITULO" id="B810FE88-ED4C-F08F-EC3F-AEA0127DDA70">
-<createdBy>HP</createdBy>
-<createdTime>2021-06-24 00:04:37 UTC</createdTime>
-<commentInRDBMS><![CDATA[CODIGO DE REGISTRO DEL TITULO CON LA AUTORIDAD DE EDUCACION]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="FECHA_REGISTRO" id="05762D20-EE41-EE5F-C40E-E8330596F6C4">
-<createdBy>HP</createdBy>
-<createdTime>2021-06-24 00:05:28 UTC</createdTime>
-<commentInRDBMS><![CDATA[FECHA EN LA QUE SE REGISTRO EL TITULO OBTENIDO]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NUMERO_IDENTIFICACION" id="F479C01B-884F-2D97-E3B9-C7B538C405A7">
-<createdBy>HP</createdBy>
-<createdTime>2021-06-24 00:03:26 UTC</createdTime>
-<generatorID>C1884E3F-8971-8213-D289-7EFFC2C2A32A</generatorID>
+<createdTime>2021-06-25 05:29:18 UTC</createdTime>
+<generatorID>FD88FDBE-7D2E-3004-453D-9DDBDBE403EA</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -84,12 +43,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_TIPO_ID" id="09928E7B-2799-EE1C-8227-5CAE4BB271BC">
+<Attribute name="COD_TIPO_ID" id="51A607C5-368E-1474-78FF-FB2D20AE5CD1">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-24 00:03:26 UTC</createdTime>
-<generatorID>C1884E3F-8971-8213-D289-7EFFC2C2A32A</generatorID>
+<createdTime>2021-06-25 05:29:18 UTC</createdTime>
+<generatorID>FD88FDBE-7D2E-3004-453D-9DDBDBE403EA</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -100,15 +59,57 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_NIVEL" id="9523AEB2-4820-06D1-0DBB-C105048C8F22">
+<Attribute name="COD_CATEGORIA" id="00314AA5-7E26-866B-8858-FD8AC2C077BA">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-25 04:47:04 UTC</createdTime>
-<generatorID>48A12F29-01AE-04EF-C6F7-FE9C372BDF08</generatorID>
+<createdTime>2021-06-25 05:36:13 UTC</createdTime>
+<generatorID>2F0314BB-7F0B-3CA3-E969-4EB701A9E529</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<referedAttribute>7A8BD614-AF6F-2575-C313-DCCE8C3F11B6</referedAttribute>
+<referedAttribute>44911EED-DECD-D77A-3625-31CF4027993A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CATEGORIA1" id="13AA550D-934C-18E5-34FE-53449E7E0E6D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:36:59 UTC</createdTime>
+<generatorID>962CD7B3-9011-7BA1-7568-21FC56DE54B8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>DAD6567E-5AB5-C6AE-8CCC-91AAAEC17C77</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_FACULTAD" id="49163B95-C526-BBE8-AD70-DD7CEAC814D2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:38:27 UTC</createdTime>
+<generatorID>1FC836C8-8F11-A627-BF40-4C11C728E62A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>42837600-6AA2-09B0-1466-8814F1709685</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SERVICIO" id="2EEC2DF4-3782-7A1F-E076-665C52F5B776">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:38:27 UTC</createdTime>
+<generatorID>1FC836C8-8F11-A627-BF40-4C11C728E62A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>315A781F-D5D2-5F04-0C2E-8898E64FF3AB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -116,18 +117,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0C5AA791-225A-FEA1-0C90-A16002651FEF" name="ESTUDIOS_PERSONA PK">
+<identifier id="F0C34594-7C27-48FE-DDB1-A0B2724DE9C7" name="PROFESOR PK">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-24 00:00:06 UTC</createdTime>
+<createdTime>2021-06-25 04:50:28 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>350AC109-1539-6DAF-1154-567B7B101A58</attributeRef>
-<attributeRef>F479C01B-884F-2D97-E3B9-C7B538C405A7</attributeRef>
-<attributeRef>09928E7B-2799-EE1C-8227-5CAE4BB271BC</attributeRef>
+<attributeRef>A90F0ED8-5F1D-D1C5-848D-648EB853D675</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

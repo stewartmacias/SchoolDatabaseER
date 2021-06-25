@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D882305-8A47-B5EC-7C39-41C1BA65DC8C" name="TIPO_ETNIA">
-<createdBy>User</createdBy>
-<createdTime>2021-06-24 22:27:54 UTC</createdTime>
-<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES TIPOS DE ETNIA DE UNA PERSONA]]></commentInRDBMS>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F95835EF-46E1-F6A1-A6C5-E26982F9588C" name="CATEGORIA_DEDICACION">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:30:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LAS DIFERENTES CATEGORIAS DE LOS PROFESORES BASADO EN LA DEDICACION O TIEMPO]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -15,12 +15,12 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>TIPETNIA</shortName>
+<shortName>CATDED</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_TIPO_ETNIA" id="76F5978E-A16D-383A-0FC3-BF5209EC8FE3">
-<createdBy>User</createdBy>
-<createdTime>2021-06-24 22:30:53 UTC</createdTime>
-<commentInRDBMS><![CDATA[CODIGO NUMERICO SECUENCIAL]]></commentInRDBMS>
+<Attribute name="COD_CATEGORIA" id="44911EED-DECD-D77A-3625-31CF4027993A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:30:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE CATEGORIA]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -30,10 +30,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRIPCION" id="F6E390DA-E8B7-3E47-FEDC-8323EA4ACE57">
-<createdBy>User</createdBy>
-<createdTime>2021-06-24 22:31:17 UTC</createdTime>
-<commentInRDBMS><![CDATA[NOMBRE ETNIA]]></commentInRDBMS>
+<Attribute name="DESCRIPCION" id="3AC92E7F-CC7E-DEF1-B7F8-F3AD5EA2C809">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:31:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE LA CATEGORIA DE PROFESOR POR SU DEDICACION]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -44,33 +44,31 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ESTADO" id="9CAD68C3-977F-B49C-D9E8-0260CA8B8976">
-<createdBy>User</createdBy>
-<createdTime>2021-06-24 22:31:29 UTC</createdTime>
+<Attribute name="ESTADO" id="D25AE3FA-397F-B161-E172-8C65D618BAE6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:31:49 UTC</createdTime>
 <commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
 <domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7970D4D4-FAF3-B8B8-4FFA-077BF6B4DDDB" name="TIPO_ETNIA PK">
-<createdBy>User</createdBy>
-<createdTime>2021-06-24 22:31:16 UTC</createdTime>
+<identifier id="595ED0AE-96D8-06AA-B6AF-3EA81604C86B" name="CATEGORIA_DEDICACION PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 05:31:05 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>76F5978E-A16D-383A-0FC3-BF5209EC8FE3</attributeRef>
+<attributeRef>44911EED-DECD-D77A-3625-31CF4027993A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

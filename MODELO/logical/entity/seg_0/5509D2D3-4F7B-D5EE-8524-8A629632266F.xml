@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D882305-8A47-B5EC-7C39-41C1BA65DC8C" name="TIPO_ETNIA">
-<createdBy>User</createdBy>
-<createdTime>2021-06-24 22:27:54 UTC</createdTime>
-<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES TIPOS DE ETNIA DE UNA PERSONA]]></commentInRDBMS>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5509D2D3-4F7B-D5EE-8524-8A629632266F" name="NIVEL_ENTIDAD_ESTUDIO">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 04:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA EL NIVEL DE ESTUDIO DE UNA ENTIDAD EDUCATIVA, POR EJEMPLO COLEGIO, TECNICO, UNIVERSIDAD, ETC]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -15,12 +15,12 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>TIPETNIA</shortName>
+<shortName>NIENT</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_TIPO_ETNIA" id="76F5978E-A16D-383A-0FC3-BF5209EC8FE3">
-<createdBy>User</createdBy>
-<createdTime>2021-06-24 22:30:53 UTC</createdTime>
-<commentInRDBMS><![CDATA[CODIGO NUMERICO SECUENCIAL]]></commentInRDBMS>
+<Attribute name="COD_NIVEL" id="AC488ED3-5432-CD33-B7F4-B3A85421F3CE">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 04:42:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE NIVEL DE ESTUDIO PARA ENTIDADES]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -30,10 +30,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRIPCION" id="F6E390DA-E8B7-3E47-FEDC-8323EA4ACE57">
-<createdBy>User</createdBy>
-<createdTime>2021-06-24 22:31:17 UTC</createdTime>
-<commentInRDBMS><![CDATA[NOMBRE ETNIA]]></commentInRDBMS>
+<Attribute name="DESCRIPCION" id="7AD72777-D211-07D3-AE35-F5B7FE0D7ADE">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 04:42:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL NIVEL DE ESTUDIO ]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -44,33 +44,31 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ESTADO" id="9CAD68C3-977F-B49C-D9E8-0260CA8B8976">
-<createdBy>User</createdBy>
-<createdTime>2021-06-24 22:31:29 UTC</createdTime>
+<Attribute name="ESTADO" id="C03933A4-6B0B-1632-DF95-010E3C60D0AC">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 04:42:44 UTC</createdTime>
 <commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
 <domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7970D4D4-FAF3-B8B8-4FFA-077BF6B4DDDB" name="TIPO_ETNIA PK">
-<createdBy>User</createdBy>
-<createdTime>2021-06-24 22:31:16 UTC</createdTime>
+<identifier id="857CBC5F-A83E-654F-53CE-1213FBD154B5" name="NIVEL_ENTIDAD_ESTUDIO PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-25 04:42:12 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>76F5978E-A16D-383A-0FC3-BF5209EC8FE3</attributeRef>
+<attributeRef>AC488ED3-5432-CD33-B7F4-B3A85421F3CE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
