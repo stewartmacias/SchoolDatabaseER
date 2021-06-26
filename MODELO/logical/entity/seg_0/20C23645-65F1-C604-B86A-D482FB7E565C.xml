@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F95835EF-46E1-F6A1-A6C5-E26982F9588C" name="CATEGORIA_DEDICACION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20C23645-65F1-C604-B86A-D482FB7E565C" name="PARALELO_PROFESORES">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-25 05:30:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LAS DIFERENTES CATEGORIAS DE LOS PROFESORES BASADO EN LA DEDICACION O TIEMPO, POR EJEMPLO MEDIO TIEMPO, TIEMPO COMPLETO, ETC]]></commentInRDBMS>
+<createdTime>2021-06-26 20:50:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS PROFESORES DE UN PARALELO]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -15,60 +15,62 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>CATDED</shortName>
+<shortName>PARALPROF</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_CATEGORIA" id="44911EED-DECD-D77A-3625-31CF4027993A">
+<Attribute name="FECHA_ASIGNACION" id="F79843DF-C24E-FF82-7355-7227CF1200EF">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-25 05:30:58 UTC</createdTime>
-<commentInRDBMS><![CDATA[CODIGO DE CATEGORIA]]></commentInRDBMS>
+<createdTime>2021-06-26 20:51:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE ASIGNACION DEL PROFESOR EN EL PARALELO]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PARALELO" id="61D92DF7-60C9-361D-E315-D4862D2FE35F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-26 20:51:53 UTC</createdTime>
+<generatorID>11497766-0697-3C7D-CA32-84DADD269AB0</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>464A3CAF-D0F0-9202-DE85-6794FBB399FD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRIPCION" id="3AC92E7F-CC7E-DEF1-B7F8-F3AD5EA2C809">
+<Attribute name="COD_PROFESOR" id="8B71B514-9485-F508-7CD7-DE83A41374C6">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-25 05:31:20 UTC</createdTime>
-<commentInRDBMS><![CDATA[DESCRIPCION DE LA CATEGORIA DE PROFESOR POR SU DEDICACION]]></commentInRDBMS>
+<createdTime>2021-06-26 20:52:32 UTC</createdTime>
+<generatorID>65F4591A-E523-B7F0-1A0E-51C486C7D89E</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
+<referedAttribute>A90F0ED8-5F1D-D1C5-848D-648EB853D675</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ESTADO" id="D25AE3FA-397F-B161-E172-8C65D618BAE6">
-<createdBy>HP</createdBy>
-<createdTime>2021-06-25 05:31:49 UTC</createdTime>
-<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="595ED0AE-96D8-06AA-B6AF-3EA81604C86B" name="CATEGORIA_DEDICACION PK">
+<identifier id="D6747B33-5F92-370F-3D5F-244165041FF2" name="PARALELO_PROFESORES PK">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-25 05:31:05 UTC</createdTime>
+<createdTime>2021-06-26 20:50:53 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>44911EED-DECD-D77A-3625-31CF4027993A</attributeRef>
+<attributeRef>61D92DF7-60C9-361D-E315-D4862D2FE35F</attributeRef>
+<attributeRef>8B71B514-9485-F508-7CD7-DE83A41374C6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>4F8F829C-2B65-00E7-4EAF-03A83A0C1C5C</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>tip_mat</nameOnSource>
-<nameOnTarget>materia</nameOnTarget>
+<nameOnSource>MATERIA</nameOnSource>
+<nameOnTarget>TIP_MAT</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

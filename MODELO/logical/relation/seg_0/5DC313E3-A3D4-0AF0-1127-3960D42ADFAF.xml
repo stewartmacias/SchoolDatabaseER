@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>58BFBB29-C4FA-3070-92F6-621DE3F4B5B8</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>REG_CALIF</nameOnSource>
-<nameOnTarget>PENSUM</nameOnTarget>
+<nameOnSource>PENSUM</nameOnSource>
+<nameOnTarget>REG_CALIF</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

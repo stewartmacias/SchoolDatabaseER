@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>A11D322F-A6C5-13C7-8C51-B18C922D68DF</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>MOD_PEN</nameOnSource>
-<nameOnTarget>MAT_PEN</nameOnTarget>
+<nameOnSource>MAT_PEN</nameOnSource>
+<nameOnTarget>MOD_PEN</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

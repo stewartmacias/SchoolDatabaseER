@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>35B51844-4793-E84E-4D57-AE67B6C02513</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>carrera</nameOnSource>
-<nameOnTarget>pensum</nameOnTarget>
+<nameOnSource>PENSUM</nameOnSource>
+<nameOnTarget>CARRERA</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

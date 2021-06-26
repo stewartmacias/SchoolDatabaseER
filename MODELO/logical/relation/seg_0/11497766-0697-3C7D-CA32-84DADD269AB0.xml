@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="4F39BD39-697D-DD04-FF07-16FB93D4DBAC">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_103" directorySegmentName="seg_0" id="11497766-0697-3C7D-CA32-84DADD269AB0">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-12 04:04:25 UTC</createdTime>
+<createdTime>2021-06-26 20:51:53 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<sourcePk>24C3BA58-5479-A3A0-FD49-0F5CDA23EE9D</sourcePk>
+<sourcePk>9CE06C4F-87C1-EAE8-60C7-CE8C549A532C</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>MAT_PEN</nameOnSource>
-<nameOnTarget>MATERIA</nameOnTarget>
+<nameOnSource>PARPR</nameOnSource>
+<nameOnTarget>PARALELO</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>C44150CE-D936-423F-7BD5-C9E7B7A18286</sourceEntity>
+<sourceEntity>1A3F3035-F039-43F8-72AC-A723903652E2</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>E3FA1C19-4412-EFE9-CF71-5E24FDA92B52</targetEntity>
+<targetEntity>20C23645-65F1-C604-B86A-D482FB7E565C</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

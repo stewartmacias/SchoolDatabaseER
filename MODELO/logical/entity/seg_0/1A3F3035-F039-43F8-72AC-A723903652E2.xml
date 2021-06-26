@@ -28,7 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_FACULTAD" id="FA53C06C-5AC8-EE45-815C-45991951C01E">
 <createdBy>User</createdBy>
@@ -80,34 +80,6 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_EDIFICIO" id="8122F87D-AC13-29DE-FF6E-A21CFC0D8E21">
-<createdBy>User</createdBy>
-<createdTime>2021-06-18 23:01:10 UTC</createdTime>
-<generatorID>55811781-42C5-D9D4-306A-217F033DF08A</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>2AE698FF-8576-1C97-D561-CDA4FDC1478A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_AULA" id="D6C4B090-0DF1-2A24-0E18-1ECC3696E7E3">
-<createdBy>User</createdBy>
-<createdTime>2021-06-21 22:44:29 UTC</createdTime>
-<generatorID>55811781-42C5-D9D4-306A-217F033DF08A</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>2DAB9801-4BF2-C1C8-49D6-F520DC6B9AC1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -169,20 +141,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CODIGO_CAMPUS" id="754979D1-24E3-DF25-F13F-00EC3876E098">
-<createdBy>HP</createdBy>
-<createdTime>2021-06-22 23:20:11 UTC</createdTime>
-<generatorID>55811781-42C5-D9D4-306A-217F033DF08A</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>11D3E965-96DD-C0B0-91E4-A2B829760A84</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="COD_CICLO_MATERIA" id="0A3EE0BC-1F5D-E18B-5D26-34BC0B040C93">
 <createdBy>HP</createdBy>
 <createdTime>2021-06-23 03:13:26 UTC</createdTime>
@@ -192,6 +150,7 @@
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <referedAttribute>392B7A81-E504-F7B6-D233-5B439D69BCB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -208,9 +167,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>464A3CAF-D0F0-9202-DE85-6794FBB399FD</attributeRef>
-<attributeRef>8122F87D-AC13-29DE-FF6E-A21CFC0D8E21</attributeRef>
-<attributeRef>D6C4B090-0DF1-2A24-0E18-1ECC3696E7E3</attributeRef>
-<attributeRef>754979D1-24E3-DF25-F13F-00EC3876E098</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

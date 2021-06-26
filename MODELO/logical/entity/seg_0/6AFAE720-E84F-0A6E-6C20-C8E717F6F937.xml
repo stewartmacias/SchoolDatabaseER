@@ -365,34 +365,6 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TELEFONO_CONTACTO1" id="647C610C-D0BF-56E6-752C-784A104704D2">
-<createdBy>User</createdBy>
-<createdTime>2021-06-24 22:51:30 UTC</createdTime>
-<commentInRDBMS><![CDATA[TELEFONO CONTACTO DE EMERGENCIA 1]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TELEFONO_CONTACTO2" id="08EC7615-3849-35E8-67A5-5FCFBB8944F7">
-<createdBy>User</createdBy>
-<createdTime>2021-06-24 22:52:07 UTC</createdTime>
-<commentInRDBMS><![CDATA[TELEFONO CONTACTO DE EMERGENCIA 1]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="TIPO_SANGRE" id="54A7BFA1-44D2-4C6C-8880-8B45D956A333">
 <createdBy>User</createdBy>
 <createdTime>2021-06-24 22:52:53 UTC</createdTime>

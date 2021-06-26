@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>AB0EF14F-9F3E-DA00-7BF7-120D23E56754</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>PENSUM</nameOnSource>
-<nameOnTarget>MAT_PENSUM</nameOnTarget>
+<nameOnSource>MAT_PENSUM</nameOnSource>
+<nameOnTarget>PENSUM</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

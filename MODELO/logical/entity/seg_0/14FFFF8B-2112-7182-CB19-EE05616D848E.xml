@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14FFFF8B-2112-7182-CB19-EE05616D848E" name="PARALELO_AULAS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-26 21:01:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LAS AULAS AISGNADAS A UN PARALELO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PARAUL</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FECHA_ASIGNACION" id="52128204-14CE-021F-FA99-C1EC93ACCB3C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-26 21:01:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE ASIGNACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PARALELO" id="77B2B29D-B63D-9114-E36A-744F01F861E0">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-26 21:02:07 UTC</createdTime>
+<generatorID>DF6B4659-5630-7484-CF09-3D6835624608</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>464A3CAF-D0F0-9202-DE85-6794FBB399FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_EDIFICIO" id="EE7864C0-49EC-7848-8F69-0F0840E76C8B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-26 21:03:12 UTC</createdTime>
+<generatorID>FD167D0E-D2ED-C6C6-AC0B-825B64EDC298</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>2AE698FF-8576-1C97-D561-CDA4FDC1478A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO_CAMPUS" id="79AE4333-FA84-503A-1678-B3D6A7F4E20D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-26 21:03:12 UTC</createdTime>
+<generatorID>FD167D0E-D2ED-C6C6-AC0B-825B64EDC298</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>11D3E965-96DD-C0B0-91E4-A2B829760A84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_AULA" id="41024629-650F-0CA8-4ACB-66C7D54E3E87">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-26 21:03:12 UTC</createdTime>
+<generatorID>FD167D0E-D2ED-C6C6-AC0B-825B64EDC298</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>2DAB9801-4BF2-C1C8-49D6-F520DC6B9AC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AB1C4A6-1796-1033-6E28-F1477C11C8DE" name="PARALELO_AULAS PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-26 21:02:07 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77B2B29D-B63D-9114-E36A-744F01F861E0</attributeRef>
+<attributeRef>EE7864C0-49EC-7848-8F69-0F0840E76C8B</attributeRef>
+<attributeRef>79AE4333-FA84-503A-1678-B3D6A7F4E20D</attributeRef>
+<attributeRef>41024629-650F-0CA8-4ACB-66C7D54E3E87</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
