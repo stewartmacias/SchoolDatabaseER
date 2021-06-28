@@ -58,6 +58,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PESO_NOTA_FINAL" id="CB200C16-C850-1363-9F20-F0A2224AE67B">
+<createdBy>User</createdBy>
+<createdTime>2021-06-28 22:34:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[PORCENTAJE AL MOMENTO DE CALCULAR CALIFICACION FINAL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D6747B33-5F92-370F-3D5F-244165041FF2" name="PARALELO_PROFESORES PK">

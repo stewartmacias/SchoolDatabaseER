@@ -87,6 +87,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CANTIDAD_PARCIALES" id="D78ABD33-4BFC-081A-A1C5-804101F18383">
+<createdBy>User</createdBy>
+<createdTime>2021-06-28 23:10:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[CANTIDAD DE PARCIALES]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B586EA6D-3E5B-D635-E215-C5D20C2B114F" name="CICLO_MATERIA PK">

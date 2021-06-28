@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B39772E3-B7DE-6005-26BE-D8DE5F2AA10A" name="ESQUEMA_CALIFICACION_PRL">
+<createdBy>User</createdBy>
+<createdTime>2021-06-28 22:35:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESQUEMA DE CALIFICACION INGRESADA POR CADA DOCENTE. ]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_ESQUEMA" id="A050EAAE-5F0C-83F4-5474-BF0DC095160D">
+<createdBy>User</createdBy>
+<createdTime>2021-06-28 22:37:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[SECUENCIAL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PARALELO" id="565F406F-398E-DCCE-D93F-538B700E2F7F">
+<createdBy>User</createdBy>
+<createdTime>2021-06-28 22:45:31 UTC</createdTime>
+<generatorID>B0E88335-4DAF-7E78-DBC4-788D6B9DED2E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>61D92DF7-60C9-361D-E315-D4862D2FE35F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PROFESOR" id="9386C575-DDE5-CD69-3741-21F8370B68A8">
+<createdBy>User</createdBy>
+<createdTime>2021-06-28 22:45:31 UTC</createdTime>
+<generatorID>B0E88335-4DAF-7E78-DBC4-788D6B9DED2E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>8B71B514-9485-F508-7CD7-DE83A41374C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_TIP_CALIF" id="89D582E8-50C9-B13A-88DA-666E30CAE89E">
+<createdBy>User</createdBy>
+<createdTime>2021-06-28 22:49:40 UTC</createdTime>
+<generatorID>B67AD685-5E0C-EB36-5375-37853A153055</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>3F322003-2386-2B90-9D62-C21A95EC9A7C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESO_TIPO" id="EB6885EC-0349-F35B-8DC2-CDE993760571">
+<createdBy>User</createdBy>
+<createdTime>2021-06-28 22:37:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[PESO DE TIPO DE CALIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21BBAB3F-718B-8F42-12A1-445CAAE5521B" name="ESQUEMA_CALIFICACION_PRL PK">
+<createdBy>User</createdBy>
+<createdTime>2021-06-28 22:45:31 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>565F406F-398E-DCCE-D93F-538B700E2F7F</attributeRef>
+<attributeRef>9386C575-DDE5-CD69-3741-21F8370B68A8</attributeRef>
+<attributeRef>A050EAAE-5F0C-83F4-5474-BF0DC095160D</attributeRef>
+<attributeRef>89D582E8-50C9-B13A-88DA-666E30CAE89E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
