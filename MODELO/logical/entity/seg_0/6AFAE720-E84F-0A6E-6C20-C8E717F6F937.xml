@@ -417,8 +417,8 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<use>0</use>
-<domain>52D378A9-6EB0-D8B0-8835-D7DBED06EC5C</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DESCRIPCION_ASISTENCIA" id="F1A314BC-32A5-0B40-5AF8-F48C6A431D7F">

@@ -52,9 +52,9 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>5259BC76-B6C6-DDA2-E179-B57C914963E0</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TOTAL_CREDITOS_ACADEMICOS" id="06E23B73-20AF-3DAE-A3E7-9926FA5818F1">
@@ -191,9 +191,9 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>5812F691-F37D-F4B2-BB2F-83A196794D8A</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NOTA_MINIMA_APROBATORIA" id="23D824D8-4D64-EAEC-A6B7-B6A63CEEB234">

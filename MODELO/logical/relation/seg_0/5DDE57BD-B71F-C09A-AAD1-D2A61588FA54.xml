@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PEM_ALUMNO" directorySegmentName="seg_0" id="5DDE57BD-B71F-C09A-AAD1-D2A61588FA54">
+<createdBy>User</createdBy>
+<createdTime>2021-06-29 23:04:14 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<sourcePk>AB0EF14F-9F3E-DA00-7BF7-120D23E56754</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>PENSUM</nameOnSource>
+<nameOnTarget>ALUMNO</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6A936C2C-8D48-9AEB-1F21-C0753EFC1658</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1069FF90-6A14-3C49-EFF0-2274EBB80A10</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

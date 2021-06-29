@@ -81,9 +81,9 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="USUARIO_CREACION" id="8E8F1DBA-43DA-2392-CAF5-4EC51F8F7193">
