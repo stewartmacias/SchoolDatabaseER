@@ -210,6 +210,20 @@
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="NOTA_MAXMA_APROBATORIA" id="44342C82-AD8B-C0F0-A865-402CF316BD6A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-29 04:32:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOTA MAXIMA CON LA QUE UN ESTUDIANTE PUEDE APROBAR UNA MATERIA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="COD_TIP_CALIF" id="6EA04740-AEDD-25AF-DD0B-FBB525F6298D">
 <createdBy>HP</createdBy>
 <createdTime>2021-06-16 06:16:44 UTC</createdTime>

@@ -162,6 +162,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_TIP_CALIF" id="8E1A02A6-234D-2452-9B1A-7C22FAC36C5D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-29 04:31:35 UTC</createdTime>
+<generatorID>9E126493-FD30-8E73-DFD7-73736C1FE230</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>3F322003-2386-2B90-9D62-C21A95EC9A7C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="477D0A48-FCD9-37D3-EB38-F52E92ED4EF4" name="CICLOS PK">

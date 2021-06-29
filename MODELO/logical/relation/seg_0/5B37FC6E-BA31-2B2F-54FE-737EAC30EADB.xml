@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>8BE8B481-6924-3815-9AF6-D0E755A0A6EB</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>PER_CLASE</nameOnSource>
-<nameOnTarget>CICLO</nameOnTarget>
+<nameOnSource>CICLO</nameOnSource>
+<nameOnTarget>PER_CLASE</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_34" directorySegmentName="seg_0" id="D3259DF6-B014-BCEE-479D-0559FBE34846">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_107" directorySegmentName="seg_1" id="9E126493-FD30-8E73-DFD7-73736C1FE230">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-16 05:30:56 UTC</createdTime>
+<createdTime>2021-06-29 04:31:35 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <sourcePk>58BFBB29-C4FA-3070-92F6-621DE3F4B5B8</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>TIP_CALIF</nameOnSource>
-<nameOnTarget>REG_CALIF</nameOnTarget>
+<nameOnSource>CICLO</nameOnSource>
+<nameOnTarget>TIPCALIF</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>6FC43FCA-C93F-3136-75B7-8E3A56B6327A</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>3359D138-2824-4B44-1B79-C738153247AA</targetEntity>
+<targetEntity>327206B7-8F8B-D584-01F4-36E71617442A</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

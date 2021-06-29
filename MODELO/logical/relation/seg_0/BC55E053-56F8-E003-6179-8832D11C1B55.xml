@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>262E9ECA-3BF8-2DED-D03E-61B75512D680</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>TIP_GRP</nameOnSource>
-<nameOnTarget>MAT_PEN</nameOnTarget>
+<nameOnSource>MAT_PEN</nameOnSource>
+<nameOnTarget>TIP_GRP</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

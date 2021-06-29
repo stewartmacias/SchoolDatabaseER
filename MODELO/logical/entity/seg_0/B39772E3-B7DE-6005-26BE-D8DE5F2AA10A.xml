@@ -57,20 +57,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_TIP_CALIF" id="89D582E8-50C9-B13A-88DA-666E30CAE89E">
-<createdBy>User</createdBy>
-<createdTime>2021-06-28 22:49:40 UTC</createdTime>
-<generatorID>B67AD685-5E0C-EB36-5375-37853A153055</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>3F322003-2386-2B90-9D62-C21A95EC9A7C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="PESO_TIPO" id="EB6885EC-0349-F35B-8DC2-CDE993760571">
 <createdBy>User</createdBy>
 <createdTime>2021-06-28 22:37:43 UTC</createdTime>
@@ -101,7 +87,6 @@
 <attributeRef>565F406F-398E-DCCE-D93F-538B700E2F7F</attributeRef>
 <attributeRef>9386C575-DDE5-CD69-3741-21F8370B68A8</attributeRef>
 <attributeRef>A050EAAE-5F0C-83F4-5474-BF0DC095160D</attributeRef>
-<attributeRef>89D582E8-50C9-B13A-88DA-666E30CAE89E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

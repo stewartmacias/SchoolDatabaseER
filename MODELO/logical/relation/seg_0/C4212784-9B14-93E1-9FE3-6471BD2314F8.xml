@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>43D14F89-C97B-BC4D-102B-50D367ABBFBC</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>FACULTAD</nameOnSource>
-<nameOnTarget>CAMPUS</nameOnTarget>
+<nameOnSource>CAMPUS</nameOnSource>
+<nameOnTarget>FACULTAD</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

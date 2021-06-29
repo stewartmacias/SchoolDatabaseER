@@ -7,8 +7,8 @@
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
-<nameOnSource>modalidad</nameOnSource>
-<nameOnTarget>carrera</nameOnTarget>
+<nameOnSource>CARRERA</nameOnSource>
+<nameOnTarget>MODALIDAD</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
