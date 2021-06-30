@@ -1,0 +1,264 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="47748BA6-E8A1-6BB7-D645-77F8859ECB47" name="MATERIAS_PENSUM">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LAS MATERIAS CON SUS PRE REQUISITOS Y CO REQUISITOS DENTRO DE UN PENSUM O MALLA CURRICULAR]]></commentInRDBMS>
+<generatorID>E3FA1C19-4412-EFE9-CF71-5E24FDA92B52</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>MAT_PENSUM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MAT_COD_MATERIA" id="F0B80978-E189-F42E-EB20-F3FA1F32E912">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>7254E5C4-82F1-54A9-AB1E-28C64D2EE4D1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEE19BF5-137E-80A9-16A8-08618583491F" referredColumn="5A097FFF-D89B-B387-718A-0507871F2C1B"/>
+</associations>
+</Column>
+<Column name="MAT_COD_FACULTAD" id="A8249156-88FC-06B7-3B97-0B8700538D97">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>0C190582-68A4-BDAD-BB63-ED32C500AD05</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEE19BF5-137E-80A9-16A8-08618583491F" referredColumn="B8180884-A5BD-5DB4-7FE2-0358A1C6C7DA"/>
+</associations>
+</Column>
+<Column name="MAT_COD_SERVICIO" id="3559175B-3366-D397-4247-EC93CAB185E0">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>B9F9BDE8-6F07-B191-5B46-A6ED3323EA34</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEE19BF5-137E-80A9-16A8-08618583491F" referredColumn="C8958AAF-9C2A-93AB-93C8-D5379AB039EA"/>
+</associations>
+</Column>
+<Column name="PENS_COD_PENSUM" id="91727B1E-3C49-2F8C-5CF1-62C80C6F0AC6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>21772D1B-9C45-BBD8-63D0-7A2091FED49B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D303221-E7CB-0A4D-584B-D16A44EB4AEA" referredColumn="E12C3E0D-0408-9C31-1644-E9B9FF732420"/>
+</associations>
+</Column>
+<Column name="CREDITOS_ACADEMICOS" id="EC34A68C-1BAE-8F2E-D615-3B0DD6304F00">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CANTIDAD DE CREDITOS ACADEMICOS]]></commentInRDBMS>
+<generatorID>DB20178B-8EA9-03CD-51C5-870D7847B95C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOD_PEN_COD_MODULO" id="DC19BF73-3BD0-880A-0106-815A0A2A9E82">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>9B3ED3CA-1C00-7815-B105-3C6391A37CF1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="104AC4F5-C96B-F482-15A6-3ACAA4F679BA" referredColumn="E51F22A6-D9DC-8BB4-A7A7-6D72EEFE202A"/>
+</associations>
+</Column>
+<Column name="TIPGRUP_COD_GRUPO" id="216B727A-AF63-5C0A-75CB-50AB8F9A9F59">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>102FB995-2FB1-A157-50B1-51D3C4E3096C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9200207F-C091-103F-BEE4-CDBF5A3D6F8B" referredColumn="86839717-C406-4EA5-54BD-B90F639D4384"/>
+</associations>
+</Column>
+<Column name="MOD_PEN_PENS_COD_PENSUM" id="C7C2479B-04F8-13E1-4D25-A7282C0C6AD3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>1BA86D7B-629B-B2AB-23E2-600DD23B39DA</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="104AC4F5-C96B-F482-15A6-3ACAA4F679BA" referredColumn="ECFB8B51-7E8B-19EB-D0D2-59A2BBC08733"/>
+</associations>
+</Column>
+<Column name="ORDEN" id="642074DF-7473-BB8F-B1B1-CE11DB0C95EE">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ORDEN VERTICAL EN EL QUE SE DEBE IMPRIMIR LA MATERIA DENTRO DE LA MALLA CURRICULAR DEL PROGRAMA]]></commentInRDBMS>
+<generatorID>1F6020A8-512A-F2DE-43AF-3A0B997C0F0C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIV_MAT_COD_NIVEL" id="48BB04C7-3690-4E25-3A3B-53AAF69488F6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>776937F8-A361-3D56-B36B-DC8873A40CD2</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EB85822-6555-686C-6F62-A343AA2910C8" referredColumn="3492F338-4846-FF8B-83C6-F5F4D8342024"/>
+</associations>
+</Column>
+<Column name="NIV_MAT_PENS_COD_PENSUM" id="9B63B2E2-646C-E60D-E4ED-9DAD5319038A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>B590BD41-8F69-2E4B-3F58-BB9F35F50F2B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EB85822-6555-686C-6F62-A343AA2910C8" referredColumn="2AD1B368-FF07-0A50-D1E8-2DDCBD26DC72"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5545CFCB-8424-725A-72A2-E9930A8445A4" name="MAT_PENSUM_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>49162F24-693C-65C8-BFAD-7B169F6F38F4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91727B1E-3C49-2F8C-5CF1-62C80C6F0AC6"/>
+<colUsage columnID="F0B80978-E189-F42E-EB20-F3FA1F32E912"/>
+<colUsage columnID="A8249156-88FC-06B7-3B97-0B8700538D97"/>
+<colUsage columnID="3559175B-3366-D397-4247-EC93CAB185E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6F26E2B-A91C-20A6-AF7F-A7EC0E872DCA" name="MATERIAS_PENSUM_COD_MATERIA_COD_PENSUM_UN">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>DE4060F4-C69D-5C74-673D-85111F138282</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0B80978-E189-F42E-EB20-F3FA1F32E912"/>
+<colUsage columnID="91727B1E-3C49-2F8C-5CF1-62C80C6F0AC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E41EEE6C-44A0-0CCF-4905-C595245737DC" name="MATERIAS_FKv2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>4F39BD39-697D-DD04-FF07-16FB93D4DBAC</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0B80978-E189-F42E-EB20-F3FA1F32E912"/>
+<colUsage columnID="A8249156-88FC-06B7-3B97-0B8700538D97"/>
+<colUsage columnID="3559175B-3366-D397-4247-EC93CAB185E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="442387EE-AFF9-BE95-B235-BC1A93055B8B" name="PENSUM_FKv2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>C9523D99-7850-0BF4-DF58-C61A84A19648</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91727B1E-3C49-2F8C-5CF1-62C80C6F0AC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFCA147F-3768-9739-8E0C-E6D162910E1C" name="TIPOS_GRUPO_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>BC55E053-56F8-E003-6179-8832D11C1B55</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="216B727A-AF63-5C0A-75CB-50AB8F9A9F59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="148410EF-36C4-EEA6-C383-8CD6F996662E" name="NIVELES_MATERIAS_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>CE9AF2F8-9F0B-74E3-4EB7-6AB3360F978E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48BB04C7-3690-4E25-3A3B-53AAF69488F6"/>
+<colUsage columnID="9B63B2E2-646C-E60D-E4ED-9DAD5319038A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="867EF0FF-A734-1D6E-6080-C17667D06F8E" name="MODULOS_PENSUM_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>B70043C9-0F61-4BC5-0ABE-CA031A658E04</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC19BF73-3BD0-880A-0106-815A0A2A9E82"/>
+<colUsage columnID="C7C2479B-04F8-13E1-4D25-A7282C0C6AD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

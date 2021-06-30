@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="A96F9A11-B54B-A5CC-03CF-411780C21B90" name="FACULTADES">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LAS DIFERENTE FACULTADES, POR EJEMPLO: INGENIERIA, DERECHO.  ETC.  ES EL NIVEL MAS ALTO PARA DEFINIR UNA CARRERA]]></commentInRDBMS>
+<generatorID>C87C07C0-D1B8-BC33-6FCF-78070E51F43B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>FACULTAD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_FACULTAD" id="2EE21B83-87D4-2CD4-0A79-6945EAF8FE3C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE FACULTAD]]></commentInRDBMS>
+<generatorID>42837600-6AA2-09B0-1466-8814F1709685</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="F054248B-91E9-FC67-EF9F-D21C7647239C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE LA FACULTAD]]></commentInRDBMS>
+<generatorID>1EE6E3DD-04A6-173B-8CE4-A39F7065600A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INICIALES" id="6427C92A-610F-220C-BC04-9DE8DA0466C2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[INICIALES DE LA FACULTAD]]></commentInRDBMS>
+<generatorID>4B1A105A-8D7B-08CC-BFDD-B0FC411C246E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_OTRO_IDIOMA" id="2B25B6D1-ABB3-A9A4-B8B4-1FB152A3CCF8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION EN OTRO IDIOMA]]></commentInRDBMS>
+<generatorID>87E78C4F-6E28-D6C5-89F2-4D252791196C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="57EB4DCB-2DC8-8BEE-BCBB-1D22215A8F0A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactvo]]></commentInRDBMS>
+<generatorID>8818493B-C0BE-5112-C3DA-BBA11FC101C3</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_CREACION" id="C271F25A-7BC9-8CC6-0A05-3424F4DF6516">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[USUARIO DE CREACION DE LA FACULTAD]]></commentInRDBMS>
+<generatorID>8E8F1DBA-43DA-2392-CAF5-4EC51F8F7193</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="5A6422B7-4AE8-B405-C1BB-98F1E55552F8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE CREACION DE LA FACULTAD]]></commentInRDBMS>
+<generatorID>73138258-0467-FD85-42D1-F9CDB8112848</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERV_ACAD_COD_SERVICIO" id="BAAC1DC8-A44E-E6B3-BA16-782E3F26EA1F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>315A781F-D5D2-5F04-0C2E-8898E64FF3AB</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="239A34AC-1323-1363-21CB-4B1CDDC0F448" referredColumn="4412AA10-D0C2-9DE1-693B-06C5A4CE4BD8"/>
+</associations>
+</Column>
+<Column name="CODIGO_AUTORIZACION" id="1341AE6F-0B62-3932-78E4-E272BE1E1DE6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO FE AUTORIZACION EMITIDO POR AUTORIDAD]]></commentInRDBMS>
+<generatorID>3F27EBAB-FCEB-2B29-1D5D-55CB71B7BB2F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_AUTORIZACION" id="411C3067-F4B9-140D-7DB8-ECB8592C6152">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE AUTORIZACION EMITID POR LA AUTORIDAD]]></commentInRDBMS>
+<generatorID>28CAAD65-3159-EDA9-2D11-EFA4E4791336</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCUMENTO_AUTORIZACION" id="84EADB73-6A13-E4C2-686D-F0D3182877A8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DOCUMENTO DIGITALIZADO DE AUTORIZACION]]></commentInRDBMS>
+<generatorID>648962C1-CAEB-B8D1-31AA-C7C2B45DC673</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAMP_CODIGO_CAMPUS" id="E5978747-2B2C-DE72-7F83-4495E340B348">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>453122F4-9D70-3886-43D6-37C6993A593A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="597262CD-999D-21F6-B9A1-330215D211E1" referredColumn="E2AD6667-6654-D3D5-C1F9-09C34414A805"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12C47BA9-2A9A-3C64-2F56-86715D1046B0" name="FACULTAD_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>DEAED625-7873-9432-399C-FA69BE956E70</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EE21B83-87D4-2CD4-0A79-6945EAF8FE3C"/>
+<colUsage columnID="BAAC1DC8-A44E-E6B3-BA16-782E3F26EA1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="615DCE03-7436-9DCF-44B6-42701A458BAE" name="CAMPUS_FKv2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>C4212784-9B14-93E1-9FE3-6471BD2314F8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5978747-2B2C-DE72-7F83-4495E340B348"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="630C1FB7-19F8-1FD3-1A7D-256A3FC8A9AE" name="SERVICIOS_ACADEMICOS_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>A8A04C64-0551-D456-EBF4-9F3FB2E1AEF4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAAC1DC8-A44E-E6B3-BA16-782E3F26EA1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

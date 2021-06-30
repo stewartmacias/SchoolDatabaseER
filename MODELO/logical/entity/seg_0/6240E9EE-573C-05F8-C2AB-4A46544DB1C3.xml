@@ -146,7 +146,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_TIPO_ID" id="4752B8DF-0CF2-F80B-9598-01B6E96CA5B8">
 <createdBy>HP</createdBy>
@@ -157,6 +157,48 @@
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <referedAttribute>9F797459-70A0-F0E0-7F79-BB284ABFB753</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SUBDIVISION2" id="94209FBE-9E34-6444-55CA-E453B37CBB4B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>A25254C3-F476-2C45-FEC4-23F26AC65E65</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>A5B924D4-446C-D7F8-50BC-33ED82217121</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SUBDIVISION1" id="7AF162DC-48E4-A896-7187-56D6F46CEE39">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>A25254C3-F476-2C45-FEC4-23F26AC65E65</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>33C329ED-81A8-D6E5-42BF-A1A1D17780B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="76E173D4-8CCA-C327-7B6D-61B6143BD519">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>A25254C3-F476-2C45-FEC4-23F26AC65E65</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>1814468C-9A4D-900A-ABDF-76E1BD5669F1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -175,6 +217,9 @@
 <usedAttributes>
 <attributeRef>76DB1A7D-DFE8-BA20-97DA-6405B33BA3D4</attributeRef>
 <attributeRef>4752B8DF-0CF2-F80B-9598-01B6E96CA5B8</attributeRef>
+<attributeRef>94209FBE-9E34-6444-55CA-E453B37CBB4B</attributeRef>
+<attributeRef>7AF162DC-48E4-A896-7187-56D6F46CEE39</attributeRef>
+<attributeRef>76E173D4-8CCA-C327-7B6D-61B6143BD519</attributeRef>
 <attributeRef>82258BEA-757D-770E-4FFD-4DD1FB182E1D</attributeRef>
 </usedAttributes>
 </identifier>

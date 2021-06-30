@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>A864619C-2BDC-26E2-85C2-113A9D993531</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>ENTEDUC</nameOnSource>
-<nameOnTarget>ESTPERS</nameOnTarget>
+<nameOnSource>ESTPERS</nameOnSource>
+<nameOnTarget>ENTEDUC</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

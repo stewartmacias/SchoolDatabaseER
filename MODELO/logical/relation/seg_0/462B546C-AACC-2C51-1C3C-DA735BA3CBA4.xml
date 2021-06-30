@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>DEAED625-7873-9432-399C-FA69BE956E70</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>FACUL</nameOnSource>
-<nameOnTarget>CICLO</nameOnTarget>
+<nameOnSource>CICLO</nameOnSource>
+<nameOnTarget>FACUL</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

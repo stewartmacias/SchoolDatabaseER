@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="C62018CC-500E-0E37-4B6A-B6F40E735608" name="HORAS_MATERIAS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>24AAFEE1-2961-291F-281D-A3F313E98BAE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_MATERIA_HORA" id="97242469-E5E3-EC66-3D3F-24817B0D176B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE IDENTIFICACION DE LA MATERIA EN EL PENSUM]]></commentInRDBMS>
+<generatorID>E2D3A223-E322-0251-9F2D-1110F0B18658</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAT_PENSUM_COD_PENSUM" id="48C776D2-54E3-9B06-2121-C6B3FD615434">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>48C45998-250A-23F7-6DA6-34D9ACA2B0E3</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87090B6B-02F3-D3ED-A62D-32B4A8205456" referredColumn="91727B1E-3C49-2F8C-5CF1-62C80C6F0AC6"/>
+</associations>
+</Column>
+<Column name="MAT_PENSUM_COD_MATERIA" id="E390B752-A72A-5B0B-35B9-985F3679DBE3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>9A62288F-A9F2-0A02-4230-DA1963AB163E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87090B6B-02F3-D3ED-A62D-32B4A8205456" referredColumn="F0B80978-E189-F42E-EB20-F3FA1F32E912"/>
+</associations>
+</Column>
+<Column name="MAT_PENSUM_COD_FACULTAD" id="97CC6715-D7E6-96C6-3896-1A334FBE9526">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>872A7695-360B-295E-AD7A-CF9E20511405</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87090B6B-02F3-D3ED-A62D-32B4A8205456" referredColumn="A8249156-88FC-06B7-3B97-0B8700538D97"/>
+</associations>
+</Column>
+<Column name="MAT_PENSUM_COD_SERVICIO" id="66173EC3-2258-F95D-E52C-1A4130606BA4">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>C8A19E3C-5D2B-C514-97EB-037425BD5D2D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87090B6B-02F3-D3ED-A62D-32B4A8205456" referredColumn="3559175B-3366-D397-4247-EC93CAB185E0"/>
+</associations>
+</Column>
+<Column name="DESCRIPCION" id="9226167D-C167-74AE-42B4-C0AC483F779F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE COMPONENTE DE HORA. EJEMPLO: PRACTICA, TEORICA.]]></commentInRDBMS>
+<generatorID>85C9A252-E91A-DF07-20C8-2662F97022BE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORAS" id="F56A3A1E-08C5-D9AB-0BD2-68E6F32AA6D8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CANTIDAD DE HORAS POR TIPO COMPONENTE]]></commentInRDBMS>
+<generatorID>7DD8AFDA-4528-CCBD-4C46-70CACFA19564</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E533900-0B28-F3E9-ABE0-8B6B27E3B6E5" name="HORAS_MATERIAS_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>29717F3B-70E4-E350-C082-3FB77F07BB2A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97242469-E5E3-EC66-3D3F-24817B0D176B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B26B1A8-6804-033A-242A-AEDDD19F07FB" name="MATERIAS_PENSUM_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>4EA39F43-BB82-9D09-72E7-236E747D3427</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48C776D2-54E3-9B06-2121-C6B3FD615434"/>
+<colUsage columnID="E390B752-A72A-5B0B-35B9-985F3679DBE3"/>
+<colUsage columnID="97CC6715-D7E6-96C6-3896-1A334FBE9526"/>
+<colUsage columnID="66173EC3-2258-F95D-E52C-1A4130606BA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

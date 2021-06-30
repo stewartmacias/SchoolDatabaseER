@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>05956623-8B08-8C48-AF35-5478E24AFE73</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>AUL</nameOnSource>
-<nameOnTarget>RECAUL</nameOnTarget>
+<nameOnSource>RECAUL</nameOnSource>
+<nameOnTarget>AULA</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

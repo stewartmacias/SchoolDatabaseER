@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="A5F9517F-6272-3674-4724-FDCD49BED2EB" name="PAIS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS DIFERENTES PAISES DEL MUNDO, SE PUEDEN USAR VARIAS CODIFICACIONES PARA CADA PAIS]]></commentInRDBMS>
+<generatorID>9EBC8BB9-4BA2-C0D6-C52B-7E203EAA2203</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PAIS" id="A049A7E1-043C-E99D-B99F-E1B9A43F90BE">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE PAIS]]></commentInRDBMS>
+<generatorID>1BAAE7F5-0B79-0140-BACD-8557DDE06267</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="A63D512E-4132-BB56-09E8-BE0FE36A86D7">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE O DESCRIPCION DEL PAIS]]></commentInRDBMS>
+<generatorID>821DE634-5668-0E55-96A0-5856D4B56AF3</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="FEB3A07C-2479-68CB-873E-1CD2A81B4738">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ABREVIATURA DEL PAIS]]></commentInRDBMS>
+<generatorID>57F9E06B-C9C9-4A0D-819E-A7307A03C9E4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="0DF62DBA-0BE6-412E-680D-82B6CD1A6C43">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ACTIVO A o INACTIVO I]]></commentInRDBMS>
+<generatorID>E19DBE0D-CD63-1163-3B71-2D6C0DE68D62</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NACIONALIDAD" id="777D66EF-852C-ABBA-826B-97DE81C60955">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL GENTILICIO PARA LA NACIONALIDAD]]></commentInRDBMS>
+<generatorID>4D6FFD85-CA4F-CB8B-64F2-3EFFDE1B8E24</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_INTERNACIONAL" id="03CC390C-551D-AB52-B4E5-B1B599BFA417">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO INTERNACIONAL OTORGADO PARA CADA PAIS]]></commentInRDBMS>
+<generatorID>54FED1E6-C68A-EB9B-DBE9-E46B89001337</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POR_DEFECTO" id="BF61800E-F7CD-DD0A-A59A-D1D7FA145846">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si N no, SIGNIFICA QUE ESTE CODIGO DE PAIS APARECERA EN CADA PANTALLA QUE SE SOLICITE UN PAIS]]></commentInRDBMS>
+<generatorID>59E33AFE-B4E1-AC57-A066-B1F9D3973CA2</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBDIVISION_GEOGRAFICA1" id="91D66C38-1D1E-53B2-67B6-55F571912D4A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[SUBDIVISION GEOGRAFICA 1. EJEMPLO: PROVINCIA O DEPARTAMENTO]]></commentInRDBMS>
+<generatorID>E4042856-A18C-69B0-1287-986E36C67217</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBDIVISION_GEOGRAFICA2" id="09866826-CD03-AD43-F1C4-BC4EE40F3194">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[SUBDIVISION GEOGRAFICA 2. EJEMPLO: CIUDAD O CANTON]]></commentInRDBMS>
+<generatorID>4D8FA6BE-24CF-C2BB-9590-7742E75EE2BB</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9A56E15-FA54-1B3E-8E0B-662D54F45006" name="PAIS_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>0E69E595-612F-D59D-014C-ED65862852E2</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A049A7E1-043C-E99D-B99F-E1B9A43F90BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

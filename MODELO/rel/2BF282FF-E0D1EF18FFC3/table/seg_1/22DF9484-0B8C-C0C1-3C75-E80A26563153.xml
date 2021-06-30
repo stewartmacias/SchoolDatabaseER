@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="22DF9484-0B8C-C0C1-3C75-E80A26563153" name="PARALELO">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>1A3F3035-F039-43F8-72AC-A723903652E2</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CICAUL_MAT_COD_MATERIA" id="B2DB7BAA-9DDA-0229-FDA2-D920B34D19E7">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>16B3D5AC-CABB-A1C1-BFFF-49EAF7A472DF</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22A72A23-588B-A833-3EC4-302AECD4FA73" referredColumn="897D191B-FE12-3E7E-AECE-021745A1B7E3"/>
+</associations>
+</Column>
+<Column name="CICAUL_MAT_COD_FACULTAD" id="DCD54FDB-CD5F-E732-4106-12023140227B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>FA53C06C-5AC8-EE45-815C-45991951C01E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22A72A23-588B-A833-3EC4-302AECD4FA73" referredColumn="8B5BF397-B51C-043B-3345-53F6F8828E18"/>
+</associations>
+</Column>
+<Column name="CICAUL_MAT_COD_SERVICIO" id="08FA6720-4A5C-7E0B-3F65-92A9FEC9ACA6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>5B039F1E-0C5C-A5FF-AC60-8F48C3CF2A01</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22A72A23-588B-A833-3EC4-302AECD4FA73" referredColumn="7B731DC1-E645-766C-75BF-D72D8AD1A859"/>
+</associations>
+</Column>
+<Column name="CICAUL_COD_CICLO" id="3C622681-FB01-8822-9525-F8514861DB00">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>6773B421-7CE5-A29B-2377-54EE48BC43DE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22A72A23-588B-A833-3EC4-302AECD4FA73" referredColumn="0937E201-1069-9022-B86F-8CD6D15AE9A2"/>
+</associations>
+</Column>
+<Column name="COD_PARALELO" id="F478EC21-15F0-276C-9B61-DD69A98C5CEF">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO UNICO DE PARALELO]]></commentInRDBMS>
+<generatorID>464A3CAF-D0F0-9202-DE85-6794FBB399FD</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUPO_PRESENCIAL" id="4142D558-10BE-9EA0-F7BB-BA05FF1302DA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUPO PRESENCIAL]]></commentInRDBMS>
+<generatorID>F136DC6E-F1C8-34CA-A3C6-2C703B0F29C9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISPONIBLE_PRESENCIAL" id="7086D89D-A01D-031C-E391-4624AEC49DBC">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUPO DISPONIBLE PRESENCIAL]]></commentInRDBMS>
+<generatorID>8EFF9042-E303-7BC6-D824-7D4ABB06BC44</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUPO_VIRTUAL" id="363D8A79-2035-6E42-C981-C69C50BBF9FF">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUPO VIRTUAL]]></commentInRDBMS>
+<generatorID>11373A5B-025B-C541-AD11-9B62D353EAA6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISPONIBLE_VIRTUAL" id="66BCF04A-092F-C50E-5695-72C3F6AE4CC2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUPO DISPONIBLE VIRTUAL]]></commentInRDBMS>
+<generatorID>385D3325-D2EE-B819-BF5B-B35CADF4E260</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CICAUL_COD_CICLO_MATERIA" id="7D1072A7-016D-5F44-BFA7-BCFA22083EF2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>0A3EE0BC-1F5D-E18B-5D26-34BC0B040C93</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22A72A23-588B-A833-3EC4-302AECD4FA73" referredColumn="4BAA4E2E-924E-D3FA-74C7-57E1FE314164"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB24D9D6-C134-279F-A333-726EE2B52970" name="PARALELO_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>9CE06C4F-87C1-EAE8-60C7-CE8C549A532C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F478EC21-15F0-276C-9B61-DD69A98C5CEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="081B6BC5-AE17-7CEA-3D46-747A6842EBB5" name="CICLO_MATERIA_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>660A4EF7-4292-89D0-5362-C61AB8EA4E27</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2DB7BAA-9DDA-0229-FDA2-D920B34D19E7"/>
+<colUsage columnID="DCD54FDB-CD5F-E732-4106-12023140227B"/>
+<colUsage columnID="08FA6720-4A5C-7E0B-3F65-92A9FEC9ACA6"/>
+<colUsage columnID="3C622681-FB01-8822-9525-F8514861DB00"/>
+<colUsage columnID="7D1072A7-016D-5F44-BFA7-BCFA22083EF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

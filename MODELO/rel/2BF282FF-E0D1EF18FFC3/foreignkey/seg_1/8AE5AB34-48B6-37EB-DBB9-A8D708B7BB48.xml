@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="8AE5AB34-48B6-37EB-DBB9-A8D708B7BB48" containerWithKeyObject="02638566-2F22-5CE3-7895-5707C765BF41" localFKIndex="619507F7-5B9A-30DC-9C55-AE5BF7C31FF0" name="CICLOS_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>906A5C81-2D08-CD0A-2F89-D0AA7FD6E11E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>CICLOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA859DFB-0376-B758-EC5C-9DC6986409B8</referredTableID>
+<keyObject>19935A33-BC59-F6BF-9F02-EDE1E163B5EB</keyObject>
+<referredKeyID>19935A33-BC59-F6BF-9F02-EDE1E163B5EB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_CICLO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

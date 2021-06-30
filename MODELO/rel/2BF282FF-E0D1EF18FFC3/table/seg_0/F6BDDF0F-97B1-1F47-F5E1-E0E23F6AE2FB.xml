@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6BDDF0F-97B1-1F47-F5E1-E0E23F6AE2FB" name="CATEGORIA_DEDICACION">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LAS DIFERENTES CATEGORIAS DE LOS PROFESORES BASADO EN LA DEDICACION O TIEMPO, POR EJEMPLO MEDIO TIEMPO, TIEMPO COMPLETO, ETC]]></commentInRDBMS>
+<generatorID>F95835EF-46E1-F6A1-A6C5-E26982F9588C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>CATDED</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CATEGORIA" id="07C83733-DB5B-54E8-6F1A-5CCD7F72C581">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE CATEGORIA]]></commentInRDBMS>
+<generatorID>44911EED-DECD-D77A-3625-31CF4027993A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="E30DF8F8-2CB7-4B59-4137-8EDA20E6630D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE LA CATEGORIA DE PROFESOR POR SU DEDICACION]]></commentInRDBMS>
+<generatorID>3AC92E7F-CC7E-DEF1-B7F8-F3AD5EA2C809</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="E1587257-B285-FDE7-D6BA-AD07C8DC58CC">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<generatorID>D25AE3FA-397F-B161-E172-8C65D618BAE6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECA7E0DC-CFF5-7F90-A660-38576547BC93" name="CATDED_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>595ED0AE-96D8-06AA-B6AF-3EA81604C86B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07C83733-DB5B-54E8-6F1A-5CCD7F72C581"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

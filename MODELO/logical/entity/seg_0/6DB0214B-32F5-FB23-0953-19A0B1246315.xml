@@ -188,6 +188,48 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SUBDIVISION2" id="3F70E2D1-CF20-76CE-CE29-32CAF13E5A29">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>5A6DE49C-83AB-E0D0-049A-A0997170718C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>A5B924D4-446C-D7F8-50BC-33ED82217121</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SUBDIVISION1" id="AE2D54EE-4379-7F82-E389-5AEFD68BB199">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>5A6DE49C-83AB-E0D0-049A-A0997170718C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>33C329ED-81A8-D6E5-42BF-A1A1D17780B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="6208EC3A-5AC6-AB43-F1D6-758BF63F6840">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>5A6DE49C-83AB-E0D0-049A-A0997170718C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>1814468C-9A4D-900A-ABDF-76E1BD5669F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -201,8 +243,11 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B24590D3-7C78-D458-5EEF-F259E78E8D73</attributeRef>
 <attributeRef>F55D08CD-C994-1467-5BA3-811FB47E1920</attributeRef>
+<attributeRef>B24590D3-7C78-D458-5EEF-F259E78E8D73</attributeRef>
+<attributeRef>3F70E2D1-CF20-76CE-CE29-32CAF13E5A29</attributeRef>
+<attributeRef>AE2D54EE-4379-7F82-E389-5AEFD68BB199</attributeRef>
+<attributeRef>6208EC3A-5AC6-AB43-F1D6-758BF63F6840</attributeRef>
 <attributeRef>A734F3F2-489D-8584-3A05-09DACCD512F7</attributeRef>
 </usedAttributes>
 </identifier>

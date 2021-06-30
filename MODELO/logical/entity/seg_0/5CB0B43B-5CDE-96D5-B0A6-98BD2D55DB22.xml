@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<preferredAbbreviation>SUBDIV</preferredAbbreviation>
 <shortName>SUBDIV</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="COD_SUBDIVISION1" id="24D25DF4-C463-C195-5C5D-9FBB949A40FC">

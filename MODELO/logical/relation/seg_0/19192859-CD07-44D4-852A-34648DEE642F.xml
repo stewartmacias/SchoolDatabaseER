@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>30C75BFE-0508-D9C3-54D2-62157575AAAB</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>REC</nameOnSource>
-<nameOnTarget>RECAUL</nameOnTarget>
+<nameOnSource>RECAUL</nameOnSource>
+<nameOnTarget>TIPRECAU</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95E9E04C-B1E0-5703-8D91-B55F19662E9C" name="ESTADO_ALUMNO">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:37:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES ESTADOS QUE UN ALUMNO ADQUIERE DENTRO DE LA INSTITUCION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO_ESTADO" id="61256571-B560-B3FC-C4F0-355DF839925E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:43:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE ESTADO DEL ALUMNO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_INICIAL" id="7B070BB5-D3B0-4A92-21CF-C7B909CA4D56">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:44:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE INICIO DE ESTADO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_FINAL" id="29E41727-4A8D-6BF3-BB2F-58C20AB4CDC9">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:44:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE TERMINAO DEL ESTADO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ESTADO" id="829B29AD-9BA5-91C1-DFB8-3288F8FFC73E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:38:34 UTC</createdTime>
+<generatorID>C4E2731A-6D01-D458-FD4C-E372D34F1798</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>72417D97-CF94-7A1A-61A3-857D1AAD8629</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ALUMNO" id="13F8C6C0-B38E-2189-3B55-CBF031C1F1FC">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:39:10 UTC</createdTime>
+<generatorID>0B37591D-9FBC-0A9D-AD71-0D55410B96DF</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>0DFFB73A-C043-FA6F-3E08-25C3953063C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OBSERVACION" id="9E30068A-564B-4CD1-4B19-9E5A5CEE1BF4">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:45:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[OBSERVACION ADICIONAL DE SER NECESARIO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9F3DF04-B149-4792-AF47-F200EA2E7281" name="ESTADO_ALUMNO PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:44:07 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61256571-B560-B3FC-C4F0-355DF839925E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

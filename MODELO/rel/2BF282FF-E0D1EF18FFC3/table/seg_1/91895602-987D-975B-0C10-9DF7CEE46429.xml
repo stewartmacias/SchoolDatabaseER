@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="91895602-987D-975B-0C10-9DF7CEE46429" name="ENTIDADES_EDUCACION">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LAS DIFERENTES ENTIDADES DE EDUCACION]]></commentInRDBMS>
+<generatorID>973181C5-C255-3A5F-3506-0788E273F7A5</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>ENTEDUC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_ENTIDAD" id="E36A4959-02E8-72C9-A9DC-85DA22673B0B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE ENTIDAD DE EDUCACION]]></commentInRDBMS>
+<generatorID>D9D9049B-EB6A-96C6-6274-0ED5387C9381</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="86B8B3B6-E784-8199-96A7-0353813C9913">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE LA ENTIDAD EDUCATIVA]]></commentInRDBMS>
+<generatorID>7FC9A506-3CBC-4718-E360-339CB7E052BD</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="AD678733-1E05-1C68-74BB-1D21CFADD8EC">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activa I inacivo]]></commentInRDBMS>
+<generatorID>2194E72B-02D9-14B6-15E6-8A4040295A41</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_COD_PAIS" id="7D74D3DF-4D37-0A1B-F649-5D74C2A921CE">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>3C596E8C-93E8-EC45-4C7B-C867125CD34C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33FCB3ED-9595-04BB-A505-A9A4CC90A3D3" referredColumn="A049A7E1-043C-E99D-B99F-E1B9A43F90BE"/>
+</associations>
+</Column>
+<Column name="NIENT_COD_NIVEL" id="69CC493F-5B5F-F470-7BDF-9BB43B3661D1">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>9F9A5E88-0EAB-3BC3-A07F-01134FA56A70</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8802E247-4456-7201-0CDC-6FAEFB40C0C8" referredColumn="B8974BC8-7887-F6EB-1E33-35D985388273"/>
+</associations>
+</Column>
+<Column name="NIVEST_COD_NIVEL" id="25D58AA5-1318-0E9A-369F-B2D582B3CA2F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>BC0A60E2-6E6C-576B-BEC8-D4426B7A6498</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E53E7BE7-3B8D-B4D9-FADD-7E00A5E000ED" referredColumn="748F1621-F682-2BEE-268D-31788C02DDB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB5776E8-2484-B177-2B82-88A7E46F8149" name="ENTEDUC_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>A864619C-2BDC-26E2-85C2-113A9D993531</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E36A4959-02E8-72C9-A9DC-85DA22673B0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B9C97FA-50F9-4BCE-3692-9FDA4CE19493" name="NIVEL_ESTUDIO_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>12FECF87-0149-7B0F-1FEE-08BCAEE618E9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25D58AA5-1318-0E9A-369F-B2D582B3CA2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82390B2C-A7AC-A52D-79D0-1CCFE74B4CE2" name="PAIS_FKv4">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>776D8445-FEE4-DCF3-9FBD-E2F730344757</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D74D3DF-4D37-0A1B-F649-5D74C2A921CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F370904C-B5F7-47C5-10F9-9C954EB46926" name="NIVEL_ENTIDAD_ESTUDIO_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>E235E5F5-7FE2-DAA8-E80E-4C8C608F3276</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69CC493F-5B5F-F470-7BDF-9BB43B3661D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

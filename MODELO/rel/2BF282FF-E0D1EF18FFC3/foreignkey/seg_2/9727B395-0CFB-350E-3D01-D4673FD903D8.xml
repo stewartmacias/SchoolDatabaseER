@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_2" id="9727B395-0CFB-350E-3D01-D4673FD903D8" containerWithKeyObject="A7FCA097-1996-60ED-AD0C-D334CDBB46BE" localFKIndex="5B5DD241-8E99-63CC-23B6-3DC482D3861A" name="TIPOS_CALIFICACION_FINAL_FKv3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>5DC313E3-A3D4-0AF0-1127-3960D42ADFAF</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>TIPOS_CALIFICACION_FINAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5890DF93-3F79-A22B-A156-50A92E929DA3</referredTableID>
+<keyObject>F5DAE978-6F7B-BE12-F6FC-919EBAC47917</keyObject>
+<referredKeyID>F5DAE978-6F7B-BE12-F6FC-919EBAC47917</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_TIP_CALIF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

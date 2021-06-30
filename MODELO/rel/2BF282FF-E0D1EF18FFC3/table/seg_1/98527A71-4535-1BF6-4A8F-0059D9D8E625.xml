@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="98527A71-4535-1BF6-4A8F-0059D9D8E625" name="PERSONA_TELEFONO">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES TELEFOOS ASOCIADOS A UNA PERSONA]]></commentInRDBMS>
+<generatorID>29B336C8-73D1-E655-F111-F8E7AB9A80AA</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TELEFONO" id="070C92DD-D026-BC99-B7A5-AE35439E7EB2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO SECUENCIAL]]></commentInRDBMS>
+<generatorID>C852B98A-0911-D0CA-5F8E-A6B4F78BDACA</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPTEL_COD_TIPO_TEL" id="B55A252F-0433-A16E-CCB1-612D3981411E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>485A3C54-E412-D3AA-21A1-24B75936943F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB0163D8-AE92-948D-BC35-EA1D2C18276C" referredColumn="8729C8C5-054F-746C-128F-B19EEC1CCE55"/>
+</associations>
+</Column>
+<Column name="PAIS_COD_PAIS" id="2694B40F-9E45-417F-F67D-EE2D8518F134">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>7D5BE02C-C9F8-FEB7-82B0-81AF37E25D1F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18C81D72-B2F3-682F-262D-3F9369D5A2E7" referredColumn="A049A7E1-043C-E99D-B99F-E1B9A43F90BE"/>
+</associations>
+</Column>
+<Column name="PERSONA_NUMERO_IDENTIFICACION" id="E35BF961-BA65-9048-B972-ED73860495D5">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>83F7814C-F320-913E-0E4D-CE7A1C204F81</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF26C30E-795D-E55E-F3B2-F60D33770C11" referredColumn="72D1EA9E-EB7D-4A43-AC7E-B78821990BA5"/>
+</associations>
+</Column>
+<Column name="NUMERO_TELEFONICO" id="30A47992-4FA4-F3F3-17A4-40BE920CC74C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO TELEFONICO]]></commentInRDBMS>
+<generatorID>1333D60B-5006-8F94-BCBB-49683EF35385</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="C6FC3949-13B0-8BEA-EB49-518A6E4D87AA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Activo A o Inactivo I]]></commentInRDBMS>
+<generatorID>11209E26-99E6-7A78-1093-D67DB3236711</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_COD_TIPO_ID" id="4082EEA4-852C-EE6F-E899-0EC41A822E4D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>7D7825A2-7B6D-CC86-A7DB-8D6E6A0BDF60</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF26C30E-795D-E55E-F3B2-F60D33770C11" referredColumn="97371EE4-5A7E-3EA5-C2CA-948395293804"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="357CB834-55A9-B67E-B0FC-BC4DE3999318" name="PERSONA_TELEFONO_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>10252B4C-AD27-E91F-D605-55A06424F580</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="070C92DD-D026-BC99-B7A5-AE35439E7EB2"/>
+<colUsage columnID="E35BF961-BA65-9048-B972-ED73860495D5"/>
+<colUsage columnID="4082EEA4-852C-EE6F-E899-0EC41A822E4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A80D3CB-8357-07AD-1499-060230835113" name="PAIS_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>D2B03E37-13B9-EDB6-0012-CC3221377C2B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2694B40F-9E45-417F-F67D-EE2D8518F134"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40A290E8-3D60-C8BD-6B8B-D6B0B9B7C09D" name="PERSONA_FKv3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>933BBC82-1520-46C6-EC46-C106C61E008A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E35BF961-BA65-9048-B972-ED73860495D5"/>
+<colUsage columnID="4082EEA4-852C-EE6F-E899-0EC41A822E4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54504193-AAA1-F096-9548-88861A1CD4D1" name="TIPO_TELEFONO_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>BF1EEC62-E2C5-AE1B-365F-BA5D1182EAB3</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B55A252F-0433-A16E-CCB1-612D3981411E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

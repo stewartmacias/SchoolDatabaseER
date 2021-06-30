@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="ECF97909-69A0-DF90-D5C7-C29A87C5D4DE" name="ESTADO_ALUMNO">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTADO EN EL QUE SE ENCUENTRA EL ALUMNA EN LA INSTITUCIÒN.]]></commentInRDBMS>
+<generatorID>06414210-5A61-1F8F-71C5-2D0ADDFD6C2F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>EST_ALUM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_ESTADO" id="54032C2B-4DA0-922D-EBAA-05013E94A026">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DEL ESTADO DEL ALUMNO]]></commentInRDBMS>
+<generatorID>72417D97-CF94-7A1A-61A3-857D1AAD8629</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="A0A69423-242A-BB16-174A-A859A486B235">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[RECHAZADO,RETIRADO, ACEPTADO ENTRE OTROS ESTADOS]]></commentInRDBMS>
+<generatorID>22E80852-F2F3-11E2-430B-C03193A7C1E4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EST_ALUM_ID" id="E778C7A8-35F7-38F1-7586-17EE98126F77">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3FA94C25-0FD0-BA84-962F-2BD038864812" name="EST_ALUM_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E778C7A8-35F7-38F1-7586-17EE98126F77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

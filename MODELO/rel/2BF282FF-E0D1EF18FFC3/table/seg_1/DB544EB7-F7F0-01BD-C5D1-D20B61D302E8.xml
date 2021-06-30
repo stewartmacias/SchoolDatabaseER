@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="DB544EB7-F7F0-01BD-C5D1-D20B61D302E8" name="ESQUEMA_CALIFICACION_PRL">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESQUEMA DE CALIFICACION INGRESADA POR CADA DOCENTE. ]]></commentInRDBMS>
+<generatorID>B39772E3-B7DE-6005-26BE-D8DE5F2AA10A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_ESQUEMA" id="0DB5CFA9-BB1C-6CC4-ACD5-092A954400BA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[SECUENCIAL]]></commentInRDBMS>
+<generatorID>A050EAAE-5F0C-83F4-5474-BF0DC095160D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARALPROF_PARALELO_COD_PARALELO" id="9DCC02F9-886C-2E15-EDC7-77259AC787F9">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>565F406F-398E-DCCE-D93F-538B700E2F7F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADFBC203-45D4-F6C1-5A38-85AD95565F40" referredColumn="AC43BE6B-2E80-5215-AB47-730095318659"/>
+</associations>
+</Column>
+<Column name="PARALPROF_PROFE_COD_PROFESOR" id="698927AB-6E49-461F-6DF3-55CEBE3BA5E5">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>9386C575-DDE5-CD69-3741-21F8370B68A8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADFBC203-45D4-F6C1-5A38-85AD95565F40" referredColumn="EAC6E040-E89A-64A9-D5ED-DFCE73045D3E"/>
+</associations>
+</Column>
+<Column name="PESO_TIPO" id="FD7738B2-533E-D506-E51D-2D91F39858DF">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[PESO DE TIPO DE CALIFICACION]]></commentInRDBMS>
+<generatorID>EB6885EC-0349-F35B-8DC2-CDE993760571</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D151C4D-BFC2-A373-76B5-4DCDFF33573C" name="ESQUEMA_CALIFICACION_PRL_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>21BBAB3F-718B-8F42-12A1-445CAAE5521B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DCC02F9-886C-2E15-EDC7-77259AC787F9"/>
+<colUsage columnID="698927AB-6E49-461F-6DF3-55CEBE3BA5E5"/>
+<colUsage columnID="0DB5CFA9-BB1C-6CC4-ACD5-092A954400BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F39C67D-49EA-A933-68DD-7F247635B213" name="PARALELO_PROFESORES_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>B0E88335-4DAF-7E78-DBC4-788D6B9DED2E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DCC02F9-886C-2E15-EDC7-77259AC787F9"/>
+<colUsage columnID="698927AB-6E49-461F-6DF3-55CEBE3BA5E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>FBE046FB-D8F3-4F92-92B9-C5D9515D4465</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>tipo</nameOnSource>
-<nameOnTarget>telef</nameOnTarget>
+<nameOnSource>TELEF</nameOnSource>
+<nameOnTarget>TIPOTEL</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="D911296A-AB73-8146-17C8-A556DF700E1B" name="TIPOS_PARIENTES">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS DIFERENTES TIPOS DE PATENTEZCO]]></commentInRDBMS>
+<generatorID>97615B3F-B5B0-5FF3-F44C-729DEB1213FE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>TIPPARIE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PARIENTE" id="759B6B9E-9414-374C-1BCC-BA4DA674FAD7">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE TIPO DE PARIENTE]]></commentInRDBMS>
+<generatorID>F9FE93AA-E8A1-5EB4-3092-7FA7B2D6F5B3</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="3C899824-860F-A287-4AED-0EFCF1BAAA7C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL TIPO DE PARIENTE]]></commentInRDBMS>
+<generatorID>C00AE7CB-0CD4-7027-98FD-E3B554DADE4C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="4718E3A2-C794-7189-C0A2-5FB600CC157E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I insctivo]]></commentInRDBMS>
+<generatorID>769EEFF2-E1AC-F2CE-A23F-80D104DFD595</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="394FEDCA-1136-E125-2A73-4653EB45FB40" name="TIPPARIE_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>F1E20AB5-A79F-67F2-02ED-B4A979B7E5BF</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="759B6B9E-9414-374C-1BCC-BA4DA674FAD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

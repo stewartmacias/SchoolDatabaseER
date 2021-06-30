@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="A9A9BB65-9B8B-35D3-A8CA-2D3C2D94F90C" name="FECHAS_PENALIDAD">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>9796BE6A-4D13-8762-C112-7EA74FC3D2F4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>FECHAS_PEN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PENALIDAD" id="10D34688-5EF5-CF35-0AEB-7E74E27E80BF">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE PENALIDAD]]></commentInRDBMS>
+<generatorID>593D046D-DD01-31D9-B1B3-843749BC1917</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CICLO_COD_CICLO" id="3D7CE159-0085-DE4C-FCB9-282B02412A1C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>3CE332CE-F2CC-72FC-1E5F-6318EC7A249B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43C79003-9139-5666-7FDB-37C60F9DD745" referredColumn="171D8CF9-BBFF-5AEE-4FD9-F470DF830007"/>
+</associations>
+</Column>
+<Column name="FECHA_DESDE" id="2ECBCA3B-02CA-DC76-0B3E-ABEDFA275C21">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE INICIO DE PENALIDAD]]></commentInRDBMS>
+<generatorID>BAE87020-AEBF-B98C-F0C6-78097093DCE3</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HASTA" id="D94B10D0-B836-026D-0E52-57C74E4E9E8C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE FINALIZACION DE PENALIDAD]]></commentInRDBMS>
+<generatorID>4ABD5745-0696-1C03-87C4-203D3BDB5AC2</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PORCENTAJE" id="1A0C2596-DA2A-EC53-3E0C-380813B2AAEF">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[PORCENTAJE DE PENALIDAD APLICADO]]></commentInRDBMS>
+<generatorID>5426BC3D-4D6E-41AA-29DC-5AE9A03D9C62</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>15</dataTypeScale>
+<ownDataTypeParameters>,2,15</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="888BDBDA-1500-55A3-6155-EE97DF013C2C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<generatorID>72BF64EF-9380-7896-DEF0-FB21DCA3B5D1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A947A540-4C76-F407-CDEA-45248BCBD1AA" name="FECHAS_PEN_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>FE6048C0-FE69-F1BD-01A6-C649514AB578</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D7CE159-0085-DE4C-FCB9-282B02412A1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C1FA7EF-BCD2-7289-72F7-FF2F1FD7667B" name="CICLOS_FKv2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>FA2B56A8-19B6-039E-5C3F-AFF21BC896B9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D7CE159-0085-DE4C-FCB9-282B02412A1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="0057C503-C3D0-16D8-8B16-6F878EF6596C" name="PERSONA_DOCUMENTOS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD PARA CARGAR LOS DIFERENTES DOCUMENTOS QUE DEBEN REGISTRAR]]></commentInRDBMS>
+<generatorID>DD9AA8E2-45F5-A136-960E-28699D0FAC7A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>DOCUPERS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_DOCUMENTO" id="0A089511-10FD-92FB-19FF-237FB03DCE03">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>A03DD7EC-B1E8-E5D1-0D35-8DAFAC77C057</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_TIPO_IDENTIFICACION_COD_TIPO_ID" id="5241D14F-3FE7-9FA5-206B-C0D426739CB2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>A965915A-4D71-85E8-110A-493DDC3A5002</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D606EB8-7344-DCA1-AA22-05DAAFD0FA5A" referredColumn="97371EE4-5A7E-3EA5-C2CA-948395293804"/>
+</associations>
+</Column>
+<Column name="PERSONA_NUMERO_IDENTIFICACION" id="B98D8E42-F3AD-7CDC-7F74-94A638B22229">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>249DA118-3509-9F7A-8E1B-5A3907013636</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D606EB8-7344-DCA1-AA22-05DAAFD0FA5A" referredColumn="72D1EA9E-EB7D-4A43-AC7E-B78821990BA5"/>
+</associations>
+</Column>
+<Column name="DOCPER_COD_TIPO_DOC" id="004A2716-E138-DBAA-E617-AF61D21D8C26">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>588B0427-E89C-14DA-6819-A684F42607E9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23D3C69B-2807-E089-5A0B-EFBED03DFA7D" referredColumn="FD7A1D84-791C-3DD8-0223-2D4A1000B51E"/>
+</associations>
+</Column>
+<Column name="OBSERVACION" id="1AE92591-5E6F-4F20-EAC5-54EC7D44AAB6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ALGUNA INFORMACION DOCUMENTO]]></commentInRDBMS>
+<generatorID>F1FE1A9F-F04F-53FE-A631-EE1A4CFD7A75</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VERIFICADO" id="A137AAD3-DD4F-EE5C-36A6-962E16CE4CB8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[S= SI / N= NO]]></commentInRDBMS>
+<generatorID>E3281A4D-1CA8-7BD9-1421-14EBC755D5C5</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARGAR_DOCUMENTO" id="4119E2B9-5A1B-520A-D7E5-67EB4C437769">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>F8A4325E-DC27-499D-C0D4-BB548E985439</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ENTIDAD_EDUCACION" id="BB071048-301F-31DE-82CC-EAE5A62D151D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO SENESCYT/CONSUP, ETC EN CASO DE MAESTRIA, PARA REGISTRAR DATOS TERCER NIVEL]]></commentInRDBMS>
+<generatorID>AC77F2B6-FCD4-8E04-D378-3D75132194FD</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F0ACF7B-2F19-16E6-3405-33DA79BD7790" name="DOCUPERS_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>A6FD50F7-BB27-65AC-B4BE-5121BFDF1960</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5241D14F-3FE7-9FA5-206B-C0D426739CB2"/>
+<colUsage columnID="B98D8E42-F3AD-7CDC-7F74-94A638B22229"/>
+<colUsage columnID="004A2716-E138-DBAA-E617-AF61D21D8C26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EF84D95-0B4E-97B1-4720-B19889C41CCE" name="PERSONA_FKv8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>DB5B5C53-ECF3-9187-A46E-AB42DA664144</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B98D8E42-F3AD-7CDC-7F74-94A638B22229"/>
+<colUsage columnID="5241D14F-3FE7-9FA5-206B-C0D426739CB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3888C5FB-03C9-B5D8-6099-122CFD690979" name="TIPO_DOCUMENTOS_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>6BBB8056-80C5-C30A-D94B-9A48B7ADD055</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="004A2716-E138-DBAA-E617-AF61D21D8C26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

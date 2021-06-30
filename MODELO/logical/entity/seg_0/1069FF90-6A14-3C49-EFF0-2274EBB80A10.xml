@@ -60,7 +60,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_PENSUM" id="CF4C4448-F249-751E-125A-F5BA2327EA46">
 <createdBy>User</createdBy>
@@ -106,6 +106,48 @@ INTERNET, ASISTENTE ENTRE OTROS]]></commentInRDBMS>
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_SUBDIVISION2" id="B821DD9E-3C87-E8CA-B7B8-43BB3E96DB7E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>4C56E896-0C33-1E54-91F5-D447682C758B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>A5B924D4-446C-D7F8-50BC-33ED82217121</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SUBDIVISION1" id="2924E145-A8EB-342C-59F7-F83434C1E854">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>4C56E896-0C33-1E54-91F5-D447682C758B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>33C329ED-81A8-D6E5-42BF-A1A1D17780B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="11BE2BD9-8EC3-4A92-B6F7-B93A6EEEFAC3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>4C56E896-0C33-1E54-91F5-D447682C758B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>1814468C-9A4D-900A-ABDF-76E1BD5669F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="BEB7AD2A-5A38-91B0-C30C-0103FCDA7B2C" name="ALUMNO PK">
@@ -117,9 +159,7 @@ INTERNET, ASISTENTE ENTRE OTROS]]></commentInRDBMS>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>ED213D4D-1AE1-8451-86E8-9235FAB1F12B</attributeRef>
-<attributeRef>681D716A-7E71-55AE-1212-AB341A95CF5F</attributeRef>
-<attributeRef>CF4C4448-F249-751E-125A-F5BA2327EA46</attributeRef>
+<attributeRef>0DFFB73A-C043-FA6F-3E08-25C3953063C5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

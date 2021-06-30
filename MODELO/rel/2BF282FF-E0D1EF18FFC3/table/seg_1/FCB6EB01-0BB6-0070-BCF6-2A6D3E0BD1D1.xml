@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="FCB6EB01-0BB6-0070-BCF6-2A6D3E0BD1D1" name="SERVICIOS_ACADEMICOS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE DECLARAN LOS DIFERENTES SERVICIOS QUE LA ENTIDAD EDUCATIVA OFRECE, POR EJEMPLO: CARRERAS DE GRADO, PROGRAMAS DE POSTGRADO, CURSOS DE EDUCACION CONTINUA]]></commentInRDBMS>
+<generatorID>68742389-FBFB-33C4-C80F-CF2DE124D391</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>SERV_ACAD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_SERVICIO" id="4412AA10-D0C2-9DE1-693B-06C5A4CE4BD8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE SERVICIO]]></commentInRDBMS>
+<generatorID>B731C7C7-4C12-ABF5-9B87-4C21BC77657E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="D78A2D96-1C90-FE26-0D7C-D9B3ADA23527">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE O DESCRIPCION DEL SERVICIO ACADEMICO]]></commentInRDBMS>
+<generatorID>059D8F68-D020-9D80-8468-3424A25042A8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INICIALES" id="44B84D2F-0C70-4EF4-93DF-E9DD3E290988">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[INICIALES DEL SERVICIO]]></commentInRDBMS>
+<generatorID>E3AA9820-5362-9492-4C8C-51854075B0B8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_OTRO_IDIOMA" id="AF819702-7FF0-7681-6E11-1849BE079265">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL SERVICIO EN OTRO IDIOMA]]></commentInRDBMS>
+<generatorID>0CD12F26-6D64-BB4A-FE44-A9F3C4E7E504</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="E6370085-3AF7-4269-FBCD-72EE84BE71B6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTADO A activo o I inactivo]]></commentInRDBMS>
+<generatorID>2E642575-84AD-AF53-39CD-A2B3BD1F2750</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_CREACION" id="CA409494-C628-43F5-1587-04E99B7BBC75">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[USUARIO DE CREACION DE REGISTRO]]></commentInRDBMS>
+<generatorID>C441AA93-D8C0-0F52-430E-7B2782423EF9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="2F08A96C-2152-6C59-A57F-700B21C8856C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE CREACION DE REGISTRO]]></commentInRDBMS>
+<generatorID>438DB05C-9EEF-BB65-EE35-CDE9E0C74211</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84ACA4DC-9544-EAF6-680E-D8F39BDFFD20" name="SERV_ACAD_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>88E3852F-F7C2-F97B-AB8F-DCE0A0F0D901</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4412AA10-D0C2-9DE1-693B-06C5A4CE4BD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="0FBCC65C-BB6D-4F85-4A4C-8469F6529F32" name="NIVEL_ENTIDAD_ESTUDIO">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA EL NIVEL DE ESTUDIO DE UNA ENTIDAD EDUCATIVA, POR EJEMPLO COLEGIO, TECNICO, UNIVERSIDAD, ETC]]></commentInRDBMS>
+<generatorID>5509D2D3-4F7B-D5EE-8524-8A629632266F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>NIENT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_NIVEL" id="B8974BC8-7887-F6EB-1E33-35D985388273">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE NIVEL DE ESTUDIO PARA ENTIDADES]]></commentInRDBMS>
+<generatorID>AC488ED3-5432-CD33-B7F4-B3A85421F3CE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="47C81568-7AA0-BBDD-4245-1F358EF7B99C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL NIVEL DE ESTUDIO ]]></commentInRDBMS>
+<generatorID>7AD72777-D211-07D3-AE35-F5B7FE0D7ADE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="7A276765-0201-A4A2-6000-68B68FD993F9">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<generatorID>C03933A4-6B0B-1632-DF95-010E3C60D0AC</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0BFCD50-CEDB-811A-8DA0-CABF4B2C99C4" name="NIENT_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>857CBC5F-A83E-654F-53CE-1213FBD154B5</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8974BC8-7887-F6EB-1E33-35D985388273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="24B5EDA8-C4DB-6173-B1AB-96650EFDB8CC" name="NACIONALIDADES">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>94EC9E95-0218-3589-39FF-0BAEE20E06A7</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>NAC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_NACIONALIDAD" id="4644D344-B042-FB17-C878-EC1541F62493">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE NACIONALIDAD, SECUENCIA]]></commentInRDBMS>
+<generatorID>170DB2A7-C37B-447E-1149-0BA05EDAEAC1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_NUMERO_IDENTIFICACION" id="9B91773D-3C07-0C2A-62B4-4ECF1A4F3A0A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>01511641-E1B8-AF9E-DEFC-40524678F19E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDC8E9D5-DE9D-EA4F-92CE-567EB4361621" referredColumn="72D1EA9E-EB7D-4A43-AC7E-B78821990BA5"/>
+</associations>
+</Column>
+<Column name="PERSONA_TIPO_IDENTIFICACION_COD_TIPO_ID" id="580779D4-D271-4F4A-576F-738658D4B03D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>08B0B130-24E8-C513-0F4D-D15C1D4C392A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDC8E9D5-DE9D-EA4F-92CE-567EB4361621" referredColumn="97371EE4-5A7E-3EA5-C2CA-948395293804"/>
+</associations>
+</Column>
+<Column name="PAIS_COD_PAIS" id="32B78EF8-77A2-94E8-ECB2-DE3133B8EBAB">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>42BF6991-D743-AA66-582E-9CCD85446DEE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59F7C396-8689-1B64-CA81-324A26DD8161" referredColumn="A049A7E1-043C-E99D-B99F-E1B9A43F90BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81440248-4BBD-F0E7-2FB7-BEE7E171DBDD" name="NAC_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>989960B9-E63A-71A7-9F46-4ABECF42E619</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4644D344-B042-FB17-C878-EC1541F62493"/>
+<colUsage columnID="9B91773D-3C07-0C2A-62B4-4ECF1A4F3A0A"/>
+<colUsage columnID="580779D4-D271-4F4A-576F-738658D4B03D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B5C59BC-F384-8D89-E314-4FF1454AD842" name="PERSONA_FKv4">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>8633F8DF-D9FB-9E35-B0DD-1E1FBB644335</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B91773D-3C07-0C2A-62B4-4ECF1A4F3A0A"/>
+<colUsage columnID="580779D4-D271-4F4A-576F-738658D4B03D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6950B585-8CCA-4C04-5127-3E64FB23B326" name="PAIS_FKv3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>FF305CF0-BCAE-DC7D-3CAA-BA3073DA57CD</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32B78EF8-77A2-94E8-ECB2-DE3133B8EBAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

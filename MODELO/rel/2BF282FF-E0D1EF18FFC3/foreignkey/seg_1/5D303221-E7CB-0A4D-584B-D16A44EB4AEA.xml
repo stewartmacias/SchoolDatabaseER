@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="5D303221-E7CB-0A4D-584B-D16A44EB4AEA" containerWithKeyObject="47748BA6-E8A1-6BB7-D645-77F8859ECB47" localFKIndex="442387EE-AFF9-BE95-B235-BC1A93055B8B" name="PENSUM_FKv2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>C9523D99-7850-0BF4-DF58-C61A84A19648</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>PENSUM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7FCA097-1996-60ED-AD0C-D334CDBB46BE</referredTableID>
+<keyObject>448A74CE-BF2B-E18B-5690-17D9031FE5D8</keyObject>
+<referredKeyID>448A74CE-BF2B-E18B-5690-17D9031FE5D8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_PENSUM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

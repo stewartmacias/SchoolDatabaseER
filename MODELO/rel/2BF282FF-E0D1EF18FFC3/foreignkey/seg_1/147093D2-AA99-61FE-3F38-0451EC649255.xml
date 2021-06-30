@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="147093D2-AA99-61FE-3F38-0451EC649255" containerWithKeyObject="045BE9F0-2205-B274-0984-45099737A47E" localFKIndex="85F40CD7-06BB-2720-613D-30B415AB4790" name="MODALIDAD_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>66E3210B-E7C8-D2F0-5F5F-CCA95C6EF95F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>MODALIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73210234-F6DD-89C4-BBC1-05A63EEC8BEF</referredTableID>
+<keyObject>226711E6-5023-AAC8-F938-3CB0E238DAC1</keyObject>
+<referredKeyID>226711E6-5023-AAC8-F938-3CB0E238DAC1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MOD_CARR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -57,7 +57,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TELEFONO1" id="C183D208-BE98-E045-B5B2-43EE24495158">
 <createdBy>HP</createdBy>
@@ -131,6 +131,48 @@
 <dataTypeSize>400</dataTypeSize>
 <ownDataTypeParameters>400,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_SUBDIVISION2" id="244568FB-97F9-7E12-2D97-C376336DB143">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>6F60A7D1-B525-BB1B-0B69-5899DE2715F7</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>A5B924D4-446C-D7F8-50BC-33ED82217121</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SUBDIVISION1" id="277FA7DA-C7A9-3644-1A92-AC1E434D00D2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>6F60A7D1-B525-BB1B-0B69-5899DE2715F7</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>33C329ED-81A8-D6E5-42BF-A1A1D17780B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="34D7A46E-D7A7-0115-2F90-85250B1CC76A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>6F60A7D1-B525-BB1B-0B69-5899DE2715F7</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>1814468C-9A4D-900A-ABDF-76E1BD5669F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E0D62510-BBE1-C6FE-38DE-93FBC8B03189" name="PARIENTES PK">
@@ -145,6 +187,9 @@
 <attributeRef>579786F7-4F7E-6503-AF4F-0C0D7A2CBA41</attributeRef>
 <attributeRef>6A574C11-AD9C-D381-94B9-FB3FEAD2D077</attributeRef>
 <attributeRef>B6B332B9-D7BA-4AC0-813D-290B1D0AF5C1</attributeRef>
+<attributeRef>244568FB-97F9-7E12-2D97-C376336DB143</attributeRef>
+<attributeRef>277FA7DA-C7A9-3644-1A92-AC1E434D00D2</attributeRef>
+<attributeRef>34D7A46E-D7A7-0115-2F90-85250B1CC76A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

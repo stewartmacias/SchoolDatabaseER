@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="66C85AA6-9C1E-D32E-E3A2-3C64F8CC9917" containerWithKeyObject="22EA6FD6-AECB-FA6F-1894-67207D77B74D" localFKIndex="DA9F92AF-EA9A-A807-0D3B-52468AFFC4B5" name="TIPO_DISCAPACIDAD_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>3650F0F9-F258-DCC5-2086-CA7D20DA55FF</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>TIPO_DISCAPACIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>78DA2E20-928E-0F30-D12F-D5D7E5F34CA3</referredTableID>
+<keyObject>A864E55B-21E3-1CE9-B63F-832465E2638D</keyObject>
+<referredKeyID>A864E55B-21E3-1CE9-B63F-832465E2638D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_TIPO_DISCAPACIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

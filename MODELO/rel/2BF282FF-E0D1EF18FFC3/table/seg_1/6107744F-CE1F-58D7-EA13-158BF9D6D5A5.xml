@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="6107744F-CE1F-58D7-EA13-158BF9D6D5A5" name="PARALELO_AULAS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LAS AULAS AISGNADAS A UN PARALELO]]></commentInRDBMS>
+<generatorID>14FFFF8B-2112-7182-CB19-EE05616D848E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>PARAUL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FECHA_ASIGNACION" id="B09C0C52-5228-27E0-8645-7AAADA3C96AB">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE ASIGNACION]]></commentInRDBMS>
+<generatorID>52128204-14CE-021F-FA99-C1EC93ACCB3C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARALELO_COD_PARALELO" id="699EBC8F-16D3-9EA1-048E-180ED9A58E15">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>77B2B29D-B63D-9114-E36A-744F01F861E0</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="341C8213-37B8-F605-0217-7093220DBF76" referredColumn="F478EC21-15F0-276C-9B61-DD69A98C5CEF"/>
+</associations>
+</Column>
+<Column name="AUL_EDIF_COD_EDIFICIO" id="E8327353-7CF3-5CAC-891D-0A9B492BD728">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>EE7864C0-49EC-7848-8F69-0F0840E76C8B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="379C7C51-8066-5564-438E-85D9F8CCF1A7" referredColumn="D87071EC-8A02-5AF6-9501-468EFC630117"/>
+</associations>
+</Column>
+<Column name="AUL_EDIF_CODIGO_CAMPUS" id="0DD1A60E-574D-F0D4-1EF2-A6935B53FB78">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>79AE4333-FA84-503A-1678-B3D6A7F4E20D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="379C7C51-8066-5564-438E-85D9F8CCF1A7" referredColumn="04598208-1E2D-3E6F-2504-3E8FCD33D483"/>
+</associations>
+</Column>
+<Column name="AUL_COD_AULA" id="2718272C-C1D4-1CE9-711D-8A9AE23D7547">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>41024629-650F-0CA8-4ACB-66C7D54E3E87</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="379C7C51-8066-5564-438E-85D9F8CCF1A7" referredColumn="D5E2EEF1-16EF-45BB-99D5-1F47EB350FBE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E32C757-8B04-6057-2B94-D1B939C44284" name="PARAUL_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>4AB1C4A6-1796-1033-6E28-F1477C11C8DE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="699EBC8F-16D3-9EA1-048E-180ED9A58E15"/>
+<colUsage columnID="E8327353-7CF3-5CAC-891D-0A9B492BD728"/>
+<colUsage columnID="0DD1A60E-574D-F0D4-1EF2-A6935B53FB78"/>
+<colUsage columnID="2718272C-C1D4-1CE9-711D-8A9AE23D7547"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CD07F26-5B54-2732-8E3B-664FC219B993" name="PARALELO_FKv2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>DF6B4659-5630-7484-CF09-3D6835624608</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="699EBC8F-16D3-9EA1-048E-180ED9A58E15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04BFB339-FC88-D2AC-F2D2-AA043DF5EAA1" name="AULA_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>FD167D0E-D2ED-C6C6-AC0B-825B64EDC298</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8327353-7CF3-5CAC-891D-0A9B492BD728"/>
+<colUsage columnID="0DD1A60E-574D-F0D4-1EF2-A6935B53FB78"/>
+<colUsage columnID="2718272C-C1D4-1CE9-711D-8A9AE23D7547"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

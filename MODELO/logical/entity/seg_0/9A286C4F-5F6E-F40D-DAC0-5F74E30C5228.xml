@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A286C4F-5F6E-F40D-DAC0-5F74E30C5228" name="COMPONENTE_CALIFICACION">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:15:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS COMPONENTES DE CALIFICACION DE CADA PARCIAL CON SU RESPECTIVO PESO, POR EJEMPLO: LECCION 10%, DEBER 10%, EXAMEN 80%]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>COMPCALIF</preferredAbbreviation>
+<shortName>COMPCALIF</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_COMPONENTE" id="9A1C766F-7B29-DC6D-6C71-4E3952B003A7">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:17:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE COPONENTE]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="3C4613FB-0B34-F2F5-7332-9E037BBE23C3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:18:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL COMPONENTE]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESO" id="39D294B7-8E19-B6AF-3F93-484B61707A8C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:18:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[POCENTAJA DEL PESO QUE EL COMPONENTE TIENE EN LA CALIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PARALELO" id="9395C567-B4F5-A246-826B-7B03D2E2CD5B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:05:48 UTC</createdTime>
+<generatorID>396881FC-BD82-223D-BBDD-00EAC92D2EB4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>61D92DF7-60C9-361D-E315-D4862D2FE35F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PROFESOR" id="CF7197BC-553B-8ABD-A98B-DBDBE1759611">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:05:48 UTC</createdTime>
+<generatorID>396881FC-BD82-223D-BBDD-00EAC92D2EB4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>8B71B514-9485-F508-7CD7-DE83A41374C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6799AA81-A698-256C-1799-0FE6BDE8BF3C" name="COMPONENTE_CALIFICACION PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:17:58 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A1C766F-7B29-DC6D-6C71-4E3952B003A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

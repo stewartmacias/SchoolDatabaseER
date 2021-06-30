@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D429C45-8813-4FC5-DFF2-3CDCEF3B9723" name="AULA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LAS DIFERENTES AULAS DEL CAMPUS]]></commentInRDBMS>
+<generatorID>E391E77F-FFD7-39E3-6F33-2C4AD553D51F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>AUL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_AULA" id="D5E2EEF1-16EF-45BB-99D5-1F47EB350FBE">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE AULA]]></commentInRDBMS>
+<generatorID>2DAB9801-4BF2-C1C8-49D6-F520DC6B9AC1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="FC48856B-AA2B-FBF8-B613-3C8AF0E6EBA3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DE AULA]]></commentInRDBMS>
+<generatorID>FD6D489C-11A2-BE0F-0EA4-A11A7E5F75F4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="DD6E6E9B-DCDE-4A90-C05E-4105EDF030FC">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ABREVIATURA DEL AULA]]></commentInRDBMS>
+<generatorID>9A485770-7743-56CA-D372-45D0DA174786</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PISO" id="A495264F-CF77-9FE5-5F9E-333078FF655F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DEL P ISO DONDE ESTÁ UBICADA EL AULA EN EL EDIFICIO ]]></commentInRDBMS>
+<generatorID>E9F16D3D-8441-0A05-6DA2-57961C18A69E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="5BEA0496-9B9E-2FB7-7AFB-3D59C442D1E3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Activo A Inactivo I]]></commentInRDBMS>
+<generatorID>A3ED4F2A-2719-2BE9-F442-9936D2772150</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EDIF_COD_EDIFICIO" id="D87071EC-8A02-5AF6-9501-468EFC630117">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>2AE698FF-8576-1C97-D561-CDA4FDC1478A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C3D845B-7E1B-0B7A-3201-D42FC7B73CDA" referredColumn="4E6C768C-F5F4-7E37-2438-3DEAB81943ED"/>
+</associations>
+</Column>
+<Column name="EDIF_CODIGO_CAMPUS" id="04598208-1E2D-3E6F-2504-3E8FCD33D483">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>11D3E965-96DD-C0B0-91E4-A2B829760A84</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C3D845B-7E1B-0B7A-3201-D42FC7B73CDA" referredColumn="DF062896-64F4-060F-B170-6E24EF0E3B43"/>
+</associations>
+</Column>
+<Column name="MAXIMO_CAPACIDAD" id="948A1134-F3E8-5EEF-2C51-C628BFA9CE9E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[MAXIMA CAPACIDAD FISICA DEL AULA]]></commentInRDBMS>
+<generatorID>3603AB23-8B41-4154-51A8-43754834BCAF</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIP_AULA_COD_TIPO_AULA" id="8DCA0E9A-A345-C182-3750-BFEB5C04D52C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>C46F115D-DE43-DB01-67F9-3373073203DB</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C374A15-0648-F6B8-3908-C675115D0D5A" referredColumn="D77B6EF7-BBFF-E116-A033-9CF3EF7B5A2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F5CF6B2-8435-5493-37F7-31CF633EE1A1" name="AUL_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>05956623-8B08-8C48-AF35-5478E24AFE73</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D87071EC-8A02-5AF6-9501-468EFC630117"/>
+<colUsage columnID="04598208-1E2D-3E6F-2504-3E8FCD33D483"/>
+<colUsage columnID="D5E2EEF1-16EF-45BB-99D5-1F47EB350FBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97BCD234-0D45-8BAB-8A12-73F2A38634C2" name="EDIFICIO_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>F0546A3A-7258-0C43-9169-C41DA4E12646</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D87071EC-8A02-5AF6-9501-468EFC630117"/>
+<colUsage columnID="04598208-1E2D-3E6F-2504-3E8FCD33D483"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89B60FE0-B80E-4436-8D1E-727CE4206485" name="TIPO_AULA_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>D0EFA40B-4A67-D020-9D4F-8BED7D8ED6A4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DCA0E9A-A345-C182-3750-BFEB5C04D52C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>764B8A15-1D3D-11F9-9B4F-59E524D797C9</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>persona</nameOnSource>
-<nameOnTarget>telf</nameOnTarget>
+<nameOnSource>TELEF</nameOnSource>
+<nameOnTarget>PERSONA</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

@@ -133,43 +133,43 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_SUBDIVISION2" id="8487F168-D1A6-773B-F859-6E5150F1199E">
+<Attribute name="COD_SUBDIVISION2" id="27C52FFD-C253-D0E2-FC11-A1BA28514E76">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-23 04:27:20 UTC</createdTime>
-<generatorID>0BC68F34-BEF2-D5D2-918D-CAB71548BD84</generatorID>
+<createdTime>2021-06-30 23:13:59 UTC</createdTime>
+<generatorID>D69BCA16-9984-DADB-1CBA-B0FD7F66FC83</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<referedAttribute>D56654C4-BEFB-F0E7-08FE-8C43611A3A33</referedAttribute>
+<referedAttribute>7861E865-07F9-B7A2-A5A9-61C556973A89</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_SUBDIVISION1" id="F821FC71-40ED-E57F-4856-98DF0AFE2555">
+<Attribute name="COD_SUBDIVISION1" id="7018E877-051D-E545-44BE-C447B6D7E2A8">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-23 04:27:20 UTC</createdTime>
-<generatorID>0BC68F34-BEF2-D5D2-918D-CAB71548BD84</generatorID>
+<createdTime>2021-06-30 23:13:59 UTC</createdTime>
+<generatorID>D69BCA16-9984-DADB-1CBA-B0FD7F66FC83</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<referedAttribute>19BA4BB4-CDC9-2185-BE69-54DD293EF427</referedAttribute>
+<referedAttribute>45D54438-6E1C-84EA-1012-C472E5190482</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_PAIS" id="BE37ED82-CD1E-1912-B540-2ED14A3642F2">
+<Attribute name="COD_PAIS" id="5FE81702-E87B-7763-B7CA-28AC630395D2">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-23 04:27:20 UTC</createdTime>
-<generatorID>0BC68F34-BEF2-D5D2-918D-CAB71548BD84</generatorID>
+<createdTime>2021-06-30 23:13:59 UTC</createdTime>
+<generatorID>D69BCA16-9984-DADB-1CBA-B0FD7F66FC83</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<referedAttribute>49D7AB47-8796-D016-A8DF-2B209C5592AB</referedAttribute>
+<referedAttribute>2544D669-8EE8-14E4-68C5-6760F468A02E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

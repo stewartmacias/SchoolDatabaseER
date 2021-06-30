@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="4FB9A571-38CB-045C-BE59-EA262EC6449D" containerWithKeyObject="4EA6B7AE-DEBA-F74B-4DF4-FB3B5E3E1155" localFKIndex="493F037D-AEEA-9FB1-D93D-6327BF168CDF" name="MATERIAS_PENSUM_FKv2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>3A373175-26EE-DD57-B2D9-C4A28A16E4BC</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>MATERIAS_PENSUM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47748BA6-E8A1-6BB7-D645-77F8859ECB47</referredTableID>
+<keyObject>5545CFCB-8424-725A-72A2-E9930A8445A4</keyObject>
+<referredKeyID>5545CFCB-8424-725A-72A2-E9930A8445A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PENS_COD_PENSUM,MAT_COD_MATERIA,MAT_COD_FACULTAD,MAT_COD_SERVICIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

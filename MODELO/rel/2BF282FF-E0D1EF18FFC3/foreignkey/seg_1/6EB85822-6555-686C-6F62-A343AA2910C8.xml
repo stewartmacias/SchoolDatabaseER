@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="6EB85822-6555-686C-6F62-A343AA2910C8" containerWithKeyObject="47748BA6-E8A1-6BB7-D645-77F8859ECB47" localFKIndex="148410EF-36C4-EEA6-C383-8CD6F996662E" name="NIVELES_MATERIAS_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>CE9AF2F8-9F0B-74E3-4EB7-6AB3360F978E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>NIVELES_MATERIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1F9F7268-91C5-683E-C857-C315B83D11D1</referredTableID>
+<keyObject>00E3B2AF-EBFF-3A1A-80DD-97D45DF1C61B</keyObject>
+<referredKeyID>00E3B2AF-EBFF-3A1A-80DD-97D45DF1C61B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_NIVEL,PENS_COD_PENSUM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

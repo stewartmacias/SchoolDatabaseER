@@ -1,0 +1,230 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA859DFB-0376-B758-EC5C-9DC6986409B8" name="CICLOS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES CICLOS DE ESTUDIOS EN LA ENTIDAD DE EDUCACION.]]></commentInRDBMS>
+<generatorID>327206B7-8F8B-D584-01F4-36E71617442A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>CICLO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CICLO" id="171D8CF9-BBFF-5AEE-4FD9-F470DF830007">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE CICLO]]></commentInRDBMS>
+<generatorID>A0F85A5F-8782-02AE-868B-E04199D95FC6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANIO_REFERENCIA" id="573D4476-7D6E-C601-B01C-298FA66C2D48">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ES EL ANIO EN EL QUE CORRE EL CICLO DE CLASES]]></commentInRDBMS>
+<generatorID>F3F250C1-B9C4-6EC1-0C58-3BEC59106A5D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIAL" id="E24ABC06-B002-0DF4-757D-A7A1E7F95780">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>E9A0A84F-BE9C-247F-07D8-422AFDA9B786</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FINAL" id="3B9F58A8-FAF6-F436-F1FF-462B3B80980E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA FINAL DEL CICLO]]></commentInRDBMS>
+<generatorID>C3C24F0E-2D39-EF38-73BF-137A471E724A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_PAGOS" id="9F0E4A5F-91C9-0740-18D9-0A10589110E8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CANTIDAD DE PAGOS QUE TIENE EL CICLO DE CLASES]]></commentInRDBMS>
+<generatorID>FD1430A1-F945-61D0-7DAB-26D96926CEE6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO_CLASES" id="7F640A34-81C4-499C-055A-EBF20280D146">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE INICIO DE CLASES EN EL CICLO]]></commentInRDBMS>
+<generatorID>319F4EE5-87CB-E84B-2E9D-FC064253A112</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN_CLASES" id="528E8501-6AB1-357F-6589-8978FACB8215">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE ULTIMO DIA DE CLASES EN EL CICLO]]></commentInRDBMS>
+<generatorID>3BB35792-F2B1-9424-9030-BF9D333151A3</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PERMITIDA_RETIRO" id="F3BA32CE-07BF-4A8E-0D66-D95CB82E9970">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA MAXIMA PERMITIDA PARA RETIRARSE LUEGO DE ESTAR REGISTRADO O MATRICULADO]]></commentInRDBMS>
+<generatorID>ABFFBA78-EA45-2BFD-F059-8D9AE2890CE6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERIODO_COD_PERODO" id="F76FACF5-8E4F-050B-1505-38F00C9930C3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>1CC7D6C4-16A0-CD26-B1AD-CE808C76CB28</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="280DB471-493E-65A1-97C3-FE714482335D" referredColumn="8DB0DE5D-B326-DDC4-0FF9-BFEB77DC2C74"/>
+</associations>
+</Column>
+<Column name="FACULTAD_COD_FACULTAD" id="B47208F4-65B0-1B5B-B145-E7D65768EF27">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>7C6DF555-DC15-7CF6-1091-BF2B2B97ECC8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E05A3D2-1469-9857-2578-9A61D2AECDE7" referredColumn="2EE21B83-87D4-2CD4-0A79-6945EAF8FE3C"/>
+</associations>
+</Column>
+<Column name="FACULTAD_COD_SERVICIO" id="3BD3A748-5086-541D-366B-4515CFB00D6B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>39118DB4-CF5C-54B1-3F3F-2FA2B8CE418C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E05A3D2-1469-9857-2578-9A61D2AECDE7" referredColumn="BAAC1DC8-A44E-E6B3-BA16-782E3F26EA1F"/>
+</associations>
+</Column>
+<Column name="TIP_CALIF_COD_TIP_CALIF" id="9D1B2FFF-4553-1F3E-F376-88582ACE560C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>8E1A02A6-234D-2452-9B1A-7C22FAC36C5D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5289D00-B884-C5CE-DAE6-60580C402581" referredColumn="6BF7023F-FC10-83A3-57A9-FBAF1FAAD4A7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19935A33-BC59-F6BF-9F02-EDE1E163B5EB" name="CICLO_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>477D0A48-FCD9-37D3-EB38-F52E92ED4EF4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="171D8CF9-BBFF-5AEE-4FD9-F470DF830007"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC9FADD6-285B-D289-8464-2D2959E4D856" name="CICLOS_COD_FACULTAD_COD_PERODO_ANIO_REFERENCIA_UN">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>D4733FFC-02D5-DE53-931E-B5EC586295B8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B47208F4-65B0-1B5B-B145-E7D65768EF27"/>
+<colUsage columnID="F76FACF5-8E4F-050B-1505-38F00C9930C3"/>
+<colUsage columnID="573D4476-7D6E-C601-B01C-298FA66C2D48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E89A2CAC-D09C-D665-E685-0BB0CA55D6AF" name="TIPOS_CALIFICACION_FINAL_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>9E126493-FD30-8E73-DFD7-73736C1FE230</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D1B2FFF-4553-1F3E-F376-88582ACE560C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B701C22F-6772-6327-2361-DD47C00C8307" name="PERIODOS_CLASES_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>5B37FC6E-BA31-2B2F-54FE-737EAC30EADB</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F76FACF5-8E4F-050B-1505-38F00C9930C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9FCA6A0-803C-B1DB-29B4-9A8F66766665" name="FACULTADES_FKv4">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>462B546C-AACC-2C51-1C3C-DA735BA3CBA4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B47208F4-65B0-1B5B-B145-E7D65768EF27"/>
+<colUsage columnID="3BD3A748-5086-541D-366B-4515CFB00D6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

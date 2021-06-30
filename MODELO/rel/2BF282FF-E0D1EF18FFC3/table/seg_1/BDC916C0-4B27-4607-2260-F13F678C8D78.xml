@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="BDC916C0-4B27-4607-2260-F13F678C8D78" name="MODULOS_PENSUM">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA UNA AGRUPACION DE MATERIAS POR MODULOS]]></commentInRDBMS>
+<generatorID>3763968A-CACC-94A4-E834-D7B585162CB0</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>MOD_PEN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_MODULO" id="E51F22A6-D9DC-8BB4-A7A7-6D72EEFE202A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE MODULO DENTRO DE UN PENSUM]]></commentInRDBMS>
+<generatorID>F5959A23-0E7D-3E01-0900-BDBB29C7A8B5</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="2A791E77-623F-9CF3-A5AD-AA938774444C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL MODULO]]></commentInRDBMS>
+<generatorID>EB996E57-9113-3D14-8D95-8A1201DED7A3</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="03F83574-8DCE-A84F-8BEF-6D736D780162">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<generatorID>1A5607FF-DB1A-A430-5BEE-5D6F91673F51</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PENS_COD_PENSUM" id="ECFB8B51-7E8B-19EB-D0D2-59A2BBC08733">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>554AF311-9297-5BE9-E7AE-1EA8AD284D35</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F472EC8-EB68-DA9B-41D7-174FD61A467E" referredColumn="E12C3E0D-0408-9C31-1644-E9B9FF732420"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="862C9360-2881-F5B3-46C7-3F15672F04F6" name="MOD_PEN_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>A11D322F-A6C5-13C7-8C51-B18C922D68DF</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E51F22A6-D9DC-8BB4-A7A7-6D72EEFE202A"/>
+<colUsage columnID="ECFB8B51-7E8B-19EB-D0D2-59A2BBC08733"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC59ECDF-D190-66A9-0BE2-893B69880C04" name="PENSUM_FKv4">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>0FA46B51-F22B-418A-95C0-A1D5A2729DE3</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECFB8B51-7E8B-19EB-D0D2-59A2BBC08733"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

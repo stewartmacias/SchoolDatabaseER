@@ -115,6 +115,48 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_SUBDIVISION2" id="42D2ED99-34BB-E49C-D99E-4D68348CE4E7">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>FD88FDBE-7D2E-3004-453D-9DDBDBE403EA</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>A5B924D4-446C-D7F8-50BC-33ED82217121</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SUBDIVISION1" id="98D68D8A-CB57-B264-6770-3681EAD4D49E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>FD88FDBE-7D2E-3004-453D-9DDBDBE403EA</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>33C329ED-81A8-D6E5-42BF-A1A1D17780B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="26A21C3C-AD73-3D93-7246-4DA64EF0B18A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>FD88FDBE-7D2E-3004-453D-9DDBDBE403EA</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>1814468C-9A4D-900A-ABDF-76E1BD5669F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F0C34594-7C27-48FE-DDB1-A0B2724DE9C7" name="PROFESOR PK">

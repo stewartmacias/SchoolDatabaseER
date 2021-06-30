@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F55EC7F-B470-417B-2270-CED08D4AEC3B" name="CATEGORIA_EXPERIENCIA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRA LA CATEGORIA DEL PROFESOR POR SU EXPERIENCIA, POR EJEMPLO INVITADO, INVESTIGADOR, EXPERTO, ETC]]></commentInRDBMS>
+<generatorID>45E8F58C-B7A9-FD57-DCE2-AEE2A3C7C9EE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>CATEXP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CATEGORIA" id="F4D98797-7CD6-80AD-0D2B-7AB4740044FC">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE CATEGORIA POR EXPERIENCIA]]></commentInRDBMS>
+<generatorID>DAD6567E-5AB5-C6AE-8CCC-91AAAEC17C77</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="59432EE5-119D-7526-3E6A-D5DA7E91C320">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DELA CATEGORIA DE PROFESOR POR EXPERIENCIA]]></commentInRDBMS>
+<generatorID>6577A48F-8C5E-02FB-39AC-C648D26E4A00</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="51649EB0-430F-B665-F899-1BB7EAC2B813">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<generatorID>3F6CF6DD-EC46-36A7-7795-5D552DB9F2F6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66C74C67-27D5-E6ED-E000-1BBE7B147926" name="CATEXP_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>8A8B0E07-3740-C2D1-D10D-233E14185B65</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4D98797-7CD6-80AD-0D2B-7AB4740044FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

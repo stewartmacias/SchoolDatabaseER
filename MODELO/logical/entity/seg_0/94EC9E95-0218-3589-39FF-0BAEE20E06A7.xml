@@ -42,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_TIPO_ID" id="08B0B130-24E8-C513-0F4D-D15C1D4C392A">
 <createdBy>HP</createdBy>
@@ -72,6 +72,48 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_SUBDIVISION2" id="3E1705BC-DEF7-3C97-6F18-A3CD17672F2A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>8633F8DF-D9FB-9E35-B0DD-1E1FBB644335</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>A5B924D4-446C-D7F8-50BC-33ED82217121</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SUBDIVISION1" id="6943F6F6-058E-1914-5468-372F6783B9AD">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>8633F8DF-D9FB-9E35-B0DD-1E1FBB644335</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>33C329ED-81A8-D6E5-42BF-A1A1D17780B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS1" id="9AA4CE5A-7ABF-CCAA-609E-EE3A91D12A9E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>8633F8DF-D9FB-9E35-B0DD-1E1FBB644335</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>1814468C-9A4D-900A-ABDF-76E1BD5669F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="989960B9-E63A-71A7-9F46-4ABECF42E619" name="NACIONALIDADES PK">
@@ -86,6 +128,9 @@
 <attributeRef>170DB2A7-C37B-447E-1149-0BA05EDAEAC1</attributeRef>
 <attributeRef>01511641-E1B8-AF9E-DEFC-40524678F19E</attributeRef>
 <attributeRef>08B0B130-24E8-C513-0F4D-D15C1D4C392A</attributeRef>
+<attributeRef>3E1705BC-DEF7-3C97-6F18-A3CD17672F2A</attributeRef>
+<attributeRef>6943F6F6-058E-1914-5468-372F6783B9AD</attributeRef>
+<attributeRef>9AA4CE5A-7ABF-CCAA-609E-EE3A91D12A9E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

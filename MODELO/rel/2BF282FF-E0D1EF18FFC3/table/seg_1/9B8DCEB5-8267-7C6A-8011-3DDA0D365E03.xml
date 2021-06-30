@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="9B8DCEB5-8267-7C6A-8011-3DDA0D365E03" name="FOTO_PERSONA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LAS FOTOS DE LAS PERSONAS]]></commentInRDBMS>
+<generatorID>B76C4FC0-F5C6-2D7B-15C6-8E01D6D4CB8E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>FOTPER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FOTO" id="92DBF0C6-B83E-F06F-1190-69484F4C3306">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FOTO DE LA PERSONA]]></commentInRDBMS>
+<generatorID>BB65CA88-8E78-A5DE-5958-709E83AFE42A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_NUMERO_IDENTIFICACION" id="FBB435D4-D597-65D2-6A02-5303CA948E7E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>5ED3FAEF-3802-F5B8-76C1-A39BD75C1DBD</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11811A50-DCF2-E805-EF77-FCBD27CA0E54" referredColumn="72D1EA9E-EB7D-4A43-AC7E-B78821990BA5"/>
+</associations>
+</Column>
+<Column name="PERSONA_TIPO_IDENTIFICACION_COD_TIPO_ID" id="C5E15EC3-D439-D4B3-3228-99690B88B443">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>D7DCBF21-2460-307F-B5A4-65876E9794CA</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11811A50-DCF2-E805-EF77-FCBD27CA0E54" referredColumn="97371EE4-5A7E-3EA5-C2CA-948395293804"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48A995FE-5719-8AC3-0CB3-F3D4D450AE57" name="FOTPER_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>1861F2E5-2C5E-0012-0F42-602E1D9CDAC6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBB435D4-D597-65D2-6A02-5303CA948E7E"/>
+<colUsage columnID="C5E15EC3-D439-D4B3-3228-99690B88B443"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5BE2143-841C-3BB4-740E-78515632C4BE" name="PERSONA_FKv9">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>3ECE0172-A05C-A3B6-9B77-2C188819F378</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBB435D4-D597-65D2-6A02-5303CA948E7E"/>
+<colUsage columnID="C5E15EC3-D439-D4B3-3228-99690B88B443"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

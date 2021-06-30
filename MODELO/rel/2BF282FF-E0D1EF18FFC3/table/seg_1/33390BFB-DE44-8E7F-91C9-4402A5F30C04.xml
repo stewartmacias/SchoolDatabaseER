@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="33390BFB-DE44-8E7F-91C9-4402A5F30C04" name="MATERIAS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN TODAS LAS MATERIAS A PARTIR DE UNA FACULTAD]]></commentInRDBMS>
+<generatorID>C44150CE-D936-423F-7BD5-C9E7B7A18286</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>MAT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_MATERIA" id="5A097FFF-D89B-B387-718A-0507871F2C1B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE MATERIA]]></commentInRDBMS>
+<generatorID>85D1163B-A7B0-337F-717E-B346D0FCFB03</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="3F1933AF-F953-43ED-1692-9DFC9DC6D01E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE LA MATERIA]]></commentInRDBMS>
+<generatorID>F57228C8-BAF3-CC3B-0BC0-91A8F33EFEF7</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="51B47554-1DD3-D32B-6E00-AE501C5D8192">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<generatorID>19BD6A63-DE3F-BB03-16B7-BEF8D9D501F0</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGRUPA_MODULO" id="49F592AF-5AFA-1616-1EB5-BAEB55AFF6CB">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si N no, INDICA SI LA MATERIA ES LA CABECERA DE UN MODULO DE UN GRUPO DE MATERIAS COMPONENTES]]></commentInRDBMS>
+<generatorID>4ED37DED-E315-173D-6AC5-FC2B12F5794C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<domain>52D378A9-6EB0-D8B0-8835-D7DBED06EC5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACULTAD_COD_FACULTAD" id="B8180884-A5BD-5DB4-7FE2-0358A1C6C7DA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>12A994B8-7A84-B2C6-E9C8-93944D053F4F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E82823D8-242C-8BD2-ABA2-F50A7706BC3F" referredColumn="2EE21B83-87D4-2CD4-0A79-6945EAF8FE3C"/>
+</associations>
+</Column>
+<Column name="FACULTAD_COD_SERVICIO" id="C8958AAF-9C2A-93AB-93C8-D5379AB039EA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>AF0A0816-8B3F-C1FB-B62B-B683C99D6059</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E82823D8-242C-8BD2-ABA2-F50A7706BC3F" referredColumn="BAAC1DC8-A44E-E6B3-BA16-782E3F26EA1F"/>
+</associations>
+</Column>
+<Column name="TIPMAT_COD_TIPO_MATERIA" id="92EA0987-8FAC-EE05-64E2-BEB4F5B7273E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>83471C98-B664-56D2-DA20-A54596C43119</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72429153-0FBC-95F7-BC77-2B00CC960CEC" referredColumn="B4DE7D81-3AAD-4925-15B0-FA5F3A24B15C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="257E5C82-856D-A620-E3EF-0A9F2050D18E" name="MAT_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>24C3BA58-5479-A3A0-FD49-0F5CDA23EE9D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A097FFF-D89B-B387-718A-0507871F2C1B"/>
+<colUsage columnID="B8180884-A5BD-5DB4-7FE2-0358A1C6C7DA"/>
+<colUsage columnID="C8958AAF-9C2A-93AB-93C8-D5379AB039EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3866A80-26CD-F704-5320-A37E447DBC95" name="TIPO_MATERIA_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>6947A62D-BA06-4AA5-2D58-FFA18F618868</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92EA0987-8FAC-EE05-64E2-BEB4F5B7273E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="049F5584-2FBD-BF2C-12B3-29A9EC028048" name="FACULTADES_FKv3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>B5B75164-F950-F540-7B0B-DC190AF04102</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8180884-A5BD-5DB4-7FE2-0358A1C6C7DA"/>
+<colUsage columnID="C8958AAF-9C2A-93AB-93C8-D5379AB039EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

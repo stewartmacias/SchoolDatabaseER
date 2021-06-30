@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="1F9F7268-91C5-683E-C857-C315B83D11D1" name="NIVELES_MATERIAS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS DIFERENTES NIVELES EN DONDE SE DEBEN DE TOMAR LAS MATERIAS OFRECIDAS EN LA MALLA CURRICULAR DEL PROGRAMA]]></commentInRDBMS>
+<generatorID>AE95771F-771E-770B-CB4A-0368FBB8A0B1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>NIV_MAT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_NIVEL" id="3492F338-4846-FF8B-83C6-F5F4D8342024">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE NVEL]]></commentInRDBMS>
+<generatorID>DD9A07AB-BA52-A321-42AB-01A19350052F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="A57B5572-334A-6295-96F6-1AE07AE55CE5">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL NIVEL DE LAS MATERIAS DENTRO DE LA MALLA CURRICULAR DEL PROGRAMA]]></commentInRDBMS>
+<generatorID>031CDF84-3079-ADD9-21A1-89E8F4CFBC6A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDEN" id="9F6A7A81-33EC-9F11-B30E-E69B69644D74">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ORDEN DE IMPRESION DEL NIVEL]]></commentInRDBMS>
+<generatorID>7552E754-6EEE-A685-C8EE-A91007C88B46</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PENS_COD_PENSUM" id="2AD1B368-FF07-0A50-D1E8-2DDCBD26DC72">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>419565D3-6B21-67DF-2E8B-9DDCAAA2835A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E3E7C3A-A5A9-B889-A040-386B7B89FB4A" referredColumn="E12C3E0D-0408-9C31-1644-E9B9FF732420"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_CREDITOS_MINIMO" id="5BB8E8CF-F4E9-1E62-CD32-B6555E052FC0">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ES LA CANTIDAD DE CREDITOS MINIMOS QUE SE NECESITA PARA PODER PERTENECER EL NIVEL]]></commentInRDBMS>
+<generatorID>E1E7A159-938A-99D1-C38D-628DADD11A90</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00E3B2AF-EBFF-3A1A-80DD-97D45DF1C61B" name="NIV_MAT_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>C1ABDD03-BC2F-B852-0836-1EF6F7937046</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3492F338-4846-FF8B-83C6-F5F4D8342024"/>
+<colUsage columnID="2AD1B368-FF07-0A50-D1E8-2DDCBD26DC72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="204848E5-E816-CCAB-23B1-BA9116A9F153" name="PENSUM_FKv3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>2CDC80E1-30F7-10C8-2AED-13EA7249823A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AD1B368-FF07-0A50-D1E8-2DDCBD26DC72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

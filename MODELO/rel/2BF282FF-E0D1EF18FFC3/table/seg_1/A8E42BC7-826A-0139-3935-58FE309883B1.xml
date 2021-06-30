@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="A8E42BC7-826A-0139-3935-58FE309883B1" name="PERIODOS_CLASES">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES PERIODOS DE CLASES QUE LA ORGANIZACION PUEDE APERTURAR]]></commentInRDBMS>
+<generatorID>1027C7E8-80EA-BC5C-0875-0C555574401F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>PERIODO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PERODO" id="8DB0DE5D-B326-DDC4-0FF9-BFEB77DC2C74">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE PERIODO DE CLASES]]></commentInRDBMS>
+<generatorID>20461898-D45D-F125-9ABF-C1FCF0A11268</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="57546CA7-1EE2-81FE-6779-4CF15833C9A1">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL PERIODO DE CLASES]]></commentInRDBMS>
+<generatorID>6F6D4E54-431E-31DD-2BF1-5DBF2385C636</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="9DFBACAC-F6F5-B0E0-1E31-D62A8E725BEA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<generatorID>56FD7428-D29A-296E-6E5D-2B6619E071C4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEEDB1A4-703F-0261-9D0C-62C23F4BA3F6" name="PERIODO_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>8BE8B481-6924-3815-9AF6-D0E755A0A6EB</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DB0DE5D-B326-DDC4-0FF9-BFEB77DC2C74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

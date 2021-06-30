@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="69D17531-F842-F349-A2D4-C1E5E111776A" name="TIPO_AULA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS DIFERENTES TIPOS DE AULAS DE CLASES, POR EJEMPLO: LABORATORIOS, CLASES TEORICAS, SALA DE ESTUDIO, ETC]]></commentInRDBMS>
+<generatorID>97B4EFA9-ED84-960A-79AE-B515533BC1A7</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>TIP_AULA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TIPO_AULA" id="D77B6EF7-BBFF-E116-A033-9CF3EF7B5A2D">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DEL TIPO DE AULA]]></commentInRDBMS>
+<generatorID>AD85729F-7802-F0AD-A878-675CDE64DBB9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="EDCC47EF-0DD4-C456-E50E-43BAE22BFDCE">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL TIPO DE AULA]]></commentInRDBMS>
+<generatorID>9DF4D569-0798-B475-C882-593D7CDD8E89</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="812561D6-D8E8-AB2C-A839-39B6A45B0DE6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<generatorID>AEA4365D-7882-3753-CC1B-0F70921087E4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DABFF482-13E4-F9AF-03D9-377516B460B3" name="TIP_AULA_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>66144288-1B3D-CC2D-E483-A81DD4186A93</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D77B6EF7-BBFF-E116-A033-9CF3EF7B5A2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

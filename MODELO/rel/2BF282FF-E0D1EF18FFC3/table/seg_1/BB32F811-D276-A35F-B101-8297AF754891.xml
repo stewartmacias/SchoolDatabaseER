@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="BB32F811-D276-A35F-B101-8297AF754891" name="RANGO_CALIFICACION">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES NIVELES DE O RANGO QUE UN ESTUDIANTE PUEDE OBTENER SEGN SU CALIFICACON OBTENIDA]]></commentInRDBMS>
+<generatorID>327EA260-C7C3-C714-A71C-074493A0DFE1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>RANG_CALIF</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_RANGO" id="F8CFEB94-FBC9-205B-B4D0-E6A9D8559985">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE RANGO DE CALIFICACION]]></commentInRDBMS>
+<generatorID>CAA95ED0-810B-516A-AEE0-41497298E51C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="72EC2AE9-DFD6-2161-79F7-2B7F6E994F02">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE CALIFICACION]]></commentInRDBMS>
+<generatorID>8A3147A2-BBCA-C78F-14C1-B146E60DF018</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIP_CALIF_COD_TIP_CALIF" id="5B0D384F-9946-F7E0-F399-DB4D2581E091">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>A045BC6C-DD34-EA41-19C5-DD32807A268B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="176FB95D-B4F5-9184-2531-95DC896012EC" referredColumn="6BF7023F-FC10-83A3-57A9-FBAF1FAAD4A7"/>
+</associations>
+</Column>
+<Column name="DESDE" id="95037C20-B3A9-1F1C-5F46-10C3BA57AD44">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR MINIMO QUE SE PUEDE OBTENER COMO CALIFICACION EN LETRAS]]></commentInRDBMS>
+<generatorID>8B0462D9-A1D3-4CF0-2150-828028234BB9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HASTA" id="9243B503-21A7-B4BC-42D8-03A52C72A25B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR MXIMO QUE SE PUEDE OBTENER COMO CALIFICACION EN LETRAS]]></commentInRDBMS>
+<generatorID>A0ACBB00-5D9F-5F3A-B498-915C83DC99F9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75B2BAF6-C9F9-99CB-F688-698A81974535" name="RANG_CALIF_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>8682E2B1-85A1-1611-D81E-5369117926EE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8CFEB94-FBC9-205B-B4D0-E6A9D8559985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54D8D4F3-637A-482E-23AC-B82FA94C3487" name="TIPOS_CALIFICACION_FINAL_FKv2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>835B793E-9007-16D3-C690-32F0766F1B0F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B0D384F-9946-F7E0-F399-DB4D2581E091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

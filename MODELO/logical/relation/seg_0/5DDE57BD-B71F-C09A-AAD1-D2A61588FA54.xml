@@ -7,9 +7,9 @@
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <sourcePk>AB0EF14F-9F3E-DA00-7BF7-120D23E56754</sourcePk>
-<identifying>true</identifying>
-<nameOnSource>PENSUM</nameOnSource>
-<nameOnTarget>ALUMNO</nameOnTarget>
+<identifying>false</identifying>
+<nameOnSource>ALUMNO</nameOnSource>
+<nameOnTarget>PENSUM</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

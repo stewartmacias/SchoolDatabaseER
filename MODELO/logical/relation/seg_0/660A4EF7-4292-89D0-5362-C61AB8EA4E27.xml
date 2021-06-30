@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>B586EA6D-3E5B-D635-E215-C5D20C2B114F</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>ciclo_materia</nameOnSource>
-<nameOnTarget>paralelo</nameOnTarget>
+<nameOnSource>PARALELO</nameOnSource>
+<nameOnTarget>CICLO_MATERIA</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

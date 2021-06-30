@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="567F6B88-D4F6-5488-CDE3-59944913A5E2" name="FECHAS_PAGO">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LAS DIFERENTES FECHAS DE PAGO DENTRO DE UN CICLO DE CLASES PARA UNA FACULTAD]]></commentInRDBMS>
+<generatorID>7C2D2111-8E7C-5B90-D657-1D2C53F319B2</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>FEC_PAG</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FECHA" id="82174391-85FF-0177-72DC-25AF3764C2C2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE PAGO ESTABLECIDO PARA UN CICLO DE CLASES EN UNA FACULTAD O ESCUELA]]></commentInRDBMS>
+<generatorID>B32FB466-A7AC-5456-EBB5-CB6F08F26C8D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CICLO_COD_CICLO" id="0B392E91-0BC0-0D29-D522-7A8F34D4F073">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>DAAD2146-7DFD-9CD6-D973-7D0F1809A721</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BDE1936-9C25-F5E7-57D6-7D413D8D4A65" referredColumn="171D8CF9-BBFF-5AEE-4FD9-F470DF830007"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2029BD3-7CCD-5501-B187-81CFB264E85C" name="FEC_PAG_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>4F07F85F-3061-BED2-E9AC-B42692BE3B18</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82174391-85FF-0177-72DC-25AF3764C2C2"/>
+<colUsage columnID="0B392E91-0BC0-0D29-D522-7A8F34D4F073"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C40FFDF6-D251-7D33-0821-9CBF0417034C" name="CICLOS_FKv3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>6EAC248F-6D89-4D62-1CF0-CDB69EA6CAC5</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B392E91-0BC0-0D29-D522-7A8F34D4F073"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="87090B6B-02F3-D3ED-A62D-32B4A8205456" containerWithKeyObject="C62018CC-500E-0E37-4B6A-B6F40E735608" localFKIndex="9B26B1A8-6804-033A-242A-AEDDD19F07FB" name="MATERIAS_PENSUM_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>4EA39F43-BB82-9D09-72E7-236E747D3427</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>MATERIAS_PENSUM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47748BA6-E8A1-6BB7-D645-77F8859ECB47</referredTableID>
+<keyObject>5545CFCB-8424-725A-72A2-E9930A8445A4</keyObject>
+<referredKeyID>5545CFCB-8424-725A-72A2-E9930A8445A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PENS_COD_PENSUM,MAT_COD_MATERIA,MAT_COD_FACULTAD,MAT_COD_SERVICIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

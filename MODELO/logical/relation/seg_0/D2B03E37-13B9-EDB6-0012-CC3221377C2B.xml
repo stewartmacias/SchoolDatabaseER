@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>0E69E595-612F-D59D-014C-ED65862852E2</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>pais</nameOnSource>
-<nameOnTarget>persona_telf</nameOnTarget>
+<nameOnSource>PERSTEL</nameOnSource>
+<nameOnTarget>PAIS</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

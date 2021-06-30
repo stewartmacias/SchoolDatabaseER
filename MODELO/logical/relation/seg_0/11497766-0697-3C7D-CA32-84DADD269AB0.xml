@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>9CE06C4F-87C1-EAE8-60C7-CE8C549A532C</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>PARPR</nameOnSource>
-<nameOnTarget>PARALELO</nameOnTarget>
+<nameOnSource>PARALELO</nameOnSource>
+<nameOnTarget>PARPR</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

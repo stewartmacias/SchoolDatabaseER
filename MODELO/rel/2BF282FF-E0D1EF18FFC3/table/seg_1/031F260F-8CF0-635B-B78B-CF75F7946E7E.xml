@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="031F260F-8CF0-635B-B78B-CF75F7946E7E" name="TIPOS_GRUPO">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD PARA REGISTRAR LOS DIFERENTES TIPOS DE GRUPOS DE MATERIA O DIFERENTES AREAS DE CONOCIMIENTO QUE VAN A EXISTIR EN UN PENSUM O MALLA]]></commentInRDBMS>
+<generatorID>21524975-D1E4-F223-CC1F-6C6C1C23C94B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>TIPGRUP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_GRUPO" id="86839717-C406-4EA5-54BD-B90F639D4384">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE GRUPO DE MATERIA DENTRO DE UNA MALLA]]></commentInRDBMS>
+<generatorID>22B57629-5275-02C9-6ECB-49FFB7EABE21</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="2F4E570B-115F-9596-5EB7-5AC9DA20A313">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION]]></commentInRDBMS>
+<generatorID>6F1DA64D-8C27-404E-9A8D-70CFC2D8E1A8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="43654924-DB95-7C8C-7616-ECB222816FB6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<generatorID>D25186E0-6A8A-35A6-D976-69F6C3D57E84</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLOR" id="C24E7454-B45F-4A53-AB48-FDD0CD5C2899">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Color para Grupo de materia dentro del Pensum]]></commentInRDBMS>
+<generatorID>0451C7FD-6A31-ABA5-D8DD-6FEC3CFFC5FB</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87704CD3-C7E4-CFCC-7A57-9C05EBE48461" name="TIPGRUP_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>262E9ECA-3BF8-2DED-D03E-61B75512D680</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86839717-C406-4EA5-54BD-B90F639D4384"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

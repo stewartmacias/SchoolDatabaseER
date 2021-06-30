@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="ADFBC203-45D4-F6C1-5A38-85AD95565F40" containerWithKeyObject="DB544EB7-F7F0-01BD-C5D1-D20B61D302E8" localFKIndex="7F39C67D-49EA-A933-68DD-7F247635B213" name="PARALELO_PROFESORES_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>B0E88335-4DAF-7E78-DBC4-788D6B9DED2E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>PARALELO_PROFESORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7502D3B8-64C2-F0E2-DF6C-1274FD13A2FF</referredTableID>
+<keyObject>D5B88D45-3C2A-41AB-EAF2-FEB61CF12B69</keyObject>
+<referredKeyID>D5B88D45-3C2A-41AB-EAF2-FEB61CF12B69</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PARALELO_COD_PARALELO,PROFE_COD_PROFESOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

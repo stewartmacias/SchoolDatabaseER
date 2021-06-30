@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="1FBB10FC-6A96-CA3E-21C1-A62304E2B078" name="TIPO_RECURSOS_AULA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS DIFERENTES TIPOS DE RECURSOS AULICOS COMO POR EJEMPLO PROYECTORES, PIZARRAS ELECTRONICAS, EQUIPOS DE SONIDO, PIZARRAS TRADICIONALES, ETC]]></commentInRDBMS>
+<generatorID>8CD2BAF0-F8D8-8589-4BDD-56DC66896BBD</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>TIPRECAUL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_RECURSO" id="8C97181B-7AAB-3833-8E3A-3DF62A07BC0F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE RECURSO]]></commentInRDBMS>
+<generatorID>9898DE0E-6A6D-23E5-A766-774F113B5EAC</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="F30F5244-DA61-B0DA-FCAD-190F7666E507">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL RECURSO]]></commentInRDBMS>
+<generatorID>C0D943A0-F176-5470-A970-9471AB90B102</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="C58AB991-EAB7-9226-F8A2-845FC3218348">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[A acivo I inactivo]]></commentInRDBMS>
+<generatorID>DA79573F-156E-6ED4-59F5-6AB8A93BB850</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E1628F5-B62B-8EB6-E499-ECD03E178A3C" name="TIPRECAUL_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>30C75BFE-0508-D9C3-54D2-62157575AAAB</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C97181B-7AAB-3833-8E3A-3DF62A07BC0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

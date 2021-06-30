@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20C23645-65F1-C604-B86A-D482FB7E565C" name="PARALELO_PROFESORES">
 <createdBy>HP</createdBy>
 <createdTime>2021-06-26 20:50:12 UTC</createdTime>
-<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS PROFESORES DE UN PARALELO]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS PROFESORES DE UN PARALELO CON SU PROPIO PESO DE LA NOTA FINAL]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -30,6 +30,21 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PESO_NOTA_FINAL" id="CB200C16-C850-1363-9F20-F0A2224AE67B">
+<createdBy>User</createdBy>
+<createdTime>2021-06-28 22:34:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[PORCENTAJE AL MOMENTO DE CALCULAR CALIFICACION FINAL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
 <Attribute name="COD_PARALELO" id="61D92DF7-60C9-361D-E315-D4862D2FE35F">
 <createdBy>HP</createdBy>
 <createdTime>2021-06-26 20:51:53 UTC</createdTime>
@@ -56,19 +71,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PESO_NOTA_FINAL" id="CB200C16-C850-1363-9F20-F0A2224AE67B">
-<createdBy>User</createdBy>
-<createdTime>2021-06-28 22:34:01 UTC</createdTime>
-<commentInRDBMS><![CDATA[PORCENTAJE AL MOMENTO DE CALCULAR CALIFICACION FINAL]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

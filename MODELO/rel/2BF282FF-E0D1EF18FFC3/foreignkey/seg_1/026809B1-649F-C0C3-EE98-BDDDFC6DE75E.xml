@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="026809B1-649F-C0C3-EE98-BDDDFC6DE75E" containerWithKeyObject="585FE7E8-2E12-827D-AFBC-0D083ACAFA22" localFKIndex="9C1D8722-2002-0FCF-1D33-F39102EE9F28" name="TIPO_RECURSOS_AULA_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>19192859-CD07-44D4-852A-34648DEE642F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>TIPO_RECURSOS_AULA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1FBB10FC-6A96-CA3E-21C1-A62304E2B078</referredTableID>
+<keyObject>5E1628F5-B62B-8EB6-E499-ECD03E178A3C</keyObject>
+<referredKeyID>5E1628F5-B62B-8EB6-E499-ECD03E178A3C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_RECURSO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

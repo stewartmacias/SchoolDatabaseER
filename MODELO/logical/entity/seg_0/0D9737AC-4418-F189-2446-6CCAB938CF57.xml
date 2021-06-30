@@ -81,8 +81,9 @@
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="USUARIO_CREACION" id="023AF944-6CA3-37D3-852C-05465E748BC3">
@@ -279,20 +280,6 @@
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CANTIDAD_PARCIALES" id="6EC9650E-178B-0E9A-E9DF-2DFD5517B906">
-<createdBy>HP</createdBy>
-<createdTime>2021-06-16 04:47:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[CANTIDAD DE EXAMENES PARCIALES QUE LA FACULTAD VA A PRACTICAR POR CADA UNA DE SUS CARRERAS, EN EL CASO DE QUE LA FACULTAD TENGA ESCUELAS ASOCIADAS ENTONCES ESTE CAMPO DEBERA SER IGUAL A 0 ]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

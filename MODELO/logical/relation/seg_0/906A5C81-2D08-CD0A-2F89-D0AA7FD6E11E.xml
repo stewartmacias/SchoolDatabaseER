@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>477D0A48-FCD9-37D3-EB38-F52E92ED4EF4</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>ciclos</nameOnSource>
-<nameOnTarget>ciclo_materia</nameOnTarget>
+<nameOnSource>CICLOMAT</nameOnSource>
+<nameOnTarget>CICLO</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="22A72A23-588B-A833-3EC4-302AECD4FA73" containerWithKeyObject="22DF9484-0B8C-C0C1-3C75-E80A26563153" localFKIndex="081B6BC5-AE17-7CEA-3D46-747A6842EBB5" name="CICLO_MATERIA_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>660A4EF7-4292-89D0-5362-C61AB8EA4E27</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>CICLO_MATERIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02638566-2F22-5CE3-7895-5707C765BF41</referredTableID>
+<keyObject>349BAE34-FF2F-BEC8-F10D-FFF6C3DA336A</keyObject>
+<referredKeyID>349BAE34-FF2F-BEC8-F10D-FFF6C3DA336A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MAT_COD_MATERIA,MAT_COD_FACULTAD,MAT_COD_SERVICIO,CICLO_COD_CICLO,COD_CICLO_MATERIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

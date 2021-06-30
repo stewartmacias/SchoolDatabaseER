@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9017192-DAD3-C6AF-6B2E-94DD5CD71533" name="ESTUDIOS_PERSONAv1">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9017192-DAD3-C6AF-6B2E-94DD5CD71533" name="ESTUDIOS_PERSONA">
 <createdBy>HP</createdBy>
 <createdTime>2021-06-23 23:59:32 UTC</createdTime>
 <commentInRDBMS><![CDATA[ENTIDAD QUE REGSITRA LOS TITULOS OBTENIDOS POR UNA PERSONA ]]></commentInRDBMS>
@@ -128,6 +128,48 @@
 <logicalDatatype>LOGDT029</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_SUBDIVISION2" id="930604F6-A9E6-04A0-0875-8127898079DC">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>C1884E3F-8971-8213-D289-7EFFC2C2A32A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>A5B924D4-446C-D7F8-50BC-33ED82217121</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SUBDIVISION1" id="5F3B8C10-60F6-E936-B43B-3DDCE226A09E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>C1884E3F-8971-8213-D289-7EFFC2C2A32A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>33C329ED-81A8-D6E5-42BF-A1A1D17780B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="985191D9-85AB-B9BA-5717-9FEB24293203">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>C1884E3F-8971-8213-D289-7EFFC2C2A32A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>1814468C-9A4D-900A-ABDF-76E1BD5669F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0C5AA791-225A-FEA1-0C90-A16002651FEF" name="ESTUDIOS_PERSONA PK">
@@ -142,6 +184,9 @@
 <attributeRef>350AC109-1539-6DAF-1154-567B7B101A58</attributeRef>
 <attributeRef>F479C01B-884F-2D97-E3B9-C7B538C405A7</attributeRef>
 <attributeRef>09928E7B-2799-EE1C-8227-5CAE4BB271BC</attributeRef>
+<attributeRef>930604F6-A9E6-04A0-0875-8127898079DC</attributeRef>
+<attributeRef>5F3B8C10-60F6-E936-B43B-3DDCE226A09E</attributeRef>
+<attributeRef>985191D9-85AB-B9BA-5717-9FEB24293203</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

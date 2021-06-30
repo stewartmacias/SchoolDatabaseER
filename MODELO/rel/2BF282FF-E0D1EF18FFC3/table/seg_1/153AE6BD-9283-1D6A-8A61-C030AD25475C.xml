@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="153AE6BD-9283-1D6A-8A61-C030AD25475C" name="PARIENTES">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS PARIENTES DE UNA PERSONA]]></commentInRDBMS>
+<generatorID>0FAC474C-2318-44A9-85E3-D0DE61003420</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>PARIENTE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PARIENTE" id="C57D8825-BC71-0E1C-68E7-B25005982153">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE PARIENTE]]></commentInRDBMS>
+<generatorID>579786F7-4F7E-6503-AF4F-0C0D7A2CBA41</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPPARIE_COD_PARIENTE" id="E49F9167-BDC3-DBA0-9C4F-93A1AB0CEEA7">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>52F690E9-4F85-D311-2BB8-F7595F8725CA</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="927623DF-7075-1DEA-7E2A-06EFA95E22EF" referredColumn="759B6B9E-9414-374C-1BCC-BA4DA674FAD7"/>
+</associations>
+</Column>
+<Column name="PERSONA_NUMERO_IDENTIFICACION" id="13D4DEF2-F1BF-006D-3049-2DA89D5A3A4C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>6A574C11-AD9C-D381-94B9-FB3FEAD2D077</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="174553CC-DEBA-4071-D867-CA46043F3BDE" referredColumn="72D1EA9E-EB7D-4A43-AC7E-B78821990BA5"/>
+</associations>
+</Column>
+<Column name="TELEFONO1" id="DF9169E4-224E-BFB3-1980-B3320A9A6B3C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[TELEFONO DE UBICCION 1]]></commentInRDBMS>
+<generatorID>C183D208-BE98-E045-B5B2-43EE24495158</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO2" id="220ED013-0E18-79B9-5027-5DB81B2290BB">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[TELEFONO DE UBICACION 2]]></commentInRDBMS>
+<generatorID>C08AA7F4-D50C-A196-9CB5-5843F5D4DA1F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONCO" id="A4E9812C-A0FD-6770-01A6-AC8C591767A1">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>C351CA2A-E72D-2C28-3DEE-BB5FBC178DA5</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_TIPO_IDENTIFICACION_COD_TIPO_ID" id="9E33FA2E-9B3B-18FA-F53E-C8E652901A64">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>B6B332B9-D7BA-4AC0-813D-290B1D0AF5C1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="174553CC-DEBA-4071-D867-CA46043F3BDE" referredColumn="97371EE4-5A7E-3EA5-C2CA-948395293804"/>
+</associations>
+</Column>
+<Column name="NOMBRES_APELLIDOS" id="49EA4C7A-A25D-197D-75E6-D418FE3847D9">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRES DEL PARIENTE]]></commentInRDBMS>
+<generatorID>F19FBA58-ABB7-BD48-9F94-7B593D8504AC</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12B86DCE-FFEF-D763-7984-6590628B1714" name="PARIENTE_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>E0D62510-BBE1-C6FE-38DE-93FBC8B03189</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C57D8825-BC71-0E1C-68E7-B25005982153"/>
+<colUsage columnID="13D4DEF2-F1BF-006D-3049-2DA89D5A3A4C"/>
+<colUsage columnID="9E33FA2E-9B3B-18FA-F53E-C8E652901A64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B8D51A5-E50F-3BA3-D515-D1522C15AF07" name="TIPOS_PARIENTES_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>BE920C80-91E1-0013-D8AD-A8BF6D5CF293</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E49F9167-BDC3-DBA0-9C4F-93A1AB0CEEA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F93D4303-63FA-305B-25EF-4B47F8C0294E" name="PERSONA_FKv6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>6F60A7D1-B525-BB1B-0B69-5899DE2715F7</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13D4DEF2-F1BF-006D-3049-2DA89D5A3A4C"/>
+<colUsage columnID="9E33FA2E-9B3B-18FA-F53E-C8E652901A64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

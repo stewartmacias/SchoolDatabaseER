@@ -198,48 +198,6 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_SUBDIVISION2" id="2DF9DF6D-BEF5-2D37-6A4C-9FB91D14AAC1">
-<createdBy>User</createdBy>
-<createdTime>2021-06-22 23:03:08 UTC</createdTime>
-<generatorID>C8853E50-C904-71E5-6862-24D1A3C36997</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>D56654C4-BEFB-F0E7-08FE-8C43611A3A33</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_SUBDIVISION1" id="DF2368C2-A1A4-E5C2-F1E0-22C495D04B94">
-<createdBy>HP</createdBy>
-<createdTime>2021-06-23 03:58:45 UTC</createdTime>
-<generatorID>C8853E50-C904-71E5-6862-24D1A3C36997</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>19BA4BB4-CDC9-2185-BE69-54DD293EF427</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_PAIS1" id="804F8BD0-38D4-9C05-DE84-E0E85A2BBA85">
-<createdBy>HP</createdBy>
-<createdTime>2021-06-23 03:58:45 UTC</createdTime>
-<generatorID>C8853E50-C904-71E5-6862-24D1A3C36997</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>49D7AB47-8796-D016-A8DF-2B209C5592AB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="COD_TIPO_ID" id="9F797459-70A0-F0E0-7F79-BB284ABFB753">
 <createdBy>HP</createdBy>
 <createdTime>2021-06-23 23:23:57 UTC</createdTime>
@@ -436,6 +394,48 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_SUBDIVISION2" id="A5B924D4-446C-D7F8-50BC-33ED82217121">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>464DB667-9D02-7F14-F507-8064B2D7AE12</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>7861E865-07F9-B7A2-A5A9-61C556973A89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SUBDIVISION1" id="33C329ED-81A8-D6E5-42BF-A1A1D17780B0">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>464DB667-9D02-7F14-F507-8064B2D7AE12</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>45D54438-6E1C-84EA-1012-C472E5190482</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="1814468C-9A4D-900A-ABDF-76E1BD5669F1">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:45 UTC</createdTime>
+<generatorID>464DB667-9D02-7F14-F507-8064B2D7AE12</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>2544D669-8EE8-14E4-68C5-6760F468A02E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="764B8A15-1D3D-11F9-9B4F-59E524D797C9" name="PERSONA PK">
@@ -449,6 +449,9 @@
 <usedAttributes>
 <attributeRef>FD2BDCF6-103D-E572-0977-744C55DD546C</attributeRef>
 <attributeRef>9F797459-70A0-F0E0-7F79-BB284ABFB753</attributeRef>
+<attributeRef>A5B924D4-446C-D7F8-50BC-33ED82217121</attributeRef>
+<attributeRef>33C329ED-81A8-D6E5-42BF-A1A1D17780B0</attributeRef>
+<attributeRef>1814468C-9A4D-900A-ABDF-76E1BD5669F1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

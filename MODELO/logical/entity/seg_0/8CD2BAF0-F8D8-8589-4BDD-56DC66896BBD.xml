@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CD2BAF0-F8D8-8589-4BDD-56DC66896BBD" name="RECURSOS_AULICOS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CD2BAF0-F8D8-8589-4BDD-56DC66896BBD" name="TIPO_RECURSOS_AULA">
 <createdBy>HP</createdBy>
 <createdTime>2021-06-23 03:28:25 UTC</createdTime>
 <commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS DIFERENTES TIPOS DE RECURSOS AULICOS COMO POR EJEMPLO PROYECTORES, PIZARRAS ELECTRONICAS, EQUIPOS DE SONIDO, PIZARRAS TRADICIONALES, ETC]]></commentInRDBMS>
@@ -15,7 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>REC_AUL</shortName>
+<shortName>TIPRECAUL</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="COD_RECURSO" id="9898DE0E-6A6D-23E5-A766-774F113B5EAC">
 <createdBy>HP</createdBy>

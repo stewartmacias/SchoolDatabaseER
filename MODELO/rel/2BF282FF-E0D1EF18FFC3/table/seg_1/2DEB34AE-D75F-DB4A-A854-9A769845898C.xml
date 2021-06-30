@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="2DEB34AE-D75F-DB4A-A854-9A769845898C" name="SUBDIV">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA EL PRIMER NIVEL DE REGION DE CADA PAIS]]></commentInRDBMS>
+<generatorID>5CB0B43B-5CDE-96D5-B0A6-98BD2D55DB22</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>SUBDIV</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_SUBDIVISION1" id="101005E7-8453-E9CE-6FF0-1B8F2FF90F64">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE SUBDIVISION]]></commentInRDBMS>
+<generatorID>24D25DF4-C463-C195-5C5D-9FBB949A40FC</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="17B44048-E7AB-7F52-7296-631876AA673E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DE SUBDIVISION. ]]></commentInRDBMS>
+<generatorID>FF1793C9-D51C-EF04-6B36-014E5CA387BA</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="F33AC773-F715-18B6-A0F6-B882D23D341F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Activo A o Inactivo I]]></commentInRDBMS>
+<generatorID>3E886A36-E226-DADD-6251-E82C4F18DE18</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POR_DEFECTO" id="9E672401-7626-8D55-D34D-0B71A15BF6E0">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si N no, SIGNIFICA QUE EL SEGUNDO NIVEL GEOGRAFICO APARECERA EN TODAS LAS FUNCIONALIDADES DONDE SE REQUIERA DE ESTE ATRIBUTO]]></commentInRDBMS>
+<generatorID>58467485-7E12-EB53-92E9-0AB9DBCDD43D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<domain>52D378A9-6EB0-D8B0-8835-D7DBED06EC5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_COD_PAIS" id="8AC14244-D444-56D7-629C-641E84FF80F2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>0CE5A0DA-0923-05F1-62AA-8F6F60B139B1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD7217FB-76D0-6818-2F87-7259325D418E" referredColumn="A049A7E1-043C-E99D-B99F-E1B9A43F90BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4CF25BA-C20D-5669-9D5D-C70815A2DC10" name="SUBDIV_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>E5521561-C7C8-D446-2AFF-14A50AF237F8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="101005E7-8453-E9CE-6FF0-1B8F2FF90F64"/>
+<colUsage columnID="8AC14244-D444-56D7-629C-641E84FF80F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1606D7C3-F73F-E75C-ED34-6F62DFAB60B9" name="PAIS_FKv2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>57B00287-21B2-774A-8F46-7E724B779BC4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AC14244-D444-56D7-629C-641E84FF80F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

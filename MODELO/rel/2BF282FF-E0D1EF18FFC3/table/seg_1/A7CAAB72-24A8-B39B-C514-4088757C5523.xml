@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="A7CAAB72-24A8-B39B-C514-4088757C5523" name="TIPO_DOCUMENTOS">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE IDENTIFICA EL TIPO DE DOCUMENTO QUE DEBE SER INGRESADO PARA CUMPLIR CON REQUISITOS DE INGRESOS]]></commentInRDBMS>
+<generatorID>0C5010A6-9B3C-39C4-D5DB-AE32BE9B4DAF</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>DOCPER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TIPO_DOC" id="FD7A1D84-791C-3DD8-0223-2D4A1000B51E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO UNICO DEL TIPO DE DOCUMENTO]]></commentInRDBMS>
+<generatorID>3EAEC6D4-0C9C-62ED-F418-94E2F9F6E229</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="1BFA30C6-8AAC-4971-C6DD-FCBBD88FABDF">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL TIPO DE DOCUMENTO]]></commentInRDBMS>
+<generatorID>25FF098D-D250-1EA4-0C4F-35F87E6AF3BB</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="87506711-D485-9ECD-A81E-FC1AEC5F046B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTADO DEL TIPO DE DOCUMENTO]]></commentInRDBMS>
+<generatorID>4D2BC2BD-CCC3-A5C7-DD37-DB0D169B2AB1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BF66B00-E824-9F6A-CB96-77BE0602F499" name="DOCPER_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>8E016074-2B73-6300-70B8-36EA8B6F85F8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD7A1D84-791C-3DD8-0223-2D4A1000B51E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,444 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="22EA6FD6-AECB-FA6F-1894-67207D77B74D" name="PERSONA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DATOS GENERALES DE UNA PERSONA]]></commentInRDBMS>
+<generatorID>6AFAE720-E84F-0A6E-6C20-C8E717F6F937</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_IDENTIFICACION" id="72D1EA9E-EB7D-4A43-AC7E-B78821990BA5">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DE IDENTIFICACION]]></commentInRDBMS>
+<generatorID>FD2BDCF6-103D-E572-0977-744C55DD546C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO_PATERNO" id="31DF4008-37DA-6E6E-82CC-DE26E1F04E2C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[APELLIDO]]></commentInRDBMS>
+<generatorID>DD63761D-D762-92A2-D217-31D89A4E6112</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO_MATERNO" id="BE14F39E-E1DC-B7D8-8115-9179F7D73641">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[APELLIDO MATERNO]]></commentInRDBMS>
+<generatorID>AA057C54-3765-742C-2B13-A2ABE87A6D58</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRES" id="168BB4A2-C3C8-EE2F-DBCA-5B29FC5E3BE5">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRES ]]></commentInRDBMS>
+<generatorID>5F6C302B-6F94-3BC0-0CED-11D010BA991C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_PERSONAL" id="39E70D29-DA4B-4E9B-3090-35D94CBFE6A6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CORREO PERSONAL]]></commentInRDBMS>
+<generatorID>E5EA2398-5A80-B5C9-7760-3824A42436B1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_INSTITUCIONAL" id="B1A9D7CD-D490-DE96-1708-65CAC15DC388">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CORREO ASIGNADO POR EL ENTIDAD EDUCATIVA]]></commentInRDBMS>
+<generatorID>0326FDBF-9F28-4850-03CE-FBA8F22C3770</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_LABORAL" id="C1DD22E9-828A-F4CD-2739-F12079F6EBC6">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CORREO LABORAL]]></commentInRDBMS>
+<generatorID>E2A5C1FF-D3A8-C739-1A37-F393530D5791</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="3662A691-4CC7-8569-E532-69926360DC71">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE NACIMIENTO]]></commentInRDBMS>
+<generatorID>CD0DACD0-4E03-FF20-87E7-B628D232065D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="C783C062-236B-0894-CD57-9F19ACD48B62">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[M Masculino, F Femenino, P: Prefiero no decir]]></commentInRDBMS>
+<generatorID>46AF15FE-0110-945D-268E-ED5C932D05F3</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_FACTURA" id="F308AC0D-433F-716E-78CD-12A7DD0F99E9">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DE IDENTIFICACION]]></commentInRDBMS>
+<generatorID>C1546BB8-8B03-96F6-84D0-A8F4159676F6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_FACTURA" id="234707A3-766A-3E7D-015D-DDCD945E5D8C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE EN FACTURA]]></commentInRDBMS>
+<generatorID>9A41495A-B487-84C9-26F8-F61CC85A97DF</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREDENCIAL_ACCESO" id="66A4957C-7E26-68B6-1819-F79ED943BF4F">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CLAVE O TOKEN DE ACCESO]]></commentInRDBMS>
+<generatorID>90966551-EC8D-1003-BF34-57F601AAB10C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_ID_SECUNDARIO" id="C5E490EE-97E5-0335-E317-2E268FF4309C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DE IDENTIFCACOON SECUANDRIO]]></commentInRDBMS>
+<generatorID>42B76813-7925-9F44-B8A9-FE60575606A8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_IDENTIFICACION_COD_TIPO_ID" id="97371EE4-5A7E-3EA5-C2CA-948395293804">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>9F797459-70A0-F0E0-7F79-BB284ABFB753</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD217403-388F-B907-E208-D87A358E591B" referredColumn="9E754C4A-E9EF-D186-C077-659E85F84034"/>
+</associations>
+</Column>
+<Column name="TIPO_IDENTIFICACION_COD_TIPO_ID2" id="94D2C79C-8DC7-1229-8CC4-4CE9C67CDFEF">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>737410D2-AACE-459F-C7E7-672F2414569E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21019185-4C78-5D0A-41C8-8481BD349279" referredColumn="9E754C4A-E9EF-D186-C077-659E85F84034"/>
+</associations>
+</Column>
+<Column name="TIPO_IDENTIFICACION_COD_TIPO_ID3" id="F537F993-26D2-51DF-6D72-58DCF61BFD1B">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>634156C7-40E5-50B8-F0C7-B38A3AB314E0</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4257AB6-3D83-A05F-2FE1-1C0AEDF9DB5F" referredColumn="9E754C4A-E9EF-D186-C077-659E85F84034"/>
+</associations>
+</Column>
+<Column name="TIPETNIA_COD_TIPO_ETNIA" id="CA27BD73-E24D-CE3A-C831-9B92A6741E9C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>05EF7BFD-767F-4041-C6E1-EA6D8B077D77</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EFA3E09-E8F5-105A-8B95-376D7D0F86AA" referredColumn="E06A149A-9FC7-2D76-9A27-0D9A3B74BF3B"/>
+</associations>
+</Column>
+<Column name="TIPDISCAPAC_COD_TIPO_DISCAPACIDAD" id="803714A6-0F73-E1FD-1360-5F80ECD282F7">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>5C03677F-A071-9ED8-BD83-7B4339A29BBB</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66C85AA6-9C1E-D32E-E3A2-3C64F8CC9917" referredColumn="C466ABED-3CF5-EC1F-96B9-99D3DA600BDF"/>
+</associations>
+</Column>
+<Column name="PORCENTAJE_DISCAPACIDAD" id="1E6D6D91-7047-81AD-18AF-5BAAC7727CD1">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>98D05093-6B3E-C6E5-A22B-C28E0B3533F6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DISCAPACIDAD" id="852A6D10-80C5-AB8F-3704-14A35CE0DD8E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>FD420731-1945-52EA-302A-5C16447FBBD4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CONTACTO1" id="DF4D192F-AC25-1AD6-0538-77B298207715">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DE CONTACTO DE EMERGENCIA 1]]></commentInRDBMS>
+<generatorID>9CD24730-6B61-057D-3F9B-2BB736B8C230</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CONTACTO2" id="62E64916-DAE0-B9BF-C882-6C7130BF36B3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DE CONTACTO DE EMERGENCIA 2]]></commentInRDBMS>
+<generatorID>2CE8E316-3E7C-DEB6-1244-B88362039E12</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SANGRE" id="8FA4E27C-40FD-B66A-7E3E-248BA512A96A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[TIPO DE SANGRE]]></commentInRDBMS>
+<generatorID>54A7BFA1-44D2-4C6C-8880-8B45D956A333</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALERGIA1" id="AA7320FB-B401-26CB-DD89-13789E59F9BB">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ALERGIAS CONOCIDAS]]></commentInRDBMS>
+<generatorID>3D5933FD-0D75-5963-2F6A-36B985EF9430</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALERGIA2" id="216BE13D-A8BE-CE3B-6C58-07A3233F88D0">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ALERGIAS CONOCIDAS]]></commentInRDBMS>
+<generatorID>779F144B-0787-A8ED-CD88-C30CF0AAFD31</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUIERE_ASISTENCIA" id="34491D39-4A12-16F4-2FA6-87260BDA6F66">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si N no]]></commentInRDBMS>
+<generatorID>DCAF7D4A-A867-2A7F-F6ED-015DDB7CB1C6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_ASISTENCIA" id="4C3A8936-7456-515E-8084-33E4893B65D3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIBIR EL TIPO DE ASISTENCIA QUE REQUIERE]]></commentInRDBMS>
+<generatorID>F1A314BC-32A5-0B40-5AF8-F48C6A431D7F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9307A193-472E-8DBB-90EB-49BFAF865CAB" name="PERSONA_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>764B8A15-1D3D-11F9-9B4F-59E524D797C9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72D1EA9E-EB7D-4A43-AC7E-B78821990BA5"/>
+<colUsage columnID="97371EE4-5A7E-3EA5-C2CA-948395293804"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FABA367-8457-92C8-F999-7DDAA967B162" name="TIPO_IDENTIFICACION_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>8D9A9C64-48CE-9FCC-8B4D-94309DB3E59E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97371EE4-5A7E-3EA5-C2CA-948395293804"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="281BAE21-8EC6-FB9C-3A2F-28B56E5BC9E7" name="TIPO_IDENTIFICACION_FKv2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>BCE19131-0D2F-86C6-39EE-D96676652FC1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94D2C79C-8DC7-1229-8CC4-4CE9C67CDFEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A716C89C-BCAA-A3EE-014D-7C98EAFF722D" name="TIPO_IDENTIFICACION_FKv3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>FAA131CF-69F5-D142-FD5B-698C7EFEB5C9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F537F993-26D2-51DF-6D72-58DCF61BFD1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E84182F3-700E-2137-28A1-104DBF15AF3B" name="TIPO_ETNIA_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>889ADA6C-444D-883A-0201-D58B6D2105C8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA27BD73-E24D-CE3A-C831-9B92A6741E9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA9F92AF-EA9A-A807-0D3B-52468AFFC4B5" name="TIPO_DISCAPACIDAD_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>3650F0F9-F258-DCC5-2086-CA7D20DA55FF</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="803714A6-0F73-E1FD-1360-5F80ECD282F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

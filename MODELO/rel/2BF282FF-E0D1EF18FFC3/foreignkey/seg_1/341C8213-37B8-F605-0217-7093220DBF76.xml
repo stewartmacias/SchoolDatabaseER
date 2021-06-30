@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="341C8213-37B8-F605-0217-7093220DBF76" containerWithKeyObject="6107744F-CE1F-58D7-EA13-158BF9D6D5A5" localFKIndex="3CD07F26-5B54-2732-8E3B-664FC219B993" name="PARALELO_FKv2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>DF6B4659-5630-7484-CF09-3D6835624608</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<referredTableLongName>PARALELO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22DF9484-0B8C-C0C1-3C75-E80A26563153</referredTableID>
+<keyObject>BB24D9D6-C134-279F-A333-726EE2B52970</keyObject>
+<referredKeyID>BB24D9D6-C134-279F-A333-726EE2B52970</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_PARALELO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

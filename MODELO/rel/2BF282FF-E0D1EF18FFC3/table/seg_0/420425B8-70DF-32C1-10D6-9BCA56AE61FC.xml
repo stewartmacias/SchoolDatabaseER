@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="420425B8-70DF-32C1-10D6-9BCA56AE61FC" name="ALUMNO">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Entidad que identifica al alumno creado por la instituciòn.]]></commentInRDBMS>
+<generatorID>1069FF90-6A14-3C49-EFF0-2274EBB80A10</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>ALUM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_ALUMNO" id="CC147A2B-E5AC-801A-4D4D-88A4CD935741">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO CON EL QUE SE IDENTIFICA AL ESTUDIANTE Y SU SERVICIO ESTUDIANTIL.]]></commentInRDBMS>
+<generatorID>0DFFB73A-C043-FA6F-3E08-25C3953063C5</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_COD_TIPO_ID" id="192B4CDE-8B29-2C36-97BB-219FF0F114E1">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID QUE RELACIONA AL ALUMNO AL TIPO DE  IDENTIFICACIÒN]]></commentInRDBMS>
+<generatorID>681D716A-7E71-55AE-1212-AB341A95CF5F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BDD3F85-A9FF-EC1F-4E30-2E9363361C63" referredColumn="97371EE4-5A7E-3EA5-C2CA-948395293804"/>
+</associations>
+</Column>
+<Column name="PERSONA_NUMERO_IDENTIFICACION" id="072A5475-94C4-A579-263B-63D2F9D7D410">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[RELACIÒN QUE IDENTIFICA AL ALUMNO POR SU IDENTIFICACIÒN.]]></commentInRDBMS>
+<generatorID>ED213D4D-1AE1-8451-86E8-9235FAB1F12B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BDD3F85-A9FF-EC1F-4E30-2E9363361C63" referredColumn="72D1EA9E-EB7D-4A43-AC7E-B78821990BA5"/>
+</associations>
+</Column>
+<Column name="PENS_COD_PENSUM" id="7616A745-A532-3D32-1885-2F890ED6410A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DEL PENSUM ACTIVO CON EL QUE INGRESARA EL ESTUDIANTE, CON ESTE CAMPO PODEMOS OBTENER EL SERVICIO ACADEMICO, FACULTAD Y CARRERA.]]></commentInRDBMS>
+<generatorID>CF4C4448-F249-751E-125A-F5BA2327EA46</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E404D7B7-C8F9-A06C-7B3A-91D446B5CBBF" referredColumn="E12C3E0D-0408-9C31-1644-E9B9FF732420"/>
+</associations>
+</Column>
+<Column name="FECHA_CREACION" id="2D0406E8-C439-0982-8985-0EF5B706029A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA EN LA QUE ES CREADO EL ESTUDIANTE]]></commentInRDBMS>
+<generatorID>77E3250C-BAC9-525B-B588-3522FF04C653</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_CREACION" id="62330165-CD15-4758-8E45-2E28F67FC84E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CAMPO QUE IDENTIFICA EN QUE FORMA FUE REGISTRADO EL ALUMNO:
+INTERNET, ASISTENTE ENTRE OTROS]]></commentInRDBMS>
+<generatorID>67C578CB-01C8-CC89-2B87-820433A5271D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EST_ALUM_EST_ALUM_ID" id="26F91E2D-43B1-BD1F-F6B1-3861C37D7E87">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D34B9C16-3F49-C573-6CB4-132E967CAE26" referredColumn="E778C7A8-35F7-38F1-7586-17EE98126F77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42E8282D-365B-B995-5459-C28553261C41" name="ALUM_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:56 UTC</createdTime>
+<generatorID>BEB7AD2A-5A38-91B0-C30C-0103FCDA7B2C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="072A5475-94C4-A579-263B-63D2F9D7D410"/>
+<colUsage columnID="192B4CDE-8B29-2C36-97BB-219FF0F114E1"/>
+<colUsage columnID="7616A745-A532-3D32-1885-2F890ED6410A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F318D382-1FC8-753C-7FB2-B69DE3DE0FE9" name="ESTADO_ALUMNO_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>A0266029-B23B-C943-DCC7-7F5E3CB8C6CD</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26F91E2D-43B1-BD1F-F6B1-3861C37D7E87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="960AF1A0-6AA7-08CD-6D4D-18868817F52C" name="PENSUM_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>5DDE57BD-B71F-C09A-AAD1-D2A61588FA54</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7616A745-A532-3D32-1885-2F890ED6410A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C578FDD-EDC2-8782-AEBC-ED71B7365B0E" name="PERSONA_FK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>4C56E896-0C33-1E54-91F5-D447682C758B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="072A5475-94C4-A579-263B-63D2F9D7D410"/>
+<colUsage columnID="192B4CDE-8B29-2C36-97BB-219FF0F114E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

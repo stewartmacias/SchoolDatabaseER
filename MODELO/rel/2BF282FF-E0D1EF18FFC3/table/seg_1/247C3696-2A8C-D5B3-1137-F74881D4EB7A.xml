@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="247C3696-2A8C-D5B3-1137-F74881D4EB7A" name="TIPO_DIRECCION">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS TIPOS DE DIRECCIONES, POR EJEMPLO DIRECCION DE CASA, TRABAJO, ETC]]></commentInRDBMS>
+<generatorID>D76F2155-2F8D-2E51-562B-DF2BEFB20D9B</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>TIPDIREC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TIPO_DIRECCION" id="C3AEF36C-7C85-D731-82CB-592C330C9D8A">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE DIRECCION]]></commentInRDBMS>
+<generatorID>78F85522-573C-20C1-C431-1FADD859A633</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="5DDAE9E8-A5FA-D58A-4FB7-3FD04A06C966">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION]]></commentInRDBMS>
+<generatorID>603BD98A-F5F0-DABC-AA88-6EBF53003D6A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="4DB4C59F-79E6-0488-BA88-F3D7017C8000">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[A Activo Inactivo]]></commentInRDBMS>
+<generatorID>A4CE4C13-020A-6CC4-1BE0-BC18D35D75D4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBLIGATORIO" id="36E1B409-DBCB-2471-62BF-A7ADB5168EED">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[S SI O N NO]]></commentInRDBMS>
+<generatorID>7C557E2E-CD49-E724-F70B-E2D55633CFAE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<dataTypeSize>1</dataTypeSize>
+<domain>52D378A9-6EB0-D8B0-8835-D7DBED06EC5C</domain>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D067BE46-F938-4E7F-C48E-24624C7CF8D3" name="TIPDIREC_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>655DD747-99B9-0B47-3C79-D220864A5BE5</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3AEF36C-7C85-D731-82CB-592C330C9D8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

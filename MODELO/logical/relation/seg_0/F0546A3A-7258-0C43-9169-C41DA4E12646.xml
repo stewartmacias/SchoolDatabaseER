@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>AA8F2754-3590-BE3C-37CB-6DFC6D98D634</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>edificio</nameOnSource>
-<nameOnTarget>aula</nameOnTarget>
+<nameOnSource>AULA</nameOnSource>
+<nameOnTarget>EDIFICIO</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>857CBC5F-A83E-654F-53CE-1213FBD154B5</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>NJIVELEST</nameOnSource>
-<nameOnTarget>ENTEST</nameOnTarget>
+<nameOnSource>ENTEST</nameOnSource>
+<nameOnTarget>NJIVELEST</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

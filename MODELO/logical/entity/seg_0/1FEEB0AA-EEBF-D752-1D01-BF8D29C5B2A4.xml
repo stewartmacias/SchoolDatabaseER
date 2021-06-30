@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FEEB0AA-EEBF-D752-1D01-BF8D29C5B2A4" name="SUBDIVISION_GEOGRAFICA2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:07:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA UN SEGUNDO NIVEL GEOGRAFICO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>SUBDIV2</preferredAbbreviation>
+<shortName>SUBDIV2</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_SUBDIVISION2" id="7861E865-07F9-B7A2-A5A9-61C556973A89">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:10:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE SUBDIVISION 2]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="8F4C2262-35D1-50F6-3892-680FCF420AAB">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:10:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION O NOMBRE DE LA SUBDIVISION 2]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="91D4F8FD-C6C8-03A5-CE6B-48AF2BA4BBF3">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:11:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POR_DEFECTO" id="82314E0B-C695-A748-160D-47CD0BC9E0E2">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:11:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si N no]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>52D378A9-6EB0-D8B0-8835-D7DBED06EC5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SUBDIVISION1" id="45D54438-6E1C-84EA-1012-C472E5190482">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:24 UTC</createdTime>
+<generatorID>D43DD857-3138-13AE-EB2F-5854C37987B1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>24D25DF4-C463-C195-5C5D-9FBB949A40FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="2544D669-8EE8-14E4-68C5-6760F468A02E">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:12:24 UTC</createdTime>
+<generatorID>D43DD857-3138-13AE-EB2F-5854C37987B1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>0CE5A0DA-0923-05F1-62AA-8F6F60B139B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2EE44D83-F5B2-D5B1-339A-36D2B38C9CCA" name="SUBDIVISION_GEOGRAFICA2 PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 23:10:50 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7861E865-07F9-B7A2-A5A9-61C556973A89</attributeRef>
+<attributeRef>45D54438-6E1C-84EA-1012-C472E5190482</attributeRef>
+<attributeRef>2544D669-8EE8-14E4-68C5-6760F468A02E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

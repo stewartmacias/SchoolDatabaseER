@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="1E753A64-6412-DF7C-1A47-64EA7D192429" name="TIPO_MATERIA">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD PARA DECLARAR LOS DIFERENTES TIPOS DE MATERIA POR EJEMPLO: LABORATORIO, TUTORIAS, TEORICA, ETC]]></commentInRDBMS>
+<generatorID>377576DF-49BB-0D9A-F457-67A48DA12394</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<abbreviation>TIPMAT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TIPO_MATERIA" id="B4DE7D81-3AAD-4925-15B0-FA5F3A24B15C">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE TIPO DE MATERIA]]></commentInRDBMS>
+<generatorID>1CE752E2-7C00-BE68-C695-F3207D3E76D2</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="C2C0F3E6-4E1B-45D2-D276-F9270A6584D8">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE TIPO DE MATERIA]]></commentInRDBMS>
+<generatorID>92BC3249-0A3B-01A8-B002-4BE6E235AA8E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="0415BAD3-F72A-C227-F510-EA4A296F6085">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<generatorID>A07CB744-7832-564E-1803-06E6B60C538D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AD2F31B-3249-54E8-6823-2A5D3A87B65B" name="TIPMAT_PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-06-30 04:07:57 UTC</createdTime>
+<generatorID>4F8F829C-2B65-00E7-4EAF-03A83A0C1C5C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4DE7D81-3AAD-4925-15B0-FA5F3A24B15C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
