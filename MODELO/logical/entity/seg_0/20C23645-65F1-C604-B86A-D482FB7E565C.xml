@@ -45,6 +45,19 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CANTIDAD_PARCIALES" id="239B3223-FDD5-D338-186C-EB8A39860F15">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-01 22:45:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[ES LA CANTDAD DE PARCIALES QUE VA A REGISTRAR EL PROFESOR EN CADA PARALELO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="COD_PARALELO" id="61D92DF7-60C9-361D-E315-D4862D2FE35F">
 <createdBy>HP</createdBy>
 <createdTime>2021-06-26 20:51:53 UTC</createdTime>

@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E30D744-B04A-3692-5B8D-21A520EB8A64" name="ALUMNO_REGISTRO_DET">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 21:56:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTDAD QUE REGISTRA EL DETALLE DE LOS REGISTROS DE UN ALUMNO EN UN MATERIA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ALREDET</preferredAbbreviation>
+<shortName>ALREDET</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LINEA" id="6D65F3F8-ADCD-86C7-F41B-2C8C4B446F91">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 21:56:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE LA LINEA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_TRANSACCION" id="F6615069-E415-FE3A-7132-479FB587F3E7">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 21:57:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE TRANSACCION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OBSERVACION" id="6F902605-E6AB-B774-A28E-7E9144460D18">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 21:57:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[OBSERVACION ADICONAL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PARALELO" id="B23B7955-C40C-D987-3E2E-AFA6D1BF5970">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 22:00:49 UTC</createdTime>
+<generatorID>725A0C21-4E30-2FE7-8F3A-4A3919DC7E2F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>7471EA41-C6E6-3442-45FC-7CC002D559D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ALUMNO" id="2E58622F-32AB-73A1-B320-BAA14DD11FC1">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 22:00:49 UTC</createdTime>
+<generatorID>725A0C21-4E30-2FE7-8F3A-4A3919DC7E2F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>7EC95843-5410-48C0-C7BD-0585E9D9F738</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ALUMNOREG" id="EB2ACC2A-3BB5-2D2C-692B-90B07E01FD5B">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 22:00:49 UTC</createdTime>
+<generatorID>725A0C21-4E30-2FE7-8F3A-4A3919DC7E2F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>0D14B76A-E278-4350-AFA9-75ADC7308EE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ESTADO" id="36270A7C-3290-69D4-AA7E-91AEAE3010E0">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 22:07:25 UTC</createdTime>
+<generatorID>5B691FB3-3183-1F99-2A11-C33AC88806A8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>1ABEABBE-ED47-6C67-6098-2565D490ED5A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E23C5AF0-CED8-A3C6-89C5-B0AD784BF988" name="ALUMNO_REGISTRO_DET PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 21:57:16 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D65F3F8-ADCD-86C7-F41B-2C8C4B446F91</attributeRef>
+<attributeRef>B23B7955-C40C-D987-3E2E-AFA6D1BF5970</attributeRef>
+<attributeRef>2E58622F-32AB-73A1-B320-BAA14DD11FC1</attributeRef>
+<attributeRef>EB2ACC2A-3BB5-2D2C-692B-90B07E01FD5B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

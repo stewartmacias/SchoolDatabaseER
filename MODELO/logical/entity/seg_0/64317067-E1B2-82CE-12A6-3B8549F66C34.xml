@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06414210-5A61-1F8F-71C5-2D0ADDFD6C2F" name="TIPOS_ESTADO_ALUMNO">
-<createdBy>User</createdBy>
-<createdTime>2021-06-29 23:18:28 UTC</createdTime>
-<commentInRDBMS><![CDATA[ENTDAD QUE REGISTRA LOS DIFERENTES ESTADO  QUE UN ALUMNO PUEDE TENER  EN LA INSTITUCIÒN. SI ATRIBUTO VIENE_FFARIVA = S ENTONCES LA INSTITUCION NO LO PUEDE ELIMINAR]]></commentInRDBMS>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64317067-E1B2-82CE-12A6-3B8549F66C34" name="ESTADO_REGISTROS">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 22:02:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DFERENTES ESTADOS DE UN ESTUDIANTE EN UNA MATERIA]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -15,13 +15,13 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<preferredAbbreviation>EST_ALUM</preferredAbbreviation>
-<shortName>EST_ALUM</shortName>
+<preferredAbbreviation>ESTREG</preferredAbbreviation>
+<shortName>ESTREG</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_ESTADO" id="72417D97-CF94-7A1A-61A3-857D1AAD8629">
-<createdBy>User</createdBy>
-<createdTime>2021-06-29 23:19:13 UTC</createdTime>
-<commentInRDBMS><![CDATA[CODIGO DEL ESTADO DEL ALUMNO]]></commentInRDBMS>
+<Attribute name="COD_ESTADO" id="1ABEABBE-ED47-6C67-6098-2565D490ED5A">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 22:03:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE ESTADO]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -31,10 +31,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRIPCION" id="22E80852-F2F3-11E2-430B-C03193A7C1E4">
-<createdBy>User</createdBy>
-<createdTime>2021-06-29 23:19:34 UTC</createdTime>
-<commentInRDBMS><![CDATA[RECHAZADO,RETIRADO, ACEPTADO ENTRE OTROS ESTADOS]]></commentInRDBMS>
+<Attribute name="DESCRIPCION" id="10944D43-A327-AEB8-9A37-355DCB260669">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 22:04:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL ESTADO]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -45,21 +45,9 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DE_FABRICA" id="82FCAF58-9AFD-C7F8-64B0-462E472954F9">
+<Attribute name="ESTADO" id="88E31579-71C0-6F98-0003-6C13FCAD7889">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-30 04:46:01 UTC</createdTime>
-<commentInRDBMS><![CDATA[S si N no]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<use>0</use>
-<domain>52D378A9-6EB0-D8B0-8835-D7DBED06EC5C</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ESTADO" id="C9F975AD-4847-7A84-9E0F-D5E31E634982">
-<createdBy>HP</createdBy>
-<createdTime>2021-07-02 22:06:46 UTC</createdTime>
+<createdTime>2021-07-02 22:04:49 UTC</createdTime>
 <commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
@@ -70,18 +58,30 @@
 <domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DE_FABRICA" id="EED2BE3F-96CB-7E82-BBA6-D5F7DDA7452F">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-02 22:05:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[S si N no]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>52D378A9-6EB0-D8B0-8835-D7DBED06EC5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="30C73E24-8075-3DCD-4823-A48E0D6EB64C" name="TIPOS_ESTADO_ALUMNO PK">
+<identifier id="4C6AACCA-F026-9A96-39F7-CD4562A9C2AF" name="ESTADO_REGISTROS PK">
 <createdBy>HP</createdBy>
-<createdTime>2021-06-30 04:36:58 UTC</createdTime>
+<createdTime>2021-07-02 22:04:27 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>72417D97-CF94-7A1A-61A3-857D1AAD8629</attributeRef>
+<attributeRef>1ABEABBE-ED47-6C67-6098-2565D490ED5A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
