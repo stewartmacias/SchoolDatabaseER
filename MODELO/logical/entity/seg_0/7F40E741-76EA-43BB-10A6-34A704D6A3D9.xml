@@ -59,6 +59,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="MINUTOS_CLASE" id="31EB3031-26CE-B7D4-5F30-DAB52A9BF258">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 22:36:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[LA CANTIDAD MAXMA DE MINUTOS QUE LA CLASE DEBE PUEDE DURAR POR SESION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="COD_SERVICIO" id="70D6B1BD-2675-0714-2FB1-667ECE91F7CC">
 <createdBy>User</createdBy>
 <createdTime>2021-06-17 22:55:57 UTC</createdTime>
@@ -98,6 +111,18 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OBLIG_MINUT_CLASE" id="ED75EBBD-77EF-9738-F2BB-FFCE8E47C7E1">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 22:41:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[SI ES OBLIGATORIO O NO LA CANTIDAD DE MINUTOS QUE PUEDE TENER UNA CLASE]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>52D378A9-6EB0-D8B0-8835-D7DBED06EC5C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

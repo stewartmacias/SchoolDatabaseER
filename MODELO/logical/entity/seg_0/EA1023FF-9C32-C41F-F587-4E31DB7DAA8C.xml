@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA1023FF-9C32-C41F-F587-4E31DB7DAA8C" name="CALIFICACION_ALUMNOS">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 22:55:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LAS DIFRENTES CALIFICACIONES QUE LOS ALUMNOS PUEDEN OBTENER EN CADA MATERIA POR CADA RUBRO DE CALIFICACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CALIF_ALUMN</preferredAbbreviation>
+<shortName>CALIF_ALUMN</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_PARALELO" id="8E6DB047-890B-CEC5-0EEA-738BA460BBB0">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 22:56:35 UTC</createdTime>
+<generatorID>483C98A9-B28F-9A3D-D189-2F7FBD52770F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>7471EA41-C6E6-3442-45FC-7CC002D559D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ALUMNO" id="3A5E2529-F624-FB41-3F68-8D856930BE1E">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 22:56:35 UTC</createdTime>
+<generatorID>483C98A9-B28F-9A3D-D189-2F7FBD52770F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>7EC95843-5410-48C0-C7BD-0585E9D9F738</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CALIFICACION" id="A90F2666-FCFC-2A66-EDAF-B17C81D1C279">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 23:19:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CALIFICACION OBTENIDA EN EL EXAMEN O TRABAJO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CALIFICACION_POR_PESO" id="804EC45D-69CB-104D-B52C-823A3C927D8D">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 23:20:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[CALIFICACION CALUCLADA DE ACUERDO AL PESO DEL COMPONENTE]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ALUMNOREG" id="6806CD26-222F-3F22-AE15-4B875B467400">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 22:56:35 UTC</createdTime>
+<generatorID>483C98A9-B28F-9A3D-D189-2F7FBD52770F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>0D14B76A-E278-4350-AFA9-75ADC7308EE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_COMPONENTE" id="5958974F-4847-59AC-5D0D-B7DCE880F625">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 22:59:20 UTC</createdTime>
+<generatorID>F563A5FC-5183-6542-C5CA-E7A96043908F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>9A1C766F-7B29-DC6D-6C71-4E3952B003A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

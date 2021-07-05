@@ -28,7 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_FACULTAD" id="FA53C06C-5AC8-EE45-815C-45991951C01E">
 <createdBy>User</createdBy>
@@ -153,6 +153,32 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD_SESIONES_CLASES" id="0DFF1952-8671-D625-3BA7-76212BEE1EE1">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 22:44:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ES LA CANTIDAD DE SESIONES DE CLASE QUE UN PARALELO DEBE TENER PARA CUMPLIR CON SU MALLA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="97B77E5F-2C6C-43E5-C405-87504B2F985D">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 22:48:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTADO DEL PARALELO A acivo O I inactivo (inactivo es un estado en el que no se puede publicar ni asignar ningun estudiante)]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

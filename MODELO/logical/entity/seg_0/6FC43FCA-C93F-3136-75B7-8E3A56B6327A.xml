@@ -58,20 +58,6 @@
 <domain>9ADED933-0C87-373A-F70F-22536C5F83DE</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MODO" id="9B7EFF73-0CFC-D9C1-58F3-1D0E7DAB3190">
-<createdBy>HP</createdBy>
-<createdTime>2021-06-16 05:46:41 UTC</createdTime>
-<commentInRDBMS><![CDATA[MODO DE CALIFICACION, PUEDE SER DE TIPO CARACTER O DE TIPO NUMERICO]]></commentInRDBMS>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="58BFBB29-C4FA-3070-92F6-621DE3F4B5B8" name="TIPOS_CALIFICACION_FINAL PK">

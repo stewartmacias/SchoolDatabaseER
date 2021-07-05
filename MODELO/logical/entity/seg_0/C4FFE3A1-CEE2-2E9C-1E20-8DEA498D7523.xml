@@ -18,6 +18,19 @@
 <preferredAbbreviation>HOROAR</preferredAbbreviation>
 <shortName>HORPAR</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO_LINEA" id="2FFC1110-390A-505A-B823-15399F1E5396">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 22:18:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE LINEA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="NUMERO_DIA" id="268211D4-325A-AD41-CC86-48C83977D9C3">
 <createdBy>HP</createdBy>
 <createdTime>2021-07-05 03:45:13 UTC</createdTime>
@@ -97,9 +110,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>268211D4-325A-AD41-CC86-48C83977D9C3</attributeRef>
 <attributeRef>DD6B9C73-4FBA-04EE-F984-4D2B2BB427B3</attributeRef>
 <attributeRef>A89DE796-CC1C-4345-B0E5-1FFFBCE40BD3</attributeRef>
+<attributeRef>2FFC1110-390A-505A-B823-15399F1E5396</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

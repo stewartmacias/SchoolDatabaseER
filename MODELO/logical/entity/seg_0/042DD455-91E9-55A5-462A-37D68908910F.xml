@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="042DD455-91E9-55A5-462A-37D68908910F" name="PROMEDIOS_PARCIALES">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 23:15:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGSTRA LOS PROMEDIOS DE LOS PARCIALES POR CADA MATERIA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PROMPARC</preferredAbbreviation>
+<shortName>PROMPARC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO_PARCIAL" id="166825A9-3EC2-8983-0FB1-C8A765DD2CA6">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 23:15:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO O NUMERO DEL PARCIAL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROMEDIO_FINAL" id="76187996-A60A-6CDE-415E-3BC80568F7CA">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 23:16:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR DEL PROMEDIO FINAL DEL PARCIAL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PARALELO" id="F5324FBF-753F-2077-C107-14D85D13CB6B">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 23:18:12 UTC</createdTime>
+<generatorID>D0A245A6-49CC-CD65-A79F-27D5CD9805E1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>7471EA41-C6E6-3442-45FC-7CC002D559D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ALUMNO" id="9935CF84-025B-A4D6-1583-FBE5E897C258">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 23:18:12 UTC</createdTime>
+<generatorID>D0A245A6-49CC-CD65-A79F-27D5CD9805E1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>7EC95843-5410-48C0-C7BD-0585E9D9F738</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ALUMNOREG" id="79280A69-4701-EB82-2A5F-9239804B61DA">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 23:18:12 UTC</createdTime>
+<generatorID>D0A245A6-49CC-CD65-A79F-27D5CD9805E1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>0D14B76A-E278-4350-AFA9-75ADC7308EE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12EEB29D-5CBA-F91F-DC56-AB9D1E6E85AC" name="PROMEDIOS_PARCIALES PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 23:16:48 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>166825A9-3EC2-8983-0FB1-C8A765DD2CA6</attributeRef>
+<attributeRef>F5324FBF-753F-2077-C107-14D85D13CB6B</attributeRef>
+<attributeRef>9935CF84-025B-A4D6-1583-FBE5E897C258</attributeRef>
+<attributeRef>79280A69-4701-EB82-2A5F-9239804B61DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
