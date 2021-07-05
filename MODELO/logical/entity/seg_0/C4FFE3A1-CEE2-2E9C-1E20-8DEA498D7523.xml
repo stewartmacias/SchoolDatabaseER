@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4FFE3A1-CEE2-2E9C-1E20-8DEA498D7523" name="HORARIO_PARALELO">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 03:44:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRA EL HORARIO DE CLASES DE CADA PARALELO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>HOROAR</preferredAbbreviation>
+<shortName>HORPAR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUMERO_DIA" id="268211D4-325A-AD41-CC86-48C83977D9C3">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 03:45:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMUERO DE DIA DE LA CLASE, EL NUMERO DE DIA CORRESPONDE AL DIA DE LA SEMANA, POR EJEMPLO: LUNES = 1, MARTES = 2, MIERCOLES = 3  HASTA EL DOMINGO = 7]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_INICIO" id="082099D3-4570-51E2-5563-564B0B8CE1DD">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 03:51:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[HORA DE INICIO DE CLASE]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_FIN" id="DDF6C199-7494-46B6-0AEE-103A8703D485">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 03:52:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[HORA FIN DE CLASES]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PARALELO" id="DD6B9C73-4FBA-04EE-F984-4D2B2BB427B3">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 04:02:17 UTC</createdTime>
+<generatorID>B5084FA6-5159-9F04-8631-B2CAD15EF7DE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>61D92DF7-60C9-361D-E315-D4862D2FE35F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PROFESOR" id="A89DE796-CC1C-4345-B0E5-1FFFBCE40BD3">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 04:02:17 UTC</createdTime>
+<generatorID>B5084FA6-5159-9F04-8631-B2CAD15EF7DE</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>8B71B514-9485-F508-7CD7-DE83A41374C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20D21B65-698F-837C-46D3-800CC292020D" name="HORARIO_PARALELO PK">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 03:50:01 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>268211D4-325A-AD41-CC86-48C83977D9C3</attributeRef>
+<attributeRef>DD6B9C73-4FBA-04EE-F984-4D2B2BB427B3</attributeRef>
+<attributeRef>A89DE796-CC1C-4345-B0E5-1FFFBCE40BD3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

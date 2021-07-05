@@ -44,48 +44,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_EDIFICIO" id="EE7864C0-49EC-7848-8F69-0F0840E76C8B">
-<createdBy>HP</createdBy>
-<createdTime>2021-06-26 21:03:12 UTC</createdTime>
-<generatorID>FD167D0E-D2ED-C6C6-AC0B-825B64EDC298</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>2AE698FF-8576-1C97-D561-CDA4FDC1478A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CODIGO_CAMPUS" id="79AE4333-FA84-503A-1678-B3D6A7F4E20D">
-<createdBy>HP</createdBy>
-<createdTime>2021-06-26 21:03:12 UTC</createdTime>
-<generatorID>FD167D0E-D2ED-C6C6-AC0B-825B64EDC298</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>11D3E965-96DD-C0B0-91E4-A2B829760A84</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_AULA" id="41024629-650F-0CA8-4ACB-66C7D54E3E87">
-<createdBy>HP</createdBy>
-<createdTime>2021-06-26 21:03:12 UTC</createdTime>
-<generatorID>FD167D0E-D2ED-C6C6-AC0B-825B64EDC298</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>2DAB9801-4BF2-C1C8-49D6-F520DC6B9AC1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="4AB1C4A6-1796-1033-6E28-F1477C11C8DE" name="PARALELO_AULAS PK">
@@ -98,9 +56,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>77B2B29D-B63D-9114-E36A-744F01F861E0</attributeRef>
-<attributeRef>EE7864C0-49EC-7848-8F69-0F0840E76C8B</attributeRef>
-<attributeRef>79AE4333-FA84-503A-1678-B3D6A7F4E20D</attributeRef>
-<attributeRef>41024629-650F-0CA8-4ACB-66C7D54E3E87</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

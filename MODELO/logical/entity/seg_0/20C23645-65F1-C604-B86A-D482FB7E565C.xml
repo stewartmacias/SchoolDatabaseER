@@ -86,6 +86,48 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_EDIFICIO" id="6D6D48F7-498F-8E08-E2DB-DDE1C3293B43">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 04:00:29 UTC</createdTime>
+<generatorID>0A5C8DA0-62F1-A88E-F334-E212EE86E9E1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>2AE698FF-8576-1C97-D561-CDA4FDC1478A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO_CAMPUS" id="4B0F021C-C89B-55A4-B94C-CC722EC03F09">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 04:00:29 UTC</createdTime>
+<generatorID>0A5C8DA0-62F1-A88E-F334-E212EE86E9E1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>11D3E965-96DD-C0B0-91E4-A2B829760A84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_AULA" id="6B66878F-78DF-75E6-3862-3B4CA409A401">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 04:00:29 UTC</createdTime>
+<generatorID>0A5C8DA0-62F1-A88E-F334-E212EE86E9E1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>2DAB9801-4BF2-C1C8-49D6-F520DC6B9AC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D6747B33-5F92-370F-3D5F-244165041FF2" name="PARALELO_PROFESORES PK">

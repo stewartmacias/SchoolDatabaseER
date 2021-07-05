@@ -101,6 +101,37 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CREDITOS_ACADEMICOS" id="2412F3CD-D6FA-F1FA-60EE-56FF3DA63477">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 03:35:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[CANTIDAD DE CREITOS ACADMICOS]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREDITOS_FINANCIEROS" id="3EFBD45A-4896-7DEF-7FDA-F049F80226D5">
+<createdBy>HP</createdBy>
+<createdTime>2021-07-05 03:35:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[CANTIDAD DE CREDITOS FINANCIEROS QUE TOMA EL ESTUDIANTE EN LA MATERIA, ESTO VA DE AUCERDO A SU MALLA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D675CFAD-A623-F991-CCC3-5FEF269CA02E" name="ALUMNO_REGISTRO PK">
