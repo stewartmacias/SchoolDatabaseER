@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B83D2816-A2F2-3C78-CFD0-D0E857035A9E" name="MATERIAS_APROBADAS">
-<createdBy>HP</createdBy>
-<createdTime>2021-07-06 23:03:49 UTC</createdTime>
-<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LAS MATERIAS APROBADAS DEL ALUMNO]]></commentInRDBMS>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35993890-D92D-0AF9-D070-C0650D16ABF7" name="MATERIAS_REPROBADAS">
+<createdBy>User</createdBy>
+<createdTime>2021-07-07 22:41:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LAS MATERIAS REPROBADAS DEL ALUMNO]]></commentInRDBMS>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -15,11 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>MAT_APR</shortName>
+<shortName>MAT_REP</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SECUENCIA" id="814E56ED-8482-EC40-A472-BC454ACC60D5">
-<createdBy>HP</createdBy>
-<createdTime>2021-07-06 23:13:54 UTC</createdTime>
+<Attribute name="SECUENCIA" id="E514279E-23EC-C1CD-8E7B-6022B22DBFC7">
+<createdBy>User</createdBy>
+<createdTime>2021-07-07 22:42:56 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -29,10 +29,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_MATERIA" id="9E119CBF-926A-2673-B03D-12B8E3A6E5E5">
-<createdBy>HP</createdBy>
-<createdTime>2021-07-06 23:09:00 UTC</createdTime>
-<generatorID>FE6E86F8-448F-DBCE-64F4-4F1F81CFE5EB</generatorID>
+<Attribute name="COD_MATERIA" id="22F2EACC-842A-735F-C614-6B0F570DD3A6">
+<createdBy>User</createdBy>
+<createdTime>2021-07-07 22:44:16 UTC</createdTime>
+<generatorID>6B410119-634F-5CDB-E167-ED7DD4A015F1</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -42,12 +42,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_FACULTAD" id="262148D0-7AF7-3D2F-FA13-1BB9C7AD1187">
-<createdBy>HP</createdBy>
-<createdTime>2021-07-06 23:09:00 UTC</createdTime>
-<generatorID>FE6E86F8-448F-DBCE-64F4-4F1F81CFE5EB</generatorID>
+<Attribute name="COD_FACULTAD" id="F0C4DC7C-9F8D-F7DB-092D-9EA5EEAFF8B0">
+<createdBy>User</createdBy>
+<createdTime>2021-07-07 22:44:16 UTC</createdTime>
+<generatorID>6B410119-634F-5CDB-E167-ED7DD4A015F1</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -58,10 +58,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_SERVICIO" id="42D35B81-0E4B-DEA6-47D2-B38D7E653AF7">
-<createdBy>HP</createdBy>
-<createdTime>2021-07-06 23:09:00 UTC</createdTime>
-<generatorID>FE6E86F8-448F-DBCE-64F4-4F1F81CFE5EB</generatorID>
+<Attribute name="COD_SERVICIO" id="9E26AAC2-2CB7-EE4E-F8D7-3104223D93C8">
+<createdBy>User</createdBy>
+<createdTime>2021-07-07 22:44:16 UTC</createdTime>
+<generatorID>6B410119-634F-5CDB-E167-ED7DD4A015F1</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -72,10 +72,25 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_PARALELO" id="A47E1D5F-7F2C-6DAC-1B78-1BA956B733FD">
-<createdBy>HP</createdBy>
-<createdTime>2021-07-06 23:11:13 UTC</createdTime>
-<generatorID>2F567CDE-EF12-CBA7-A9FC-5DFC470D3DB7</generatorID>
+<Attribute name="COD_ALUMNO" id="81CA1D6C-AD8D-4AA8-4437-8AEBD211F190">
+<createdBy>User</createdBy>
+<createdTime>2021-07-07 22:45:56 UTC</createdTime>
+<generatorID>68F8EDF8-EA2A-0F03-72CD-CC1EEFCE3F81</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>0DFFB73A-C043-FA6F-3E08-25C3953063C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PARALELO" id="969492B9-3D75-CC0D-C149-70A1AF2ACD77">
+<createdBy>User</createdBy>
+<createdTime>2021-07-07 22:48:00 UTC</createdTime>
+<generatorID>37AD3A33-A78D-27FE-E681-3AF496187CDF</generatorID>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -87,25 +102,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_ALUMNO" id="9646C032-BED9-8CAD-97A1-A6F7BFB697A0">
-<createdBy>HP</createdBy>
-<createdTime>2021-07-06 23:14:56 UTC</createdTime>
-<generatorID>A10527C1-4FD3-50AA-162A-3BBC3E54A902</generatorID>
-<ownerDesignName>MODELO</ownerDesignName>
-<engineerTo>
-<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
-</engineerTo>
-<referedAttribute>0DFFB73A-C043-FA6F-3E08-25C3953063C5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="FECHA" id="ADD28E35-112C-A056-EB98-6CE3946F4072">
-<createdBy>HP</createdBy>
-<createdTime>2021-07-06 23:16:51 UTC</createdTime>
-<commentInRDBMS><![CDATA[FECHA DE APROBACION]]></commentInRDBMS>
+<Attribute name="FECHA" id="988C4703-58CE-2C29-C8D9-589A7D6F4DBB">
+<createdBy>User</createdBy>
+<createdTime>2021-07-07 22:49:14 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
@@ -118,18 +117,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="649CB526-0301-7FB3-0798-B9430A0973B2" name="MATERIAS_APROBADAS PK">
-<createdBy>HP</createdBy>
-<createdTime>2021-07-06 23:11:13 UTC</createdTime>
+<identifier id="5B8F59A2-319C-AE64-E29D-14827840CC3B" name="MATERIAS_REPROBADAS PK">
+<createdBy>User</createdBy>
+<createdTime>2021-07-07 22:43:10 UTC</createdTime>
 <ownerDesignName>MODELO</ownerDesignName>
 <engineerTo>
 <item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>814E56ED-8482-EC40-A472-BC454ACC60D5</attributeRef>
-<attributeRef>9646C032-BED9-8CAD-97A1-A6F7BFB697A0</attributeRef>
-<attributeRef>9E119CBF-926A-2673-B03D-12B8E3A6E5E5</attributeRef>
+<attributeRef>E514279E-23EC-C1CD-8E7B-6022B22DBFC7</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
