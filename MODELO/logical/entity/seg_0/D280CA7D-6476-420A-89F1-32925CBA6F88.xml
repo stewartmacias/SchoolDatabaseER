@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D280CA7D-6476-420A-89F1-32925CBA6F88" name="ESTADO_MATERIA">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:49:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS ESTADOS DE APROBADO, REPROBADO QUE UN ESTUDIANTE PUEDE TENER EN UNA MATERIA, DE FABRICA DEBEN EXISTIR POR LO MENOS DOS REGISTROS: A aprobada, R reprobada]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>EST_MAT</preferredAbbreviation>
+<shortName>EST_MAT</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="5BE49215-0B55-2FC9-3086-442127837C42">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE ESTADO DE LA MATERIA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="77AFC86A-88B4-8338-51B6-49659F8A527F">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:51:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DEL ESTADO]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="341DEFCE-C640-853F-A20C-748DF26BF195">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:52:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[A activo I inactivo]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DE_FABRICA" id="37EA1E88-2A9B-3F1A-F0E5-3A21F69089EF">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:53:24 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARTICIPA_GPA" id="21B1A2B3-6482-0151-7246-53558D7E1B6D">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:53:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[BANDERA QUE INDICA SI EL ESTADO DE LA MATERIA HACE PARTICIPAR O NO A LA MATERIA EN GPA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8616BD4B-AD2F-77E7-4262-38E87B74107E" name="ESTADO_MATERIA PK">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:50:45 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5BE49215-0B55-2FC9-3086-442127837C42</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

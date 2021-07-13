@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="87A099BC-D3FC-002C-4363-A7228E3A5BA6" name="MATERIAS_TOMADAS">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:54:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD DONDE SE REGISTRAN LOS RESULTADOS DE APROBADO O REPROBADO DE LAS MAERIAS TOMADAS POR LOS ESTUDIANTES]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>MAT_TOM</preferredAbbreviation>
+<shortName>MAT_TOM</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_SECUENCIA" id="C8D6FCB4-A3D6-0B3B-D3A7-BFF5D33BDCE0">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:54:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE SECUENCIA]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="47B16124-3E2E-764F-77E5-AE1B096C3D1F">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:55:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE REGISTRO O INGRESO DE LA APROBACION O REPROBACION DE LA MATERIA ]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CALIFICACION_FINAL" id="8E2BFE3F-C4D3-C3E9-10CB-CCA55620919B">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:55:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[PROMEDIO O CALIFICACION FINAL]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FUENTE_INGRESO" id="15C8A444-AC43-53BC-D0DC-1574C035EDF8">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:55:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[FORMA EN LA QUE LA MATERIA FUE INGRESADA AL SISTEMA: CALIFICACION NORMAL, POR HOMOLOGACION, EXAMEN DE INGRESO ETC]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PARALELO" id="7C6470E7-E764-8C9B-84CD-EEB5CA701745">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:57:28 UTC</createdTime>
+<generatorID>673BEC8F-5A89-58DA-B7DA-8F737BA2C9FB</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>464A3CAF-D0F0-9202-DE85-6794FBB399FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_MATERIA" id="0AB913B6-2176-56F4-9A94-B63C5B198B02">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 04:00:36 UTC</createdTime>
+<generatorID>60BA6536-03BE-5481-C978-E6669E13C815</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>85D1163B-A7B0-337F-717E-B346D0FCFB03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_FACULTAD" id="4F42A555-B850-1B0E-3EAA-92DB8C509135">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 04:00:36 UTC</createdTime>
+<generatorID>60BA6536-03BE-5481-C978-E6669E13C815</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>12A994B8-7A84-B2C6-E9C8-93944D053F4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SERVICIO" id="8BBD2590-B6E9-2820-D99A-D1790CEA60FE">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 04:00:36 UTC</createdTime>
+<generatorID>60BA6536-03BE-5481-C978-E6669E13C815</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>AF0A0816-8B3F-C1FB-B62B-B683C99D6059</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ALUMNO" id="F50CFE4A-8456-CB9E-C14A-958B02BA72E5">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:59:05 UTC</createdTime>
+<generatorID>9CFD899C-1EBA-FBCD-4DC3-4614F41C5158</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>0DFFB73A-C043-FA6F-3E08-25C3953063C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO" id="CD35E464-055D-10F6-C203-2435CB4F1716">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 04:03:33 UTC</createdTime>
+<generatorID>FB322411-9C0E-EFD2-6B3F-9189BE2C887C</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<referedAttribute>5BE49215-0B55-2FC9-3086-442127837C42</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C50703D-3FFD-4CF6-C585-D7B1C01C3D71" name="MATERIAS_TOMADAS PK">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-13 03:55:05 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8D6FCB4-A3D6-0B3B-D3A7-BFF5D33BDCE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
