@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9490FDAD-7766-4CC1-5671-0CA7CA453ADF" name="TIPOS_HOMOLOGACION">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-14 02:27:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENTIDAD QUE REGISTRA LOS DIFERENTES TIPOS DE HMOOGACION QUE PUEDEN EXISTIR]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TIPHOMOL</preferredAbbreviation>
+<shortName>TIPHOMOL</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="0BC777DB-EF91-8945-019D-A77B1B30FEC7">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-14 02:28:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO DE TIPO DE HOMOLOGACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="47FD0779-D7B8-18EA-026C-7A3537DF13DD">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-14 02:28:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE TIPO DE HOM OLOGACION]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="02FA34B3-1089-4C9F-9F7C-69761EB0B314">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-14 02:28:48 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>A</dataTypeSize>
+<ownDataTypeParameters>A,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9449E145-3153-88A0-23FA-E25A7214D2A8" name="TIPOS_HOMOLOGACION PK">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-14 02:28:22 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0BC777DB-EF91-8945-019D-A77B1B30FEC7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

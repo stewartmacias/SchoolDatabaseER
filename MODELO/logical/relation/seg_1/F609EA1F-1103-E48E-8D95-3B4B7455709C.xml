@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_138" directorySegmentName="seg_1" id="F609EA1F-1103-E48E-8D95-3B4B7455709C">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-14 02:50:09 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<sourcePk>A864619C-2BDC-26E2-85C2-113A9D993531</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>DETHOMOL</nameOnSource>
+<nameOnTarget>ENTEDUC</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>973181C5-C255-3A5F-3506-0788E273F7A5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A97ACC08-728C-1D90-1360-C0ED696C10A1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

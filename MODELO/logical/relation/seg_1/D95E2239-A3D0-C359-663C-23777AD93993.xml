@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_135" directorySegmentName="seg_1" id="D95E2239-A3D0-C359-663C-23777AD93993">
+<createdBy>Macias</createdBy>
+<createdTime>2021-07-14 02:32:01 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="2BF282FF-0E63-5EE6-885A-E0D1EF18FFC3" value="true"/>
+</engineerTo>
+<sourcePk>9449E145-3153-88A0-23FA-E25A7214D2A8</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>CABHOMOL</nameOnSource>
+<nameOnTarget>TIPHOMOL</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9490FDAD-7766-4CC1-5671-0CA7CA453ADF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C705D216-7942-CFD7-D5B9-651A2A9CB83F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
